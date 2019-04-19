@@ -1,6 +1,13 @@
-# LitElement tutorial
+# Pali Segment Parallels Tables
 
-This tutorial shows you how to set up a basic LitElement project and create your first view.
+This is a test site for Pali segment parallels using SIF-weighted averages of word vectors.
+More details here:
+https://github.com/sebastian-nehrdich/gretil-quotations
 
-Tutorial: https://vaadin.com/tutorials/lit-element/starting-a-lit-element-project
-Video: https://youtu.be/UcCsGZDCw-Q
+This is an ongoing project and at the moment only displays results for the Majjhima Nikaya.
+
+Things that still need to be done:
+
+- CSS/design
+- Improve output data of the neuronal network
+- Gephi visualization of connections

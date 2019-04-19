@@ -15,9 +15,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',
-    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';
+  font-family: Source Serif Pro, serif;
   margin: 0;
   padding: 0;
   color: var(--dark-color);
@@ -49,6 +47,6 @@ nav {
 }
 
 header {
-  background: var(--dark-color);
+  background: rgba(206, 132, 0, 1);
   color: var(--base-color);
 }

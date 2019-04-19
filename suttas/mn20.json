@@ -1,0 +1,3248 @@
+[{
+    "segmentnr": "0.1",
+    "segment": "   Majjhima Nikāya 20 /   Vitakkasaṇṭhānasutta /   Evaṃ me sutaṃ—​",
+    "parallels": [
+        {
+            "probability": "0.003",
+            "parsegnr": "sn48.45:0.3",
+            "parsegment": "45. Paṭhamapubbārāmasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati pubbārāme migāramātupāsāde."
+        },
+        {
+            "probability": "0.003",
+            "parsegnr": "ja317:2.1",
+            "parsegment": "Catukkanipāta /   Pucimandavagga /   7. Matarodanajātaka"
+        },
+        {
+            "probability": "0.003",
+            "parsegnr": "an9.26:1.5",
+            "parsegment": "‘yato kho, āvuso, bhikkhuno cetasā citaṃ hoti, tassetaṃ bhikkhuno kallaṃ veyyākaraṇāya— /   khīṇā jāti, vusitaṃ brahmacariyaṃ, kataṃ karaṇīyaṃ, nāparaṃ itthattāyāti pajānāmī’”ti."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "pp2.1:31.2",
+            "parsegment": "Idhekacco puggalo “idaṃ dukkhan”ti yathābhūtaṃ pajānāti, “ayaṃ dukkhasamudayo”ti yathābhūtaṃ pajānāti, “ayaṃ dukkhanirodho”ti yathābhūtaṃ pajānāti, “ayaṃ dukkhanirodhagāminī paṭipadā”ti yathābhūtaṃ pajānāti."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "sn22.63:0.3",
+            "parsegment": "63. Upādiyamānasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "an3.35:0.3",
+            "parsegment": "35. Hatthakasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā āḷaviyaṃ viharati gomagge siṃsapāvane paṇṇasanthare."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "an7.43:0.3",
+            "parsegment": "43. Dutiyaniddasasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā kosambiyaṃ viharati ghositārāme."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "mn152:2.8",
+            "parsegment": "“Evaṃ sante kho, uttara, andho bhāvitindriyo bhavissati, badhiro bhāvitindriyo bhavissati; /   yathā pārāsiviyassa brāhmaṇassa vacanaṃ."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "mn80:0.2",
+            "parsegment": "Vekhanasasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.004",
+            "parsegnr": "ya10.3.2:38.1",
+            "parsegment": "⇒ Yo cakkhundriyaṃ na parijānittha so anaññātaññassāmītindriyaṃ na bhāvitthāti?"
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "patthana2.10:1590.2",
+            "parsegment": "upādinnaṃ ekaṃ khandhaṃ paṭicca tayo khandhā … pe … dve khandhe … pe … /   paṭisandhikkhaṇe upādinnaṃ ekaṃ khandhaṃ paṭicca tayo khandhā kaṭattā ca rūpaṃ … pe … dve khandhe … pe …"
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "ud1.4:2.1",
+            "parsegment": "Huṃhuṅkasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā uruvelāyaṃ viharati najjā nerañjarāya tīre ajapālanigrodhe paṭhamābhisambuddho."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "an6.40:0.3",
+            "parsegment": "40. Kimilasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā kimilāyaṃ viharati niculavane."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "an7.32:2.1",
+            "parsegment": "“Sattime, bhante, dhammā bhikkhuno aparihānāya saṃvattanti. /   Katame satta? /   Satthugāravatā, dhammagāravatā, saṅghagāravatā, sikkhāgāravatā, samādhigāravatā, appamādagāravatā, paṭisanthāragāravatā."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "an8.44:1.2",
+            "parsegment": "Atha kho vāseṭṭho upāsako yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdi. Ekamantaṃ nisinnaṃ kho vāseṭṭhaṃ upāsakaṃ bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "dn31:0.2",
+            "parsegment": "Siṅgālasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā rājagahe viharati veḷuvane kalandakanivāpe."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn100:11.5",
+            "parsegment": "Tādiso ayaṃ dhammo yattha viññū puriso nacirasseva sakaṃ ācariyakaṃ sayaṃ abhiññā sacchikatvā upasampajja vihareyyā’ti."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn43:0.2",
+            "parsegment": "Mahāvedallasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn44:0.2",
+            "parsegment": "Cūḷavedallasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā rājagahe viharati veḷuvane kalandakanivāpe."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn90:0.2",
+            "parsegment": "Kaṇṇakatthalasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā uruññāyaṃ viharati kaṇṇakatthale migadāye."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "sn4.21:0.3",
+            "parsegment": "21. Sambahulasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sakkesu viharati silāvatiyaṃ."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "snp2.5:2.1",
+            "parsegment": "Sūcilomasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā gayāyaṃ viharati ṭaṅkitamañce sūcilomassa yakkhassa bhavane."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn9:51.1",
+            "parsegment": "Yato kho, āvuso, ariyasāvako evaṃ saḷāyatanaṃ pajānāti, evaṃ saḷāyatanasamudayaṃ pajānāti, evaṃ saḷāyatananirodhaṃ pajānāti, evaṃ saḷāyatananirodhagāminiṃ paṭipadaṃ pajānāti, so sabbaso rāgānusayaṃ pahāya … pe … dukkhassantakaro hoti—"
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "dn7:0.2",
+            "parsegment": "Jāliyasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā kosambiyaṃ viharati ghositārāme."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn26:21.2",
+            "parsegment": "Addasaṃ kho ahaṃ, bhikkhave, buddhacakkhunā lokaṃ volokento satte apparajakkhe mahārajakkhe, tikkhindriye mudindriye, svākāre dvākāre, suviññāpaye duviññāpaye, appekacce paralokavajjabhayadassāvine viharante, appekacce na paralokavajjabhayadassāvine viharante."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "patthana4.1:1031.1",
+            "parsegment": "Anidassanasappaṭighaṃ nahetuñca anidassanaappaṭighaṃ nahetuñca dhammaṃ paṭicca sanidassanasappaṭigho nahetu dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.006",
+            "parsegnr": "bv7:30.4",
+            "parsegment": "nanu rittā sabbasaṅkhārā. /   Revato yasadharo buddho, /   Nibbuto so mahāpure;"
+        },
+        {
+            "probability": "0.006",
+            "parsegnr": "mn70:2.4",
+            "parsegment": "Aññatra kho pana, bhikkhave, tumhepi rattibhojanā bhuñjamānā appābādhatañca sañjānissatha appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañcā”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "1.2",
+    "segment": "   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.115:1.3",
+            "parsegment": "Adhammañca viditvā dhammañca, anatthañca viditvā atthañca yathā dhammo yathā attho tathā paṭipajjitabban”ti. /   Idamavoca bhagavā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:2.5",
+            "parsegment": "Saṃvijjati nu kho me eso dhammo udāhu no’ti? /   No ce, bhikkhave, bhikkhu parisuddhakāyasamācāro hoti parisuddhena kāyasamācārena samannāgato acchiddena appaṭimaṃsena, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.62:3.1",
+            "parsegment": "Iti kho, bhikkhave, asappurisasaṃsevo paripūro assaddhammassavanaṃ paripūreti, assaddhammassavanaṃ paripūraṃ assaddhiyaṃ paripūreti, assaddhiyaṃ paripūraṃ ayonisomanasikāraṃ paripūreti, ayonisomanasikāro paripūro asatāsampajaññaṃ paripūreti, asatāsampajaññaṃ paripūraṃ indriyaasaṃvaraṃ paripūreti, indriyaasaṃvaro paripūro tīṇi duccaritāni paripūreti, tīṇi duccaritāni paripūrāni pañca nīvaraṇe paripūrenti, pañca nīvaraṇā paripūrā avijjaṃ paripūrenti, avijjā paripūrā bhavataṇhaṃ paripūreti;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.90:5.2",
+            "parsegment": "Yampi, bhante, khīṇāsavassa bhikkhuno cattāro satipaṭṭhānā bhāvitā honti subhāvitā, idampi, bhante, khīṇāsavassa bhikkhuno balaṃ hoti, yaṃ balaṃ āgamma khīṇāsavo bhikkhu āsavānaṃ khayaṃ paṭijānāti: /   ‘khīṇā me āsavā’ti. (4)"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an3.1:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an3.127:1.1",
+            "parsegment": "Ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an3.30:3.9",
+            "parsegment": "So tasmiṃ āsane nisinno tassā kathāya ādimpi manasi karoti, majjhampi manasi karoti, pariyosānampi manasi karoti;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an7.3:1.1",
+            "parsegment": "Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme … pe …"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an8.1:1.1",
+            "parsegment": "Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.18:1.6",
+            "parsegment": "Imināpaṅgena arahataṃ anukaromi; uposatho ca me upavuttho bhavissatī’ti. /   Iminā paṭhamena aṅgena samannāgato hoti … pe …. (1–7.)"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "cnd7:10.2",
+            "parsegment": "“ye keci, bhikkhave, dhammā akusalā akusalabhāgiyā akusalapakkhikā sabbe te avijjāmūlakā avijjāsamosaraṇā avijjāsamugghātā”. /   Sabbe te samugghātaṃ gacchantīti bhagavā jānāti passati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dhp146-156:10.1",
+            "parsegment": "Sambahulaadhimānikabhikkhuvatthu /   Yānimāni apatthāni,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn12:17.1",
+            "parsegment": "Puna caparaṃ, lohicca, idhekacco satthā yassatthāya agārasmā anagāriyaṃ pabbajito hoti, svāssa sāmaññattho ananuppatto hoti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn2:88.5",
+            "parsegment": "So anekavihitaṃ iddhividhaṃ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṃ tirobhāvaṃ tirokuṭṭaṃ tiropākāraṃ tiropabbataṃ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṃ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyā; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṃmahiddhike evaṃmahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṃ vatteti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn28:7.2",
+            "parsegment": "Catasso imā, bhante, dassanasamāpattiyo. /   Idha, bhante, ekacco samaṇo vā brāhmaṇo vā ātappamanvāya padhānamanvāya anuyogamanvāya appamādamanvāya sammāmanasikāramanvāya tathārūpaṃ cetosamādhiṃ phusati, yathāsamāhite citte imameva kāyaṃ uddhaṃ pādatalā adho kesamatthakā tacapariyantaṃ pūraṃ nānappakārassa asucino paccavekkhati:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ds2.1.2:85.2",
+            "parsegment": "Yasmiṃ samaye rūpūpapattiyā maggaṃ bhāveti ajjhattaṃ arūpasaññī bahiddhā rūpāni passati parittāni, tāni abhibhuyya jānāmi passāmīti vivicceva kāmehi … pe … paṭhamaṃ jhānaṃ upasampajja viharati dukkhapaṭipadaṃ dandhābhiññaṃ appamāṇaṃ parittārammaṇaṃ, tasmiṃ samaye phasso hoti … pe … avikkhepo hoti … pe …"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "iti106:6.4",
+            "parsegment": "pajāya anukampakā. /   Tasmā hi ne namasseyya, /   sakkareyya ca paṇḍito;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "iti74:5.7",
+            "parsegment": "pāṇātipātā paṭivirato, adinnādānā paṭivirato, kāmesumicchācārā paṭivirato, musāvādā paṭivirato, surāmerayamajjapamādaṭṭhānā paṭivirato, sīlavā kalyāṇadhammo. /   Evaṃ kho, bhikkhave, putto atijāto hoti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ja419:11.3",
+            "parsegment": "Migaṃ puṇṇāyateneva, /   sulasā sattukaṃ vadhi. /   Yodha uppatitaṃ atthaṃ,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ja538:18.4",
+            "parsegment": "yo mittānaṃ na dubbhati. /   Akkuddho sagharaṃ eti, /   sabhāyaṃ paṭinandito; /   Ñātīnaṃ uttamo hoti,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "kv2.9:22.3",
+            "parsegment": "Cakkhāyatanaṃ dvādasāyatanānīti? /   Na hevaṃ vattabbe … pe …."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil3.4.3:5.2",
+            "parsegment": "“Taṃ kiṃ maññasi, mahārāja, ekasmiṃ khette nānābījāni vappeyyuṃ, tesaṃ nānābījānaṃ nānāphalāni nibbatteyyun”ti?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil5.5.11:7.8",
+            "parsegment": "Sadevakasmiṃ lokasmiṃ, natthi me paṭipuggalo’ti tampi vacanaṃ micchā. /   Ayampi ubhato koṭiko pañho tavānuppatto, so tayā nibbāhitabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil5.5.9:8.3",
+            "parsegment": "Gāthābhigītaṃ panudanti buddhā, dhamme satī brāhmaṇa vuttiresā’ti, katheti ca bhagavā paṭhamaṃ dānakathaṃ, tañca pana kiriyaṃ sabbesaṃ tathāgatānaṃ paṭhamaṃ dānakathāya, tattha cittaṃ abhiramāpetvā pacchā sīle niyojenti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn118:1.1",
+            "parsegment": "Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati pubbārāme migāramātupāsāde sambahulehi abhiññātehi abhiññātehi therehi sāvakehi saddhiṃ—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn152:2.8",
+            "parsegment": "“Evaṃ sante kho, uttara, andho bhāvitindriyo bhavissati, badhiro bhāvitindriyo bhavissati; /   yathā pārāsiviyassa brāhmaṇassa vacanaṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn17:25.2",
+            "parsegment": "Tassa taṃ puggalaṃ upanissāya viharato anupaṭṭhitā ceva sati upaṭṭhāti, asamāhitañca cittaṃ samādhiyati, aparikkhīṇā ca āsavā parikkhayaṃ gacchanti, ananuppattañca anuttaraṃ yogakkhemaṃ anupāpuṇāti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn26:20.3",
+            "parsegment": "Atha kho, bhikkhave, brahmā sahampati—seyyathāpi nāma balavā puriso samiñjitaṃ vā bāhaṃ pasāreyya, pasāritaṃ vā bāhaṃ samiñjeyya; evameva—brahmaloke antarahito mama purato pāturahosi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn27:10.2",
+            "parsegment": "So passeyya nāgavane mahantaṃ hatthipadaṃ, dīghato ca āyataṃ, tiriyañca vitthataṃ. /   Yo hoti kusalo nāgavaniko neva tāva niṭṭhaṃ gacchati:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn35:22.5",
+            "parsegment": "Evameva kho tvaṃ, aggivessana, mayā sakasmiṃ vāde samanuyuñjiyamāno samanugāhiyamāno samanubhāsiyamāno ritto tuccho aparaddho."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn42:2.3",
+            "parsegment": "“samaṇo khalu, bho, gotamo sakyaputto sakyakulā pabbajito sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn70:2.4",
+            "parsegment": "Aññatra kho pana, bhikkhave, tumhepi rattibhojanā bhuñjamānā appābādhatañca sañjānissatha appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañcā”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn76:7.2",
+            "parsegment": "‘natthi dinnaṃ, natthi yiṭṭhaṃ, natthi hutaṃ, natthi sukatadukkaṭānaṃ kammānaṃ phalaṃ vipāko, natthi ayaṃ loko, natthi paroloko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṃ parañca lokaṃ sayaṃ abhiññā sacchikatvā pavedenti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn81:14.4",
+            "parsegment": "Ekamantaṃ nisinnaṃ kho, ānanda, kikiṃ kāsirājānaṃ kassapo bhagavā arahaṃ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṃsesi. /   Atha kho, ānanda, kikī kāsirājā kassapena bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassito samādapito samuttejito sampahaṃsito kassapaṃ bhagavantaṃ arahantaṃ sammāsambuddhaṃ etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd14:207.9",
+            "parsegment": "So tāya lūkhajīvitāya paraṃ paṇītajīvitaṃ jīvantaṃ atimaññati. /   Idhekacco paṇītajīvitaṃ jīvanto paraṃ lūkhajīvitaṃ jīvantaṃ atimaññati—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd9:77.9",
+            "parsegment": "Evaṃ kho, gahapati, anokasārī hoti. /   Kathañca, gahapati, niketasārī hoti?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana17.32:5.3",
+            "parsegment": "Hetuyā cha, adhipatiyā cha … pe … aññamaññe tīṇi … pe … avigate cha."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana3.4:153.1",
+            "parsegment": "3.4.6. Āsavavippayuttasāsavaduka, Pañhāvāra /   3.4.6.1. Kusalapada /   Hetu"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "pe5:40.4",
+            "parsegment": "Iti gāthāya vā byākaraṇena vā desite iminā suttena sādhakā, yo evaṃ dhammānudhammaṃ paṭipajjatīti so adhippāyo, ayaṃ vuccati desanādhippāyo."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "pli-tv-pvr17:4.1",
+            "parsegment": "Tena samayena buddho bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "pli-tv-pvr2.1:107.5",
+            "parsegment": "Kismiṃ vatthusminti? /   Caṇḍakāḷī bhikkhunī saṃsaṭṭhā vihari, tasmiṃ vatthusmiṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn22.85:1.1",
+            "parsegment": "Ekaṃ samayaṃ āyasmā sāriputto sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn35.246:3.3",
+            "parsegment": "Nāsāyaṃ suggahitaṃ gahetvā uparighaṭāyaṃ suniggahitaṃ niggaṇheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn4.20:2.5",
+            "parsegment": "“Bhagavatā kho, bhante, cattāro iddhipādā bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn40.1:1.1",
+            "parsegment": "Ekaṃ samayaṃ āyasmā mahāmoggallāno sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn46.54:3.5",
+            "parsegment": "Upekkhāsahagatena cetasā ekaṃ disaṃ pharitvā viharatha, tathā dutiyaṃ, tathā tatiyaṃ, tathā catutthaṃ; iti uddhamadho tiriyaṃ sabbadhi sabbattatāya sabbāvantaṃ lokaṃ upekkhāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharathā’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn47.13:1.1",
+            "parsegment": "Ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn56.12:1.3",
+            "parsegment": "‘Taṃ kho panidaṃ dukkhaṃ ariyasaccaṃ pariññātan’ti, bhikkhave, tathāgatānaṃ pubbe ananussutesu dhammesu cakkhuṃ udapādi, ñāṇaṃ udapādi, paññā udapādi, vijjā udapādi, āloko udapādi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap367:7.4",
+            "parsegment": "kataṃ buddhassa sāsanaṃ”. /   Itthaṃ sudaṃ āyasmā aṅkolapupphiyo thero imā gāthāyo abhāsitthāti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap402:12.3",
+            "parsegment": "Dīpaṃ buddhassa pādāsiṃ, /   pasanno sehi pāṇibhi. /   Sabbe vanā gandhamayā,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap416:4.1",
+            "parsegment": "“Nagare bandhumatiyā, /   sūkariko ahosahaṃ; /   Ukkoṭakaṃ randhayitvā,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap495:5.4",
+            "parsegment": "anukampāya cakkhumā. /   Akkante ca pade disvā,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap543:7.4",
+            "parsegment": "taṃ ṭhānamabhipatthayiṃ. /   Tadā buddho viyākāsi, /   saṃghamajjhe vināyako;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "thi-ap30:34.4",
+            "parsegment": "anubhuttaṃ asaṅkhiyaṃ. /   Sukhappattānumodāma,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "thi-ap37:14.3",
+            "parsegment": "Cetopariyañāṇassa, /   vasī homi mahāmune."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ud2.6:3.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ud6.9:3.1",
+            "parsegment": "Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "vv84:24.1",
+            "parsegment": "Devo nu āsi udavāsi yakkho, /   Udāhu devindo manussabhūto; /   Pucchanti taṃ vāṇijā satthavāhā,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.1:601.1",
+            "parsegment": "Pañcavokārā cavantānaṃ acakkhukānaṃ kāmāvacaraṃ upapajjantānaṃ tesaṃ tattha cakkhāyatanaṃ nuppajjati, no ca tesaṃ tattha sotāyatanaṃ nuppajjissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.2:415.2",
+            "parsegment": "Arūpe parinibbantānaṃ tesaṃ rūpāyatanañca na nirujjhati dhammāyatanañca na nirujjhissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.2:506.1",
+            "parsegment": "Pañcavokāre parinibbantānaṃ tesaṃ tattha cakkhāyatanaṃ nirujjhittha, no ca tesaṃ tattha manāyatanaṃ nirujjhissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya7.2.5:384.3",
+            "parsegment": "Tasseva puggalassa kāmadhātuyā dvīsu vedanāsu tassa tattha vicikicchānusayo ca appahīno kāmarāgānusayo ca appahīno. /   ⇒ Yassa yattha kāmarāgānusayo appahīno tassa tattha bhavarāgānusayo appahīnoti?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "an10.115:1.3",
+            "parsegment": "Adhammañca viditvā dhammañca, anatthañca viditvā atthañca yathā dhammo yathā attho tathā paṭipajjitabban”ti. /   Idamavoca bhagavā."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "mn128:18.2",
+            "parsegment": "tassa mayhaṃ, anuruddhā, etadahosi: /   ‘thinamiddhaṃ kho me udapādi, thinamiddhādhikaraṇañca pana me samādhi cavi."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "mn3:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi:"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "mn5:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho āyasmā sāriputto bhikkhū āmantesi:"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "mn70:6.9",
+            "parsegment": "Aññatra kho panāvuso, rattibhojanā bhuñjamānā appābādhatañca sañjānanti appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañca."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ps3.9:4.1",
+            "parsegment": "Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn11.25:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū … pe … bhagavā etadavoca:"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn12.71:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā … pe …"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "tha-ap560:8.4",
+            "parsegment": "orohitvā mahāyaso. /   Paṭiggaṇhi mama bhikkhaṃ, /   anukampāya cakkhumā;"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "dn23:32.20",
+            "parsegment": "“Evaṃ, bho”ti kho uttaro māṇavo pāyāsissa rājaññassa paṭissutvā yādisaṃ bhojanaṃ pāyāsi rājañño bhuñjati, tādisaṃ bhojanaṃ paṭṭhapesi."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ja317:3.1",
+            "parsegment": "Pucimandavagga /   7. Matarodanajātaka /   “Mataṃ mataṃ evaṃ rodatha,"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ja544:169.2",
+            "parsegment": "Ye tattha samāgatā tadā āsuṃ; /   Candaṃ abhisiñciṃsu,"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ja545:130.4",
+            "parsegment": "chaṭṭhā nigatiyo imā. /   Sattamī ca gati deva, /   devaputto mahiddhiko;"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "mn38:33.5",
+            "parsegment": "Pisuṇaṃ vācaṃ pahāya pisuṇāya vācāya paṭivirato hoti—ito sutvā na amutra akkhātā imesaṃ bhedāya, amutra vā sutvā na imesaṃ akkhātā amūsaṃ bhedāya. Iti bhinnānaṃ vā sandhātā, sahitānaṃ vā anuppadātā samaggārāmo samaggarato samagganandī, samaggakaraṇiṃ vācaṃ bhāsitā hoti."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "patthana21.5:15.3",
+            "parsegment": "Hetuyā ekaṃ … pe … avigate ekaṃ. /   Narūpiṃ naabyākataṃ dhammaṃ paṭicca rūpī abyākato dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn12.32:16.16",
+            "parsegment": "cha rattindivānipāhaṃ bhagavato etamatthaṃ byākareyyaṃ … pe … /   satta rattindivāni cepi maṃ bhagavā etamatthaṃ puccheyya aññamaññehi padehi aññamaññehi pariyāyehi, satta rattindivānipāhaṃ bhagavato etamatthaṃ byākareyyaṃ aññamaññehi padehi aññamaññehi pariyāyehī”ti."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn31.1:1.1",
+            "parsegment": "Ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme … pe …"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn35.115:3.3",
+            "parsegment": "ayaṃ vuccati, bhikkhave, bhikkhu mutto cakkhuviññeyyehi rūpehi, nāvāsagato mārassa, na mārassa vasaṃ gato, ummukkassa mārapāso."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "vb1:482.2",
+            "parsegment": "phassasampayutto. /   Duvidhena viññāṇakkhandho— /   atthi oghaniyo, atthi anoghaniyo."
+        },
+        {
+            "probability": "9.536",
+            "parsegnr": "dn23:13.2",
+            "parsegment": "Upamāya m’idhekacce viññū purisā bhāsitassa atthaṃ ājānanti. /   Bhūtapubbaṃ, rājañña, aññatarassa brāhmaṇassa dve pajāpatiyo ahesuṃ."
+        },
+        {
+            "probability": "9.536",
+            "parsegnr": "dt2.6:77.4",
+            "parsegment": "upādā dhammā … pe … /   sampayuttāti? /   Natthi. /   Katihi vippayuttā?"
+        },
+        {
+            "probability": "9.536",
+            "parsegnr": "mn112:1.1",
+            "parsegment": "Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "9.536",
+            "parsegnr": "mnd8:32.1",
+            "parsegment": "“Yamassa vādaṃ parihīnamāhu, /   Apāhataṃ pañhavimaṃsakāse;"
+        },
+        {
+            "probability": "9.536",
+            "parsegnr": "mnd9:102.15",
+            "parsegment": "Muni taṇhālepaṃ pahāya diṭṭhilepaṃ paṭinissajjitvā kāme ca loke ca na limpati na palimpati na upalimpati, alitto apalitto anupalitto nikkhanto nissaṭo vippamutto visaññutto vimariyādikatena cetasā viharatīti—"
+        },
+        {
+            "probability": "9.536",
+            "parsegnr": "snp3.10:3.1",
+            "parsegment": "Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "an8.44:1.2",
+            "parsegment": "Atha kho vāseṭṭho upāsako yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdi. Ekamantaṃ nisinnaṃ kho vāseṭṭhaṃ upāsakaṃ bhagavā etadavoca:"
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "an9.26:1.5",
+            "parsegment": "‘yato kho, āvuso, bhikkhuno cetasā citaṃ hoti, tassetaṃ bhikkhuno kallaṃ veyyākaraṇāya— /   khīṇā jāti, vusitaṃ brahmacariyaṃ, kataṃ karaṇīyaṃ, nāparaṃ itthattāyāti pajānāmī’”ti."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "cnd7:10.2",
+            "parsegment": "“ye keci, bhikkhave, dhammā akusalā akusalabhāgiyā akusalapakkhikā sabbe te avijjāmūlakā avijjāsamosaraṇā avijjāsamugghātā”."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "dn12:16.16",
+            "parsegment": "yo ca panevarūpaṃ satthāraṃ codeti, sā codanā bhūtā tacchā dhammikā anavajjā. /   Puna caparaṃ, lohicca, idhekacco satthā yassatthāya agārasmā anagāriyaṃ pabbajito hoti, svāssa sāmaññattho ananuppatto hoti."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "dn2:88.5",
+            "parsegment": "So anekavihitaṃ iddhividhaṃ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṃ tirobhāvaṃ tirokuṭṭaṃ tiropākāraṃ tiropabbataṃ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṃ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyā; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṃmahiddhike evaṃmahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṃ vatteti."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "mn150:3.1",
+            "parsegment": "Atha kho nagaravindeyyakā brāhmaṇagahapatikā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā appekacce bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Appekacce bhagavatā saddhiṃ sammodiṃsu; sammodanīyaṃ kathaṃ sāraṇīyaṃ vītisāretvā ekamantaṃ nisīdiṃsu. Appekacce yena bhagavā tenañjaliṃ paṇāmetvā ekamantaṃ nisīdiṃsu. Appekacce bhagavato santike nāmagottaṃ sāvetvā ekamantaṃ nisīdiṃsu. Appekacce tuṇhībhūtā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho nagaravindeyyake brāhmaṇagahapatike bhagavā etadavoca:"
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "mn63:0.2",
+            "parsegment": "Cūḷamālukyasutta /   Evaṃ me sutaṃ—​ /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "mn81:14.4",
+            "parsegment": "Ekamantaṃ nisinnaṃ kho, ānanda, kikiṃ kāsirājānaṃ kassapo bhagavā arahaṃ sammāsambuddho dhammiyā kathāya sandassesi samādapesi samuttejesi sampahaṃsesi."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "mnd9:28.1",
+            "parsegment": "**Kathaṃ nu dhīrehi paveditaṃ tan**ti. /   **Kathaṃ nū**ti padaṃ saṃsayapucchā vimatipucchā dveḷhakapucchā anekaṃsapucchā, evaṃ nu kho nanu kho kiṃ nu kho kathaṃ nu khoti—"
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ud6.4:2.1",
+            "parsegment": "Paṭhamanānātitthiyasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ud6.5:2.1",
+            "parsegment": "Dutiyanānātitthiyasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ud7.1:2.1",
+            "parsegment": "Paṭhamalakuṇḍakabhaddiyasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ud8.1:2.1",
+            "parsegment": "Paṭhamanibbānapaṭisaṃyuttasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ud8.2:2.1",
+            "parsegment": "Dutiyanibbānapaṭisaṃyuttasutta /   Evaṃ me sutaṃ— /   ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ya10.1.1:49.1",
+            "parsegment": "⇐ Aññindriyaṃ aññaṃ? /   ⇒ Aññātāvī aññātāvindriyaṃ? /   ⇐ Aññātāvindriyaṃ aññātāvī?"
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ya10.2.1:2634.1",
+            "parsegment": "Pañcavokāre pacchimabhavikānaṃ tesaṃ tattha jīvitindriyaṃ na uppajjissati, no ca tesaṃ tattha cakkhundriyaṃ na uppajjittha."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ya3.3.6:7.1",
+            "parsegment": "Ye maggaṃ paṭilabhissanti te cakkhāyatanaṃ na parijānittha, no ca sotāyatanaṃ na parijānissanti."
+        },
+        {
+            "probability": "1.668",
+            "parsegnr": "ya7.2.5:384.3",
+            "parsegment": "Tasseva puggalassa kāmadhātuyā dvīsu vedanāsu tassa tattha vicikicchānusayo ca appahīno kāmarāgānusayo ca appahīno."
+        }
+    ]
+}
+,{
+    "segmentnr": "1.3",
+    "segment": "   Tatra kho bhagavā bhikkhū āmantesi: /   “bhikkhavo”ti. /   “Bhadante”ti te bhikkhū bhagavato paccassosuṃ.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.115:1.5",
+            "parsegment": "Idaṃ vatvāna sugato uṭṭhāyāsanā vihāraṃ pāvisi. /   Atha kho tesaṃ bhikkhūnaṃ acirapakkantassa bhagavato etadahosi:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.51:1.4",
+            "parsegment": "“Bhadante”ti te bhikkhū bhagavato paccassosuṃ. /   Bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.62:3.1",
+            "parsegment": "Iti kho, bhikkhave, asappurisasaṃsevo paripūro assaddhammassavanaṃ paripūreti, assaddhammassavanaṃ paripūraṃ assaddhiyaṃ paripūreti, assaddhiyaṃ paripūraṃ ayonisomanasikāraṃ paripūreti, ayonisomanasikāro paripūro asatāsampajaññaṃ paripūreti, asatāsampajaññaṃ paripūraṃ indriyaasaṃvaraṃ paripūreti, indriyaasaṃvaro paripūro tīṇi duccaritāni paripūreti, tīṇi duccaritāni paripūrāni pañca nīvaraṇe paripūrenti, pañca nīvaraṇā paripūrā avijjaṃ paripūrenti, avijjā paripūrā bhavataṇhaṃ paripūreti;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.90:5.2",
+            "parsegment": "Yampi, bhante, khīṇāsavassa bhikkhuno cattāro satipaṭṭhānā bhāvitā honti subhāvitā, idampi, bhante, khīṇāsavassa bhikkhuno balaṃ hoti, yaṃ balaṃ āgamma khīṇāsavo bhikkhu āsavānaṃ khayaṃ paṭijānāti: /   ‘khīṇā me āsavā’ti. (4)"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an8.1:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "cnd7:10.3",
+            "parsegment": "Sabbe te samugghātaṃ gacchantīti bhagavā jānāti passati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn12:17.1",
+            "parsegment": "Puna caparaṃ, lohicca, idhekacco satthā yassatthāya agārasmā anagāriyaṃ pabbajito hoti, svāssa sāmaññattho ananuppatto hoti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn12:17.1",
+            "parsegment": "Puna caparaṃ, lohicca, idhekacco satthā yassatthāya agārasmā anagāriyaṃ pabbajito hoti, svāssa sāmaññattho ananuppatto hoti. /   So taṃ sāmaññatthaṃ ananupāpuṇitvā sāvakānaṃ dhammaṃ deseti:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn16:1.11.2",
+            "parsegment": "“Evaṃ, bhante”ti kho te bhikkhū bhagavato paccassosuṃ. /   Bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn16:4.7.5",
+            "parsegment": "“Evaṃ, bhante”ti kho te bhikkhū bhagavato paccassosuṃ. /   Bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn2:88.5",
+            "parsegment": "So anekavihitaṃ iddhividhaṃ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṃ tirobhāvaṃ tirokuṭṭaṃ tiropākāraṃ tiropabbataṃ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṃ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyā; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṃmahiddhike evaṃmahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṃ vatteti. /   Idampi kho, mahārāja, sandiṭṭhikaṃ sāmaññaphalaṃ purimehi sandiṭṭhikehi sāmaññaphalehi abhikkantatarañca paṇītatarañca."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn22:1.5",
+            "parsegment": "“Bhaddante”ti te bhikkhū bhagavato paccassosuṃ. /   Bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ds2.1.2:19.6",
+            "parsegment": "ime dhammā kusalā … pe …. /   Tasmiṃ kho pana samaye cattāro khandhā honti, dvāyatanāni honti, dve dhātuyo honti, tayo āhārā honti, aṭṭhindriyāni honti, caturaṅgikaṃ jhānaṃ hoti, caturaṅgiko maggo hoti, satta balāni honti, tayo hetū honti, eko phasso hoti … pe … ekaṃ dhammāyatanaṃ hoti, ekā dhammadhātu hoti;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ds2.2.3:226.11",
+            "parsegment": "idaṃ taṃ rūpaṃ ajjhattikaṃ kāyasamphassassa na ārammaṇaṃ. /   Katamaṃ taṃ rūpaṃ bāhiraṃ kāyasamphassassa ārammaṇaṃ?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ja419:12.1",
+            "parsegment": "Yodha uppatitaṃ atthaṃ, /   na khippamanubujjhati; /   So haññati mandamati,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ja419:12.2",
+            "parsegment": "na khippamanubujjhati; /   So haññati mandamati, /   corova girigabbhare."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "kv12.1:5.6",
+            "parsegment": "sotindriyasaṃvaro … pe … /   ghānindriyasaṃvaro … pe …"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil3.4.3:5.2",
+            "parsegment": "“Taṃ kiṃ maññasi, mahārāja, ekasmiṃ khette nānābījāni vappeyyuṃ, tesaṃ nānābījānaṃ nānāphalāni nibbatteyyun”ti?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil3.4.3:5.2",
+            "parsegment": "“Taṃ kiṃ maññasi, mahārāja, ekasmiṃ khette nānābījāni vappeyyuṃ, tesaṃ nānābījānaṃ nānāphalāni nibbatteyyun”ti? /   “Āma, bhante, nibbatteyyun”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil5.5.9:7.1",
+            "parsegment": "Puna ca bhagavā parisāya dhammaṃ desento kathento anupubbikathaṃ paṭhamaṃ tāva dānakathaṃ katheti, pacchā sīlakathaṃ, tassa bhagavato sabbalokissarassa bhāsitaṃ sutvā devamanussā abhisaṅkharitvā dānaṃ denti, tassa taṃ uyyojitaṃ dānaṃ sāvakā paribhuñjanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mil5.5.9:8.3",
+            "parsegment": "Gāthābhigītaṃ panudanti buddhā, dhamme satī brāhmaṇa vuttiresā’ti, katheti ca bhagavā paṭhamaṃ dānakathaṃ, tañca pana kiriyaṃ sabbesaṃ tathāgatānaṃ paṭhamaṃ dānakathāya, tattha cittaṃ abhiramāpetvā pacchā sīle niyojenti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn100:7.8",
+            "parsegment": "Tatra, bhāradvāja, ye te samaṇabrāhmaṇā pubbe ananussutesu dhammesu sāmaṃyeva dhammaṃ abhiññāya diṭṭhadhammābhiññāvosānapāramippattā, ādibrahmacariyaṃ paṭijānanti, tesāhamasmi. /   Tadamināpetaṃ, bhāradvāja, pariyāyena veditabbaṃ, yathā ye te samaṇabrāhmaṇā pubbe ananussutesu dhammesu sāmaṃyeva dhammaṃ abhiññāya diṭṭhadhammābhiññāvosānapāramippattā, ādibrahmacariyaṃ paṭijānanti, tesāhamasmi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn103:1.5",
+            "parsegment": "“Bhadante”ti te bhikkhū bhagavato paccassosuṃ. /   Bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn112:1.3",
+            "parsegment": "Tatra kho bhagavā bhikkhū āmantesi: /   “bhikkhavo”ti. /   “Bhadante”ti te bhikkhū bhagavato paccassosuṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn128:18.3",
+            "parsegment": "‘thinamiddhaṃ kho me udapādi, thinamiddhādhikaraṇañca pana me samādhi cavi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn129:32.4",
+            "parsegment": "Yāvañcidaṃ, bhikkhave, upamāpi na sukarā yāva sukhā saggā”ti. /   Evaṃ vutte, aññataro bhikkhu bhagavantaṃ etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn152:2.10",
+            "parsegment": "Andho hi, uttara, cakkhunā rūpaṃ na passati, badhiro sotena saddaṃ na suṇātī”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn17:25.2",
+            "parsegment": "Tassa taṃ puggalaṃ upanissāya viharato anupaṭṭhitā ceva sati upaṭṭhāti, asamāhitañca cittaṃ samādhiyati, aparikkhīṇā ca āsavā parikkhayaṃ gacchanti, ananuppattañca anuttaraṃ yogakkhemaṃ anupāpuṇāti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn17:25.2",
+            "parsegment": "Tassa taṃ puggalaṃ upanissāya viharato anupaṭṭhitā ceva sati upaṭṭhāti, asamāhitañca cittaṃ samādhiyati, aparikkhīṇā ca āsavā parikkhayaṃ gacchanti, ananuppattañca anuttaraṃ yogakkhemaṃ anupāpuṇāti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn25:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn27:10.3",
+            "parsegment": "Yo hoti kusalo nāgavaniko neva tāva niṭṭhaṃ gacchati: /   ‘mahā vata bho nāgo’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn27:10.3",
+            "parsegment": "Yo hoti kusalo nāgavaniko neva tāva niṭṭhaṃ gacchati: /   ‘mahā vata bho nāgo’ti. /   Taṃ kissa hetu?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn35:22.5",
+            "parsegment": "Evameva kho tvaṃ, aggivessana, mayā sakasmiṃ vāde samanuyuñjiyamāno samanugāhiyamāno samanubhāsiyamāno ritto tuccho aparaddho. /   Bhāsitā kho pana te esā, aggivessana, vesāliyaṃ parisati vācā:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn70:2.4",
+            "parsegment": "Aññatra kho pana, bhikkhave, tumhepi rattibhojanā bhuñjamānā appābādhatañca sañjānissatha appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañcā”ti. /   “Evaṃ, bhante”ti kho te bhikkhū bhagavato paccassosuṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn70:2.5",
+            "parsegment": "“Evaṃ, bhante”ti kho te bhikkhū bhagavato paccassosuṃ. /   Atha kho bhagavā kāsīsu anupubbena cārikaṃ caramāno yena kīṭāgiri nāma kāsīnaṃ nigamo tadavasari."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn70:6.9",
+            "parsegment": "Aññatra kho panāvuso, rattibhojanā bhuñjamānā appābādhatañca sañjānanti appātaṅkatañca lahuṭṭhānañca balañca phāsuvihārañca."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn70:6.10",
+            "parsegment": "Etha, tumhepi, āvuso, aññatreva rattibhojanā bhuñjatha."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn76:7.2",
+            "parsegment": "‘natthi dinnaṃ, natthi yiṭṭhaṃ, natthi hutaṃ, natthi sukatadukkaṭānaṃ kammānaṃ phalaṃ vipāko, natthi ayaṃ loko, natthi paroloko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṃ parañca lokaṃ sayaṃ abhiññā sacchikatvā pavedenti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn81:14.5",
+            "parsegment": "Atha kho, ānanda, kikī kāsirājā kassapena bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassito samādapito samuttejito sampahaṃsito kassapaṃ bhagavantaṃ arahantaṃ sammāsambuddhaṃ etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn81:14.5",
+            "parsegment": "Atha kho, ānanda, kikī kāsirājā kassapena bhagavatā arahatā sammāsambuddhena dhammiyā kathāya sandassito samādapito samuttejito sampahaṃsito kassapaṃ bhagavantaṃ arahantaṃ sammāsambuddhaṃ etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn93:18.71",
+            "parsegment": "kiṃ pana tvaṃ etarahi mayā sakasmiṃ jātivāde samanuyuñjīyamāno samanuggāhīyamāno samanubhāsīyamāno sampāyissasi, yesaṃ tvaṃ sācariyako na puṇṇo dabbigāho”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd2:108.3",
+            "parsegment": "Aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato ītito upaddavato bhayato upasaggato calato pabhaṅguto adhuvato atāṇato aleṇato asaraṇato rittato tucchato suññato anattato ādīnavato vipariṇāmadhammato asārakato aghamūlato vadhakato vibhavato sāsavato saṅkhatato mārāmisato jātijarābyādhimaraṇadhammato sokaparidevadukkhadomanassupāyāsadhammato saṃkilesadhammato samudayato atthaṅgamato assādato ādīnavato nissaraṇato tīreti—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd2:110.55",
+            "parsegment": "Abhāvito me ariyo aṭṭhaṅgiko maggoti— /   attānaṃ garahati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd2:110.57",
+            "parsegment": "Dukkhaṃ me apariññātanti— /   attānaṃ garahati. /   Samudayo me appahīnoti—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd9:78.2",
+            "parsegment": "Rūpanimittaniketavisāravinibandhā kho, gahapati, niketasārīti vuccati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana16.20:5.1",
+            "parsegment": "Akusalaṃ cittasamuṭṭhānaṃ dhammaṃ paṭicca nakusalo nacittasamuṭṭhāno dhammo uppajjati hetupaccayā. /   Akusalaṃ cittasamuṭṭhānaṃ dhammaṃ paṭicca naabyākato nacittasamuṭṭhāno dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana17.32:6.1",
+            "parsegment": "Anidassanaappaṭighaṃ avitakkaavicāraṃ dhammaṃ paṭicca nasanidassanasappaṭigho naavitakkaavicāro dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana2.10:1602.1",
+            "parsegment": "Hetuyā pañca, ārammaṇe dve, adhipatiyā ekaṃ, anantare dve, samanantare dve, sahajāte pañca, aññamaññe dve, nissaye pañca, upanissaye dve, purejāte dve, āsevane ekaṃ, kamme pañca, vipāke pañca, āhāre pañca, indriye pañca, jhāne pañca, magge pañca, sampayutte dve, vippayutte pañca, atthiyā pañca, natthiyā dve, vigate dve, avigate pañca."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana2.5:260.2",
+            "parsegment": "ganthasampayuttā hetū sampayuttakānaṃ khandhānaṃ cittasamuṭṭhānānañca rūpānaṃ hetupaccayena paccayo;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana24.6:7.1",
+            "parsegment": "Nahetuṃ nanocittaṃ dhammaṃ paṭicca hetu nocitto dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana3.4:154.1",
+            "parsegment": "3.4.6.1. Kusalapada /   Hetu /   Āsavavippayuttaṃ sāsavaṃ kusalaṃ dhammaṃ paṭicca āsavavippayutto sāsavo kusalo dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana3.4:156.1",
+            "parsegment": "Āsavavippayuttaṃ sāsavaṃ kusalaṃ dhammaṃ paṭicca āsavavippayutto sāsavo kusalo dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana3.5:84.1",
+            "parsegment": "Nahetuyā tīṇi, naadhipatiyā nava, napurejāte nava, napacchājāte nava, naāsevane nava, nakamme tīṇi, navipāke nava, navippayutte nava."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana5.2:188.1",
+            "parsegment": "Anidassanasappaṭighaṃ abyākataṃ dhammaṃ paṭicca anidassanasappaṭigho abyākato dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps1.4:5.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn12.66:1.3",
+            "parsegment": "Tatra kho bhagavā bhikkhū āmantesi: /   “bhikkhavo”ti. /   “Bhadante”ti te bhikkhū bhagavato paccassosuṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn4.20:2.5",
+            "parsegment": "“Bhagavatā kho, bhante, cattāro iddhipādā bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn4.9:1.3",
+            "parsegment": "Tatra kho bhagavā bhikkhū āmantesi: /   “bhikkhavo”ti. /   “Bhadante”ti te bhikkhū bhagavato paccassosuṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn55.21:1.6",
+            "parsegment": "bhantenapi hatthinā samāgacchāmi; /   bhantenapi assena samāgacchāmi;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn55.42:4.3",
+            "parsegment": "Atha kho asaṅkhyeyyo appameyyo mahāpuññakkhandhotveva saṅkhyaṃ gacchati. /   Seyyathāpi, bhikkhave, yatthimā mahānadiyo saṃsandanti samenti, seyyathidaṃ—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn56.12:1.3",
+            "parsegment": "‘Taṃ kho panidaṃ dukkhaṃ ariyasaccaṃ pariññātan’ti, bhikkhave, tathāgatānaṃ pubbe ananussutesu dhammesu cakkhuṃ udapādi, ñāṇaṃ udapādi, paññā udapādi, vijjā udapādi, āloko udapādi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "snp3.3:3.5",
+            "parsegment": "“Bhadante”ti te bhikkhūbhagavato paccassosuṃ. /   Bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap560:9.3",
+            "parsegment": "Paṭiggahetvā sambuddho, /   akā me anumodanaṃ. /   ‘Sukhī hotu mahāpuñña,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "tha-ap560:11.4",
+            "parsegment": "ākāsenāgamā jino. /   Tato bhisaṃ gahetvāna, /   āgacchiṃ mama assamaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "thi-ap30:35.1",
+            "parsegment": "Sukhappattānumodāma, /   na ca dukkhesu dummanā; /   Sabbattha tulitā homa,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "vb6:349.1",
+            "parsegment": "Tattha katamā phassapaccayā vedanā? /   Yaṃ cetasikaṃ sātaṃ cetasikaṃ sukhaṃ cetosamphassajaṃ sātaṃ sukhaṃ vedayitaṃ cetosamphassajā sātā sukhā vedanā—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "vv25:5.4",
+            "parsegment": "osadhī viya tārakā. /   Kena tetādiso vaṇṇo, … pe … /   Vaṇṇo ca te sabbadisā pabhāsatī”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.1:501.1",
+            "parsegment": "⇒ Yassa rūpāyatanaṃ uppajjati tassa manāyatanaṃ uppajjissatīti?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.1:601.1",
+            "parsegment": "Pañcavokārā cavantānaṃ acakkhukānaṃ kāmāvacaraṃ upapajjantānaṃ tesaṃ tattha cakkhāyatanaṃ nuppajjati, no ca tesaṃ tattha sotāyatanaṃ nuppajjissati. /   Pañcavokāre parinibbantānaṃ asaññasattānaṃ arūpānaṃ tesaṃ tattha cakkhāyatanañca nuppajjati sotāyatanañca nuppajjissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.2:416.1",
+            "parsegment": "⇐ Yassa vā pana dhammāyatanaṃ na nirujjhissati tassa rūpāyatanaṃ na nirujjhatīti?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.2:417.2",
+            "parsegment": "Arūpe parinibbantānaṃ tesaṃ dhammāyatanañca na nirujjhissati rūpāyatanañca na nirujjhati. /   ⇒ Yassa manāyatanaṃ na nirujjhati tassa dhammāyatanaṃ na nirujjhissatīti?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya5.2.1:227.1",
+            "parsegment": "⇒ Yassa yattha dukkhasaccaṃ uppajjati tassa tattha maggasaccaṃ uppajjissatīti? /   Aggamaggassa uppādakkhaṇe arahantānaṃ cittassa uppādakkhaṇe āpāyikānaṃ ye ca puthujjanā maggaṃ na paṭilabhissanti tesaṃ upapajjantānaṃ pavatte cittassa uppādakkhaṇe asaññasattaṃ upapajjantānaṃ tesaṃ tattha dukkhasaccaṃ uppajjati, no ca tesaṃ tattha maggasaccaṃ uppajjissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya7.2.3:408.1",
+            "parsegment": "⇒ Yo yato diṭṭhānusayaṃ nappajahati so tato vicikicchānusayaṃ nappajahatīti? /   Āmantā. /   ⇐ Yo vā pana yato vicikicchānusayaṃ nappajahati so tato diṭṭhānusayaṃ nappajahatīti?"
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "an10.87:1.3",
+            "parsegment": "“Bhadante”ti te bhikkhū bhagavato paccassosuṃ."
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "an6.61:0.1",
+            "parsegment": "Aṅguttara Nikāya 6 /   6. Mahāvagga /   61. Majjhesutta"
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "dn24:1.21.3",
+            "parsegment": "Samaṇopi gotamo āyasmato ārāme divāvihāraṃ nisinno. /   Bhāsitā kho pana te esā, āvuso pāthikaputta, vesāliyaṃ parisati vācā—"
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "dn24:1.21.4",
+            "parsegment": "Bhāsitā kho pana te esā, āvuso pāthikaputta, vesāliyaṃ parisati vācā— /   samaṇopi gotamo ñāṇavādo; ahampi ñāṇavādo."
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "mn26:20.3",
+            "parsegment": "Atha kho, bhikkhave, brahmā sahampati—seyyathāpi nāma balavā puriso samiñjitaṃ vā bāhaṃ pasāreyya, pasāritaṃ vā bāhaṃ samiñjeyya; evameva—brahmaloke antarahito mama purato pāturahosi."
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "mn38:11.3",
+            "parsegment": "“Tadāhārasambhavanti, bhikkhave, yathābhūtaṃ sammappaññāya passato yā vicikicchā sā pahīyatī”ti?"
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "sn4.20:2.5",
+            "parsegment": "“Bhagavatā kho, bhante, cattāro iddhipādā bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā."
+        },
+        {
+            "probability": "1.192",
+            "parsegnr": "ya3.2.2:415.2",
+            "parsegment": "Arūpe parinibbantānaṃ tesaṃ rūpāyatanañca na nirujjhati dhammāyatanañca na nirujjhissati. /   ⇐ Yassa vā pana dhammāyatanaṃ na nirujjhissati tassa rūpāyatanaṃ na nirujjhatīti?"
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "dn12:15.10",
+            "parsegment": "Micchādiṭṭhissa kho ahaṃ, lohicca, dvinnaṃ gatīnaṃ aññataraṃ gatiṃ vadāmi—"
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "mn128:18.3",
+            "parsegment": "‘thinamiddhaṃ kho me udapādi, thinamiddhādhikaraṇañca pana me samādhi cavi. /   Samādhimhi cute obhāso antaradhāyati dassanañca rūpānaṃ."
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "mn3:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi: /   “bhikkhavo”ti."
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "patthana4.1:872.1",
+            "parsegment": "Maggādhipati nahetu dhammo maggādhipatissa nahetussa dhammassa upanissayapaccayena paccayo … pañca. /   Maggārammaṇo nahetu ca maggādhipati nahetu ca dhammā maggārammaṇassa nahetussa dhammassa upanissayapaccayena paccayo … tīṇi."
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "pe5:15.2",
+            "parsegment": "Kati ca pana te pañhe saṅkhātadhammā ca arahantā sekkhā ca? /   Kiṃ pubbaṃ kiñca pacchimanti ayamattho."
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "ps3.9:4.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū āmantesi—"
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "sn18.2:0.2",
+            "parsegment": "1. Paṭhamavagga /   2. Rūpasutta /   Sāvatthiyaṃ viharati."
+        },
+        {
+            "probability": "4.768",
+            "parsegnr": "tha-ap560:9.1",
+            "parsegment": "Paṭiggaṇhi mama bhikkhaṃ, /   anukampāya cakkhumā;"
+        },
+        {
+            "probability": "7.152",
+            "parsegnr": "sn11.25:1.2",
+            "parsegment": "ekaṃ samayaṃ bhagavā sāvatthiyaṃ viharati jetavane anāthapiṇḍikassa ārāme. /   Tatra kho bhagavā bhikkhū … pe … bhagavā etadavoca:"
+        }
+    ]
+}
+,{
+    "segmentnr": "1.6",
+    "segment": "   Bhagavā etadavoca: /   “Adhicittamanuyuttena, bhikkhave, bhikkhunā pañca nimittāni kālena kālaṃ manasi kātabbāni.",
+    "parallels": [
+        {
+            "probability": "0.015",
+            "parsegnr": "an3.102:1.1",
+            "parsegment": "“Adhicittamanuyuttena, bhikkhave, bhikkhunā tīṇi nimittāni kālena kālaṃ manasi kātabbāni—"
+        },
+        {
+            "probability": "0.015",
+            "parsegnr": "an3.102:3.1",
+            "parsegment": "Evamevaṃ kho, bhikkhave, adhicittamanuyuttena bhikkhunā tīṇi nimittāni kālena kālaṃ manasi kātabbāni—"
+        }
+    ]
+}
+,{
+    "segmentnr": "2.2",
+    "segment": "   Katamāni pañca? /   Idha, bhikkhave, bhikkhuno yaṃ nimittaṃ āgamma yaṃ nimittaṃ manasikaroto uppajjanti pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tena, bhikkhave, bhikkhunā tamhā nimittā aññaṃ nimittaṃ manasi kātabbaṃ kusalūpasaṃhitaṃ.",
+    "parallels": [
+        {
+            "probability": "5.960",
+            "parsegnr": "ds2.2.3:308.5",
+            "parsegment": "idaṃ taṃ rūpaṃ ajjhattikaṃ na kabaḷīkāro āhāro. /   Katamaṃ taṃ rūpaṃ bāhiraṃ kabaḷīkāro āhāro?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ds2.2.3:309.2",
+            "parsegment": "Odano kummāso sattu maccho maṃsaṃ khīraṃ dadhi sappi navanītaṃ telaṃ madhu phāṇitaṃ, yaṃ vā panaññampi atthi rūpaṃ yamhi yamhi janapade tesaṃ tesaṃ sattānaṃ mukhāsiyaṃ dantavikhādanaṃ galajjhoharaṇīyaṃ kucchivitthambhanaṃ yāya ojāya sattā yāpenti—"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn46.48:1.4",
+            "parsegment": "Kathañca, bhikkhave, bhikkhu kalyāṇamitto satta bojjhaṅge bhāveti, satta bojjhaṅge bahulīkaroti?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn46.48:1.5",
+            "parsegment": "Idha, bhikkhave, bhikkhu satisambojjhaṅgaṃ bhāveti vivekanissitaṃ … pe … upekkhāsambojjhaṅgaṃ bhāveti vivekanissitaṃ virāganissitaṃ nirodhanissitaṃ vossaggapariṇāmiṃ. /   Evaṃ kho, bhikkhave, bhikkhu kalyāṇamitto satta bojjhaṅge bhāveti, satta bojjhaṅge bahulīkarotī”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "3.2",
+    "segment": "   Tassa tamhā nimittā aññaṃ nimittaṃ manasikaroto kusalūpasaṃhitaṃ ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "3.3",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "3.4",
+    "segment": "   Seyyathāpi, bhikkhave, dakkho palagaṇḍo vā palagaṇḍantevāsī vā sukhumāya āṇiyā oḷārikaṃ āṇiṃ abhinihaneyya abhinīhareyya abhinivatteyya;",
+    "parallels": []
+}
+,{
+    "segmentnr": "3.5",
+    "segment": "   evameva kho, bhikkhave, bhikkhuno yaṃ nimittaṃ āgamma yaṃ nimittaṃ manasikaroto uppajjanti pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tena, bhikkhave, bhikkhunā tamhā nimittā aññaṃ nimittaṃ manasi kātabbaṃ kusalūpasaṃhitaṃ.",
+    "parallels": [
+        {
+            "probability": "5.960",
+            "parsegnr": "ds2.2.3:308.5",
+            "parsegment": "idaṃ taṃ rūpaṃ ajjhattikaṃ na kabaḷīkāro āhāro. /   Katamaṃ taṃ rūpaṃ bāhiraṃ kabaḷīkāro āhāro?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ds2.2.3:309.2",
+            "parsegment": "Odano kummāso sattu maccho maṃsaṃ khīraṃ dadhi sappi navanītaṃ telaṃ madhu phāṇitaṃ, yaṃ vā panaññampi atthi rūpaṃ yamhi yamhi janapade tesaṃ tesaṃ sattānaṃ mukhāsiyaṃ dantavikhādanaṃ galajjhoharaṇīyaṃ kucchivitthambhanaṃ yāya ojāya sattā yāpenti—"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn46.48:1.4",
+            "parsegment": "Kathañca, bhikkhave, bhikkhu kalyāṇamitto satta bojjhaṅge bhāveti, satta bojjhaṅge bahulīkaroti?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn46.48:1.5",
+            "parsegment": "Idha, bhikkhave, bhikkhu satisambojjhaṅgaṃ bhāveti vivekanissitaṃ … pe … upekkhāsambojjhaṅgaṃ bhāveti vivekanissitaṃ virāganissitaṃ nirodhanissitaṃ vossaggapariṇāmiṃ. /   Evaṃ kho, bhikkhave, bhikkhu kalyāṇamitto satta bojjhaṅge bhāveti, satta bojjhaṅge bahulīkarotī”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "3.6",
+    "segment": "   Tassa tamhā nimittā aññaṃ nimittaṃ manasikaroto kusalūpasaṃhitaṃ ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "3.7",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati. (1)",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.019",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "4.1",
+    "segment": "   Tassa ce, bhikkhave, bhikkhuno tamhā nimittā aññaṃ nimittaṃ manasikaroto kusalūpasaṃhitaṃ uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tena, bhikkhave, bhikkhunā tesaṃ vitakkānaṃ ādīnavo upaparikkhitabbo:",
+    "parallels": []
+}
+,{
+    "segmentnr": "4.2",
+    "segment": "   ‘itipime vitakkā akusalā, itipime vitakkā sāvajjā, itipime vitakkā dukkhavipākā’ti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "4.3",
+    "segment": "   Tassa tesaṃ vitakkānaṃ ādīnavaṃ upaparikkhato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "4.4",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "4.5",
+    "segment": "   Seyyathāpi, bhikkhave, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ahikuṇapena vā kukkurakuṇapena vā manussakuṇapena vā kaṇṭhe āsattena aṭṭiyeyya harāyeyya jiguccheyya;",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.51:3.2",
+            "parsegment": "Seyyathāpi, bhikkhave, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṃ mukhanimittaṃ paccavekkhamāno sace tattha passati rajaṃ vā aṅgaṇaṃ vā, tasseva rajassa vā aṅgaṇassa vā pahānāya vāyamati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.52:3.2",
+            "parsegment": "Seyyathāpi, āvuso, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udapatte sakaṃ mukhanimittaṃ paccavekkhamāno sace tattha passati rajaṃ vā aṅgaṇaṃ vā, tasseva rajassa vā aṅgaṇassa vā pahānāya vāyamati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.54:2.2",
+            "parsegment": "Seyyathāpi, bhikkhave, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udapatte sakaṃ mukhanimittaṃ paccavekkhamāno sace tattha passati rajaṃ vā aṅgaṇaṃ vā, tasseva rajassa vā aṅgaṇassa vā pahānāya vāyamati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.11:11.1",
+            "parsegment": "Seyyathāpi, bhante, itthī vā puriso vā daharo yuvā maṇḍanakajātiko sīsaṃnhāto ahikuṇapena vā kukkurakuṇapena vā manussakuṇapena vā kaṇṭhe āsattena aṭṭīyeyya harāyeyya jiguccheyya;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.11:11.1",
+            "parsegment": "Seyyathāpi, bhante, itthī vā puriso vā daharo yuvā maṇḍanakajātiko sīsaṃnhāto ahikuṇapena vā kukkurakuṇapena vā manussakuṇapena vā kaṇṭhe āsattena aṭṭīyeyya harāyeyya jiguccheyya;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ds2.1.8:17.1",
+            "parsegment": "Suddhikasuññataṃ. /   2.1.8.3. Suññatapaṭipadā"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn5:33.1",
+            "parsegment": "Seyyathāpi, āvuso, itthī vā puriso vā daharo yuvā maṇḍanakajātiko sīsaṃnhāto uppalamālaṃ vā vassikamālaṃ vā atimuttakamālaṃ vā labhitvā ubhohi hatthehi paṭiggahetvā uttamaṅge sirasmiṃ patiṭṭhapeyya;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn77:33.2",
+            "parsegment": "Seyyathāpi, udāyi, itthī vā puriso vā daharo yuvā maṇḍanakajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṃ mukhanimittaṃ paccavekkhamāno sakaṇikaṃ vā ‘sakaṇikan’ti jāneyya, akaṇikaṃ vā ‘akaṇikan’ti jāneyya;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mnd16:256.5",
+            "parsegment": "Yathā itthī vā puriso vā daharo yuvā maṇḍanakajātiko sīsaṃnhāto uppalamālaṃ vā vassikamālaṃ vā adhimuttakamālaṃ vā labhitvā ubhohi hatthehi paṭiggahetvā uttamaṅge sirasmiṃ patiṭṭhāpetvā nandeyya abhinandeyya modeyya anumodeyya iccheyya sādiyeyya patthayeyya pihayeyya abhijappeyya;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "pli-tv-pvr15:39.28",
+            "parsegment": "pāṭidesanīyaṃ … /   dukkaṭaṃ … /   dubbhāsitaṃ ajjhāpannoti sutaṃ, bhikkhussa sutaṃ, bhikkhuniyā sutaṃ, sikkhamānāya sutaṃ, sāmaṇerassa sutaṃ, sāmaṇeriyā sutaṃ, upāsakassa sutaṃ, upāsikāya sutaṃ, rājūnaṃ sutaṃ, rājamahāmattānaṃ sutaṃ, titthiyānaṃ sutaṃ, titthiyasāvakānaṃ sutan”ti?"
+        },
+        {
+            "probability": "0.012",
+            "parsegnr": "mn5:29.5",
+            "parsegment": "Tamenaṃ sāmikā ahikuṇapaṃ vā kukkurakuṇapaṃ vā manussakuṇapaṃ vā racayitvā aññissā kaṃsapātiyā paṭikujjitvā antarāpaṇaṃ paṭipajjeyyuṃ."
+        },
+        {
+            "probability": "0.015",
+            "parsegnr": "dn10:2.29.1",
+            "parsegment": "Seyyathāpi, māṇava, itthī vā puriso vā daharo yuvā maṇḍanajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṃ mukhanimittaṃ paccavekkhamāno sakaṇikaṃ vā sakaṇikanti jāneyya, akaṇikaṃ vā akaṇikanti jāneyya."
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "mn15:8.3",
+            "parsegment": "Seyyathāpi, āvuso, itthī vā puriso vā, daharo yuvā maṇḍanajātiko, ādāse vā parisuddhe pariyodāte, acche vā udakapatte, sakaṃ mukhanimittaṃ paccavekkhamāno, sace tattha passati rajaṃ vā aṅgaṇaṃ vā, tasseva rajassa vā aṅgaṇassa vā pahānāya vāyamati;"
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "dn2:26.9",
+            "parsegment": "Yopi tiṇhena satthena sīsaṃ chindati, na koci kiñci jīvitā voropeti; /   sattannaṃ tveva kāyānamantarena satthaṃ vivaramanupatatī’ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "4.6",
+    "segment": "   evameva kho, bhikkhave, tassa ce bhikkhuno tamhāpi nimittā aññaṃ nimittaṃ manasikaroto kusalūpasaṃhitaṃ uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tena, bhikkhave, bhikkhunā tesaṃ vitakkānaṃ ādīnavo upaparikkhitabbo:",
+    "parallels": [
+        {
+            "probability": "0.012",
+            "parsegnr": "ja487:17.3",
+            "parsegment": "Sabbeva soratā dantā, /   sabbeva parinibbutā. /   Sabbesaṃ sītibhūtānaṃ,"
+        }
+    ]
+}
+,{
+    "segmentnr": "4.7",
+    "segment": "   ‘itipime vitakkā akusalā, itipime vitakkā sāvajjā, itipime vitakkā dukkhavipākā’ti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "4.8",
+    "segment": "   Tassa tesaṃ vitakkānaṃ ādīnavaṃ upaparikkhato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "4.9",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati. (2)",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.016",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "5.1",
+    "segment": "   Tassa ce, bhikkhave, bhikkhuno tesampi vitakkānaṃ ādīnavaṃ upaparikkhato uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tena, bhikkhave, bhikkhunā tesaṃ vitakkānaṃ asatiamanasikāro āpajjitabbo.",
+    "parallels": []
+}
+,{
+    "segmentnr": "5.2",
+    "segment": "   Tassa tesaṃ vitakkānaṃ asatiamanasikāraṃ āpajjato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "5.3",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "5.4",
+    "segment": "   Seyyathāpi, bhikkhave, cakkhumā puriso āpāthagatānaṃ rūpānaṃ adassanakāmo assa;",
+    "parallels": [
+        {
+            "probability": "0.016",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        }
+    ]
+}
+,{
+    "segmentnr": "5.5",
+    "segment": "   so nimīleyya vā aññena vā apalokeyya;",
+    "parallels": []
+}
+,{
+    "segmentnr": "5.6",
+    "segment": "   evameva kho, bhikkhave, tassa ce bhikkhuno tesampi vitakkānaṃ ādīnavaṃ upaparikkhato uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "5.7",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati. (3)",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "6.1",
+    "segment": "   Tassa ce, bhikkhave, bhikkhuno tesampi vitakkānaṃ asatiamanasikāraṃ āpajjato uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tena, bhikkhave, bhikkhunā tesaṃ vitakkānaṃ vitakkasaṅkhārasaṇṭhānaṃ manasikātabbaṃ.",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.2",
+    "segment": "   Tassa tesaṃ vitakkānaṃ vitakkasaṅkhārasaṇṭhānaṃ manasikaroto ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.3",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "6.4",
+    "segment": "   Seyyathāpi, bhikkhave, puriso sīghaṃ gaccheyya. /   Tassa evamassa:",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.6",
+    "segment": "   ‘kiṃ nu kho ahaṃ sīghaṃ gacchāmi? /   Yannūnāhaṃ saṇikaṃ gaccheyyan’ti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.8",
+    "segment": "   So saṇikaṃ gaccheyya. /   Tassa evamassa: /   ‘kiṃ nu kho ahaṃ saṇikaṃ gacchāmi?",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.11",
+    "segment": "   Yannūnāhaṃ tiṭṭheyyan’ti. /   So tiṭṭheyya.",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.13",
+    "segment": "   Tassa evamassa: /   ‘kiṃ nu kho ahaṃ ṭhito?",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.15",
+    "segment": "   Yannūnāhaṃ nisīdeyyan’ti. /   So nisīdeyya.",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.17",
+    "segment": "   Tassa evamassa: /   ‘kiṃ nu kho ahaṃ nisinno?",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.19",
+    "segment": "   Yannūnāhaṃ nipajjeyyan’ti. /   So nipajjeyya.",
+    "parallels": [
+        {
+            "probability": "0.017",
+            "parsegnr": "mn21:9.9",
+            "parsegment": "udāhu mayhamevete kammantā susaṃvihitā yena me ayyā santaṃyeva ajjhattaṃ kopaṃ na pātukaroti, no asantaṃ? /   Yannūnāhaṃ ayyaṃ vīmaṃseyyan’ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "6.21",
+    "segment": "   Evañhi so, bhikkhave, puriso oḷārikaṃ oḷārikaṃ iriyāpathaṃ abhinivajjetvā sukhumaṃ sukhumaṃ iriyāpathaṃ kappeyya.",
+    "parallels": []
+}
+,{
+    "segmentnr": "6.22",
+    "segment": "   Evameva kho, bhikkhave, tassa ce bhikkhuno tesampi vitakkānaṃ asatiamanasikāraṃ āpajjato uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": [
+        {
+            "probability": "0.019",
+            "parsegnr": "ja487:17.3",
+            "parsegment": "Sabbeva soratā dantā, /   sabbeva parinibbutā. /   Sabbesaṃ sītibhūtānaṃ,"
+        }
+    ]
+}
+,{
+    "segmentnr": "6.23",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati. (4)",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.1",
+    "segment": "   Tassa ce, bhikkhave, bhikkhuno tesampi vitakkānaṃ vitakkasaṅkhārasaṇṭhānaṃ manasikaroto uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi.",
+    "parallels": []
+}
+,{
+    "segmentnr": "7.2",
+    "segment": "   Tena, bhikkhave, bhikkhunā dantebhidantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhitabbaṃ abhinippīḷetabbaṃ abhisantāpetabbaṃ.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.4",
+            "parsegment": "Addasaṃsu kho gahapatī ca gahapatāniyo ca bhagavantaṃ aññatarasmiṃ rukkhamūle nisinnaṃ. /   Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:2.3",
+            "parsegment": "Chavo chavāya saddhiṃ saṃvasati, chavo deviyā saddhiṃ saṃvasati, devo chavāya saddhiṃ saṃvasati, devo deviyā saddhiṃ saṃvasati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:3.2",
+            "parsegment": "Idha, gahapatayo, sāmiko hoti pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī surāmerayamajjapamādaṭṭhāyī dussīlo pāpadhammo maccheramalapariyuṭṭhitena cetasā agāraṃ ajjhāvasati akkosakaparibhāsako samaṇabrāhmaṇānaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.3",
+            "parsegment": "So kho ahaṃ, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.4",
+            "parsegment": "Tassa mayhaṃ, aggivessana, dantebhi dantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.6",
+            "parsegment": "evameva kho me, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.3",
+            "parsegment": "So kho ahaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.4",
+            "parsegment": "Tassa mayhaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.6",
+            "parsegment": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.3",
+    "segment": "   Tassa dantebhidantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.4",
+            "parsegment": "Addasaṃsu kho gahapatī ca gahapatāniyo ca bhagavantaṃ aññatarasmiṃ rukkhamūle nisinnaṃ. /   Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:2.3",
+            "parsegment": "Chavo chavāya saddhiṃ saṃvasati, chavo deviyā saddhiṃ saṃvasati, devo chavāya saddhiṃ saṃvasati, devo deviyā saddhiṃ saṃvasati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:3.2",
+            "parsegment": "Idha, gahapatayo, sāmiko hoti pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī surāmerayamajjapamādaṭṭhāyī dussīlo pāpadhammo maccheramalapariyuṭṭhitena cetasā agāraṃ ajjhāvasati akkosakaparibhāsako samaṇabrāhmaṇānaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.3",
+            "parsegment": "So kho ahaṃ, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.4",
+            "parsegment": "Tassa mayhaṃ, aggivessana, dantebhi dantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.6",
+            "parsegment": "evameva kho me, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.3",
+            "parsegment": "So kho ahaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.4",
+            "parsegment": "Tassa mayhaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.6",
+            "parsegment": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.4",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.5",
+    "segment": "   Seyyathāpi, bhikkhave, balavā puriso dubbalataraṃ purisaṃ sīse vā gale vā khandhe vā gahetvā abhiniggaṇheyya abhinippīḷeyya abhisantāpeyya;",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:3.1",
+            "parsegment": "Kathañca, gahapatayo, chavo chavāya saddhiṃ saṃvasati? /   Idha, gahapatayo, sāmiko hoti pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī surāmerayamajjapamādaṭṭhāyī dussīlo pāpadhammo maccheramalapariyuṭṭhitena cetasā agāraṃ ajjhāvasati akkosakaparibhāsako samaṇabrāhmaṇānaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.5",
+            "parsegment": "Seyyathāpi, aggivessana, balavā puriso dubbalataraṃ purisaṃ sīse vā gahetvā khandhe vā gahetvā abhiniggaṇheyya abhinippīḷeyya abhisantāpeyya;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.5",
+            "parsegment": "Seyyathāpi, rājakumāra, balavā puriso dubbalataraṃ purisaṃ sīse vā gahetvā khandhe vā gahetvā abhiniggaṇheyya abhinippīḷeyya abhisantāpeyya;"
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn36:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.005",
+            "parsegnr": "mn85:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca: /   “Cattārome, gahapatayo, saṃvāsā."
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "mn36:20.3",
+            "parsegment": "So kho ahaṃ, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.017",
+            "parsegnr": "mn85:20.3",
+            "parsegment": "So kho ahaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "pe8:300.1",
+            "parsegment": "Parikkhāroti dhammassavanassa payirupāsanā paccayo, saddhā hetu."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.6",
+    "segment": "   evameva kho, bhikkhave, tassa ce bhikkhuno tesampi vitakkānaṃ vitakkasaṅkhārasaṇṭhānaṃ manasikaroto uppajjanteva pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi.",
+    "parallels": [
+        {
+            "probability": "0.016",
+            "parsegnr": "ja487:17.3",
+            "parsegment": "Sabbeva soratā dantā, /   sabbeva parinibbutā. /   Sabbesaṃ sītibhūtānaṃ,"
+        }
+    ]
+}
+,{
+    "segmentnr": "7.7",
+    "segment": "   Tena, bhikkhave, bhikkhunā dantebhidantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhitabbaṃ abhinippīḷetabbaṃ abhisantāpetabbaṃ.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.4",
+            "parsegment": "Addasaṃsu kho gahapatī ca gahapatāniyo ca bhagavantaṃ aññatarasmiṃ rukkhamūle nisinnaṃ. /   Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:2.3",
+            "parsegment": "Chavo chavāya saddhiṃ saṃvasati, chavo deviyā saddhiṃ saṃvasati, devo chavāya saddhiṃ saṃvasati, devo deviyā saddhiṃ saṃvasati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:3.2",
+            "parsegment": "Idha, gahapatayo, sāmiko hoti pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī surāmerayamajjapamādaṭṭhāyī dussīlo pāpadhammo maccheramalapariyuṭṭhitena cetasā agāraṃ ajjhāvasati akkosakaparibhāsako samaṇabrāhmaṇānaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.3",
+            "parsegment": "So kho ahaṃ, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.4",
+            "parsegment": "Tassa mayhaṃ, aggivessana, dantebhi dantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.6",
+            "parsegment": "evameva kho me, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.3",
+            "parsegment": "So kho ahaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.4",
+            "parsegment": "Tassa mayhaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.6",
+            "parsegment": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.8",
+    "segment": "   Tassa dantebhidantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.4",
+            "parsegment": "Addasaṃsu kho gahapatī ca gahapatāniyo ca bhagavantaṃ aññatarasmiṃ rukkhamūle nisinnaṃ. /   Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:2.3",
+            "parsegment": "Chavo chavāya saddhiṃ saṃvasati, chavo deviyā saddhiṃ saṃvasati, devo chavāya saddhiṃ saṃvasati, devo deviyā saddhiṃ saṃvasati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:3.2",
+            "parsegment": "Idha, gahapatayo, sāmiko hoti pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī surāmerayamajjapamādaṭṭhāyī dussīlo pāpadhammo maccheramalapariyuṭṭhitena cetasā agāraṃ ajjhāvasati akkosakaparibhāsako samaṇabrāhmaṇānaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.3",
+            "parsegment": "So kho ahaṃ, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.4",
+            "parsegment": "Tassa mayhaṃ, aggivessana, dantebhi dantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.6",
+            "parsegment": "evameva kho me, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.3",
+            "parsegment": "So kho ahaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.4",
+            "parsegment": "Tassa mayhaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.6",
+            "parsegment": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        }
+    ]
+}
+,{
+    "segmentnr": "7.9",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati. (5)",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.019",
+            "parsegnr": "an3.101:2.6",
+            "parsegment": "Hoti so, bhikkhave, samayo yaṃ taṃ cittaṃ ajjhattaṃyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   So hoti samādhi santo paṇīto paṭippassaddhiladdho ekodibhāvādhigato na sasaṅkhāraniggayhavāritagato."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.1",
+    "segment": "   Yato kho, bhikkhave, bhikkhuno yaṃ nimittaṃ āgamma yaṃ nimittaṃ manasikaroto uppajjanti pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi, tassa tamhā nimittā aññaṃ nimittaṃ manasikaroto kusalūpasaṃhitaṃ ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": [
+        {
+            "probability": "5.960",
+            "parsegnr": "ds2.2.3:308.5",
+            "parsegment": "idaṃ taṃ rūpaṃ ajjhattikaṃ na kabaḷīkāro āhāro. /   Katamaṃ taṃ rūpaṃ bāhiraṃ kabaḷīkāro āhāro?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "ds2.2.3:309.2",
+            "parsegment": "Odano kummāso sattu maccho maṃsaṃ khīraṃ dadhi sappi navanītaṃ telaṃ madhu phāṇitaṃ, yaṃ vā panaññampi atthi rūpaṃ yamhi yamhi janapade tesaṃ tesaṃ sattānaṃ mukhāsiyaṃ dantavikhādanaṃ galajjhoharaṇīyaṃ kucchivitthambhanaṃ yāya ojāya sattā yāpenti—"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn46.48:1.4",
+            "parsegment": "Kathañca, bhikkhave, bhikkhu kalyāṇamitto satta bojjhaṅge bhāveti, satta bojjhaṅge bahulīkaroti?"
+        },
+        {
+            "probability": "5.960",
+            "parsegnr": "sn46.48:1.5",
+            "parsegment": "Idha, bhikkhave, bhikkhu satisambojjhaṅgaṃ bhāveti vivekanissitaṃ … pe … upekkhāsambojjhaṅgaṃ bhāveti vivekanissitaṃ virāganissitaṃ nirodhanissitaṃ vossaggapariṇāmiṃ. /   Evaṃ kho, bhikkhave, bhikkhu kalyāṇamitto satta bojjhaṅge bhāveti, satta bojjhaṅge bahulīkarotī”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.2",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "an3.101:2.6",
+            "parsegment": "Hoti so, bhikkhave, samayo yaṃ taṃ cittaṃ ajjhattaṃyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   So hoti samādhi santo paṇīto paṭippassaddhiladdho ekodibhāvādhigato na sasaṅkhāraniggayhavāritagato."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.3",
+    "segment": "   Tesampi vitakkānaṃ ādīnavaṃ upaparikkhato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "8.4",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "an3.101:2.6",
+            "parsegment": "Hoti so, bhikkhave, samayo yaṃ taṃ cittaṃ ajjhattaṃyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   So hoti samādhi santo paṇīto paṭippassaddhiladdho ekodibhāvādhigato na sasaṅkhāraniggayhavāritagato."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.5",
+    "segment": "   Tesampi vitakkānaṃ asatiamanasikāraṃ āpajjato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "8.6",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "an3.101:2.6",
+            "parsegment": "Hoti so, bhikkhave, samayo yaṃ taṃ cittaṃ ajjhattaṃyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   So hoti samādhi santo paṇīto paṭippassaddhiladdho ekodibhāvādhigato na sasaṅkhāraniggayhavāritagato."
+        },
+        {
+            "probability": "0.018",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.7",
+    "segment": "   Tesampi vitakkānaṃ vitakkasaṅkhārasaṇṭhānaṃ manasikaroto ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": []
+}
+,{
+    "segmentnr": "8.8",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.019",
+            "parsegnr": "an3.101:2.6",
+            "parsegment": "Hoti so, bhikkhave, samayo yaṃ taṃ cittaṃ ajjhattaṃyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   So hoti samādhi santo paṇīto paṭippassaddhiladdho ekodibhāvādhigato na sasaṅkhāraniggayhavāritagato."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.9",
+    "segment": "   Dantebhidantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato ye pāpakā akusalā vitakkā chandūpasaṃhitāpi dosūpasaṃhitāpi mohūpasaṃhitāpi te pahīyanti te abbhatthaṃ gacchanti.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.4",
+            "parsegment": "Addasaṃsu kho gahapatī ca gahapatāniyo ca bhagavantaṃ aññatarasmiṃ rukkhamūle nisinnaṃ. /   Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:1.5",
+            "parsegment": "Disvā yena bhagavā tenupasaṅkamiṃsu; upasaṅkamitvā bhagavantaṃ abhivādetvā ekamantaṃ nisīdiṃsu. Ekamantaṃ nisinne kho te gahapatī ca gahapatāniyo ca bhagavā etadavoca:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:2.3",
+            "parsegment": "Chavo chavāya saddhiṃ saṃvasati, chavo deviyā saddhiṃ saṃvasati, devo chavāya saddhiṃ saṃvasati, devo deviyā saddhiṃ saṃvasati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.53:3.2",
+            "parsegment": "Idha, gahapatayo, sāmiko hoti pāṇātipātī adinnādāyī kāmesumicchācārī musāvādī surāmerayamajjapamādaṭṭhāyī dussīlo pāpadhammo maccheramalapariyuṭṭhitena cetasā agāraṃ ajjhāvasati akkosakaparibhāsako samaṇabrāhmaṇānaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.3",
+            "parsegment": "So kho ahaṃ, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.4",
+            "parsegment": "Tassa mayhaṃ, aggivessana, dantebhi dantamādhāya jivhāya tāluṃ āhacca cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn36:20.6",
+            "parsegment": "evameva kho me, aggivessana, dantebhi dantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.2",
+            "parsegment": "‘yannūnāhaṃ dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇheyyaṃ abhinippīḷeyyaṃ abhisantāpeyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.3",
+            "parsegment": "So kho ahaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.4",
+            "parsegment": "Tassa mayhaṃ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn85:20.6",
+            "parsegment": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṃ āhacca, cetasā cittaṃ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.10",
+    "segment": "   Tesaṃ pahānā ajjhattameva cittaṃ santiṭṭhati sannisīdati ekodi hoti samādhiyati.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:5.4",
+            "parsegment": "No ce, bhikkhave, bhikkhu bahussuto hoti sutadharo sutasannicayo, ye te dhammā ādikalyāṇā majjhekalyāṇā pariyosānakalyāṇā sātthaṃ sabyañjanaṃ kevalaparipuṇṇaṃ parisuddhaṃ brahmacariyaṃ abhivadanti, tathārūpāssa dhammā bahussutā honti dhātā vacasā paricitā manasānupekkhitā diṭṭhiyā suppaṭividdhā, tassa bhavanti vattāro:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:6.4",
+            "parsegment": "No ce, bhikkhave, bhikkhuno ubhayāni pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ‘idaṃ panāyasmā, kattha vuttaṃ bhagavatā’ti, iti puṭṭho na sampāyissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an10.44:7.8",
+            "parsegment": "Codakena, bhikkhave, bhikkhunā paraṃ codetukāmena ime pañca dhamme ajjhattaṃ paccavekkhitvā ime pañca dhamme ajjhattaṃ upaṭṭhāpetvā paro codetabbo”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.180:9.7",
+            "parsegment": "Tāni ce sutte otāriyamānāni vinaye sandassiyamānāni sutte ceva otaranti vinaye ca sandissanti, niṭṭhamettha gantabbaṃ:"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:2.1",
+            "parsegment": "Tassa evaṃ hoti: /   ‘yannūnāhaṃ vitakkavicārānaṃ vūpasamā ajjhattaṃ sampasādanaṃ cetaso ekodibhāvaṃ avitakkaṃ avicāraṃ samādhijaṃ pītisukhaṃ dutiyaṃ jhānaṃ upasampajja vihareyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.2",
+            "parsegment": "Tassā evamassa: /   ‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an9.35:3.7",
+            "parsegment": "‘yannūnāhaṃ agatapubbañceva disaṃ gaccheyyaṃ, akhāditapubbāni ca tiṇāni khādeyyaṃ, apītapubbāni ca pānīyāni piveyyan’ti tañca padesaṃ sotthinā paccāgaccheyya."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:9.2",
+            "parsegment": "hoti so, āvuso, samayo yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:42.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps2.1:45.23",
+            "parsegment": "So samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati."
+        },
+        {
+            "probability": "0.002",
+            "parsegnr": "an9.35:18.1",
+            "parsegment": "So sace ākaṅkhati: ‘āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihareyyan’ti, /   tatra tatreva sakkhibhabbataṃ pāpuṇāti sati sati āyatane”ti."
+        },
+        {
+            "probability": "0.013",
+            "parsegnr": "an3.101:2.6",
+            "parsegment": "Hoti so, bhikkhave, samayo yaṃ taṃ cittaṃ ajjhattaṃyeva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   So hoti samādhi santo paṇīto paṭippassaddhiladdho ekodibhāvādhigato na sasaṅkhāraniggayhavāritagato."
+        },
+        {
+            "probability": "0.016",
+            "parsegnr": "ps2.1:43.5",
+            "parsegment": "“dhammuddhaccaviggahitamānaso hoti so samayo, yaṃ taṃ cittaṃ ajjhattameva santiṭṭhati sannisīdati ekodi hoti samādhiyati. /   **Tassa maggo sañjāyatī**”ti."
+        }
+    ]
+}
+,{
+    "segmentnr": "8.11",
+    "segment": "   Ayaṃ vuccati, bhikkhave, bhikkhu vasī vitakkapariyāyapathesu.",
+    "parallels": []
+}
+,{
+    "segmentnr": "8.12",
+    "segment": "   Yaṃ vitakkaṃ ākaṅkhissati taṃ vitakkaṃ vitakkessati, yaṃ vitakkaṃ nākaṅkhissati na taṃ vitakkaṃ vitakkessati.",
+    "parallels": [
+        {
+            "probability": "0.008",
+            "parsegnr": "ya10.1.2:260.2",
+            "parsegment": "Āmantā … pe …. /   ⇒ Anaññātaññassāmīti anaññātaññassāmītindriyanti?"
+        },
+        {
+            "probability": "0.014",
+            "parsegnr": "ya10.1.2:223.2",
+            "parsegment": "Āmantā. /   ⇐ Indriyā aññātāvindriyanti? /   Aññātāvindriyaṃ indriyañceva aññātāvindriyañca."
+        },
+        {
+            "probability": "0.014",
+            "parsegnr": "ya10.1.2:245.1",
+            "parsegment": "⇒ Dukkhaṃ dukkhindriyanti? /   Āmantā … pe …. /   ⇒ Somanassaṃ somanassindriyanti?"
+        }
+    ]
+}
+,{
+    "segmentnr": "8.13",
+    "segment": "   Acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā”ti.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an3.33:3.3",
+            "parsegment": "‘bhikkhu acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassa’."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.257:3.8",
+            "parsegment": "Yato kho, mālukyaputta, bhikkhuno taṇhā pahīnā hoti ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṃ anuppādadhammā, ayaṃ vuccati, mālukyaputta, ‘bhikkhu acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an6.105:1.9",
+            "parsegment": "ayaṃ vuccati, bhikkhave, bhikkhu acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an7.12:2.8",
+            "parsegment": "Ayaṃ vuccati, bhikkhave, bhikkhu acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn2:22.2",
+            "parsegment": "ayaṃ vuccati, bhikkhave: ‘bhikkhu sabbāsavasaṃvarasaṃvuto viharati, acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ps1.3:149.3",
+            "parsegment": "imehi pañcahākārehi avijjāya ādīnavo hoti. /   Katamehi aṭṭhahākārehi avijjā nirujjhati?"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "pv36:72.3",
+            "parsegment": "“Mā bhāyi sammā”ti ca taṃ avoca, /   Tikicchakānañca upaṭṭhapesi. /   “Kappitakañca upasaṅkamitvā,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn36.3:1.5",
+            "parsegment": "Yato kho, bhikkhave, bhikkhuno sukhāya vedanāya rāgānusayo pahīno hoti, dukkhāya vedanāya paṭighānusayo pahīno hoti, adukkhamasukhāya vedanāya avijjānusayo pahīno hoti, ayaṃ vuccati, bhikkhave, ‘bhikkhu niranusayo sammaddaso acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn36.5:1.6",
+            "parsegment": "ayaṃ vuccati, bhikkhave, ‘bhikkhu sammaddaso acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn44.9:4.7",
+            "parsegment": "‘acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "thi-ap17:8.3",
+            "parsegment": "Mahākassapanandānaṃ, /   ānandarāhulāna ca. /   Paṭikaccāyusaṅkhāraṃ,"
+        }
+    ]
+}
+,{
+    "segmentnr": "8.14",
+    "segment": "   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti.",
+    "parallels": [
+        {
+            "probability": "0.0",
+            "parsegnr": "an3.183-352:4.2",
+            "parsegment": "Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an4.198:6.7",
+            "parsegment": "‘ettakā usabhā haññantu yaññatthāya, ettakā vacchatarā haññantu yaññatthāya, ettakā vacchatariyo haññantu yaññatthāya, ettakā ajā haññantu yaññatthāya, ettakā urabbhā haññantu yaññatthāya, ettakā assā haññantu yaññatthāya, ettakā rukkhā chijjantu yūpatthāya, ettakā dabbhā lūyantu barihisatthāyā’ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an6.1:2.9",
+            "parsegment": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu āhuneyyo hoti pāhuneyyo dakkhiṇeyyo añjalikaraṇīyo anuttaraṃ puññakkhettaṃ lokassā”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an7.44:0.1",
+            "parsegment": "Aṅguttara Nikāya 7 /   5. Mahāyaññavagga /   44. Sattaviññāṇaṭṭhitisutta"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "an7.54:3.5",
+            "parsegment": "‘hoti ca na ca hoti tathāgato paraṃ maraṇā’tipi na byākaroti;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "cnd7:34.2",
+            "parsegment": "**Āsīsamānā**ti rūpapaṭilābhaṃ āsīsamānā, saddapaṭilābhaṃ āsīsamānā, gandhapaṭilābhaṃ āsīsamānā, rasapaṭilābhaṃ āsīsamānā, phoṭṭhabbapaṭilābhaṃ āsīsamānā, puttapaṭilābhaṃ āsīsamānā, dārapaṭilābhaṃ āsīsamānā, dhanapaṭilābhaṃ āsīsamānā, yasapaṭilābhaṃ āsīsamānā, issariyapaṭilābhaṃ āsīsamānā, khattiyamahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, brāhmaṇamahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, gahapatimahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, cātumahārājikesu devesu attabhāvapaṭilābhaṃ āsīsamānā, tāvatiṃsesu devesu yāmesu devesu tusitesu devesu nimmānaratīsu devesu paranimmitavasavattīsu devesu brahmakāyikesu devesu attabhāvapaṭilābhaṃ āsīsamānā icchamānā sādiyamānā patthayamānā pihayamānā abhijappamānāti āsīsamānā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "dn2:39.6",
+            "parsegment": "“idha, mahārāja, tathāgato loke uppajjati arahaṃ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṃ buddho bhagavā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ja536:54.2",
+            "parsegment": "Sāmikassa pavāsaṃ vaṇṇeti, pavuṭṭhaṃ na sarati, āgataṃ nābhinandati, avaṇṇaṃ tassa bhaṇati, vaṇṇaṃ tassa na bhaṇati, anatthaṃ tassa carati, atthaṃ tassa na carati, akiccaṃ tassa karoti, kiccaṃ tassa na karoti, paridahitvā sayati, parammukhī nipajjati, parivattakajātā kho pana hoti kuṅkumiyajātā, dīghaṃ assasati, dukkhaṃ vedayati, uccārapassāvaṃ abhiṇhaṃ gacchati, vilomamācarati, parapurisasaddaṃ sutvā kaṇṇasotaṃ vivaramodahati, nihatabhogā kho pana hoti, paṭivissakehi santhavaṃ karoti, nikkhantapādā kho pana hoti, visikhānucārinī aticārinī kho pana hoti, niccaṃ sāmike agāravā paduṭṭhamanasaṅkappā, abhiṇhaṃ dvāre tiṭṭhati, kacchāni aṅgāni thanāni dasseti, disodisaṃ gantvā pekkhati—"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn2:22.2",
+            "parsegment": "ayaṃ vuccati, bhikkhave: ‘bhikkhu sabbāsavasaṃvarasaṃvuto viharati, acchecchi taṇhaṃ, vivattayi saṃyojanaṃ, sammā mānābhisamayā antamakāsi dukkhassā’”ti. /   Idamavoca bhagavā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "mn81:21.4",
+            "parsegment": "“gacchatha, bhikkhave, ghaṭikārassa kumbhakārassa nivesane tiṇaṃ jānāthā”ti."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana22.35:22.1",
+            "parsegment": "Nasanidassanasappaṭighaṃ naupekkhāsahagataṃ dhammaṃ paṭicca anidassanaappaṭigho upekkhāsahagato dhammo uppajjati hetupaccayā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "patthana5.2:34.1",
+            "parsegment": "Upādinnupādāniyaṃ abyākataṃ dhammaṃ paṭicca upādinnupādāniyo abyākato dhammo uppajjati hetupaccayā … tīṇi. /   (Sabbattha vitthāro.)"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "pli-tv-pvr2.9:7.17",
+            "parsegment": "Nidānogadhaṃ nidānapariyāpannaṃ? /   Katamena uddesena uddesaṃ āgacchatīti? /   Dutiyena uddesena uddesaṃ āgacchati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "sn51.7:1.1",
+            "parsegment": "“Ye hi keci, bhikkhave, atītamaddhānaṃ bhikkhū āsavānaṃ khayā anāsavaṃ cetovimuttiṃ paññāvimuttiṃ diṭṭheva dhamme sayaṃ abhiññā sacchikatvā upasampajja vihariṃsu, sabbe te catunnaṃ iddhipādānaṃ bhāvitattā bahulīkatattā."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "snp2.12:16.2",
+            "parsegment": "⁂iti bhagavā /   Kaṇhassa sotaṃ dīgharattānusayitaṃ;"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "snp2.14:22.2",
+            "parsegment": "Na cānujaññā hanataṃ paresaṃ; /   Sabbesu bhūtesu nidhāya daṇḍaṃ,"
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "vb6:368.1",
+            "parsegment": "Tasseva rūpāvacarassa kusalassa kammassa katattā upacitattā vipākaṃ vivicceva kāmehi … pe … paṭhamaṃ jhānaṃ upasampajja viharati pathavīkasiṇaṃ, tasmiṃ samaye saṅkhārapaccayā viññāṇaṃ, viññāṇapaccayā nāmaṃ, nāmapaccayā chaṭṭhāyatanaṃ, chaṭṭhāyatanapaccayā phasso, phassapaccayā vedanā, vedanāpaccayā pasādo, pasādapaccayā adhimokkho, adhimokkhapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṃ."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.1:508.1",
+            "parsegment": "Sabbesaṃ cavantānaṃ arūpakānaṃ upapajjantānaṃ tesaṃ dhammāyatanaṃ uppajjissati, no ca tesaṃ rūpāyatanaṃ uppajjati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.1:681.1",
+            "parsegment": "⇐ Yassa vā pana yattha rūpāyatanaṃ uppajjissati tassa tattha cakkhāyatanaṃ uppajjitthāti? /   Asaññasattānaṃ tesaṃ tattha rūpāyatanaṃ uppajjissati, no ca tesaṃ tattha cakkhāyatanaṃ uppajjittha."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya3.2.2:495.1",
+            "parsegment": "Pañcavokāre parinibbantānaṃ tesaṃ tattha cakkhāyatanaṃ nirujjhittha, no ca tesaṃ tattha sotāyatanaṃ nirujjhissati."
+        },
+        {
+            "probability": "0.0",
+            "parsegnr": "ya5.2.1:197.1",
+            "parsegment": "⇒ Yassa yattha dukkhasaccaṃ nuppajjati tassa tattha maggasaccaṃ nuppajjitthāti? /   Abhisametāvīnaṃ cavantānaṃ pavatte cittassa bhaṅgakkhaṇe arūpe maggassa ca phalassa ca uppādakkhaṇe tesaṃ tattha dukkhasaccaṃ nuppajjati, no ca tesaṃ tattha maggasaccaṃ nuppajjittha."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "an5.1:3.3",
+            "parsegment": "Evañhi vo, bhikkhave, sikkhitabban”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "an5.192:7.4",
+            "parsegment": "So aṭṭhacattālīsavassāni komārabrahmacariyaṃ carati mante adhīyamāno."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "an6.170:1.26",
+            "parsegment": "ime cha dhammā bhāvetabbā”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "dn14:3.33.4",
+            "parsegment": "‘Evaṃnāmā evaṅgottā evaṃsīlā evaṃdhammā evaṃpaññā evaṃvihārī evaṃvimuttā te bhagavanto ahesuṃ’ itipī”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "dn2:92.3",
+            "parsegment": "So parasattānaṃ parapuggalānaṃ cetasā ceto paricca pajānāti—sarāgaṃ vā cittaṃ ‘sarāgaṃ cittan’ti pajānāti, vītarāgaṃ vā cittaṃ ‘vītarāgaṃ cittan’ti pajānāti, sadosaṃ vā cittaṃ ‘sadosaṃ cittan’ti pajānāti, vītadosaṃ vā cittaṃ ‘vītadosaṃ cittan’ti pajānāti, samohaṃ vā cittaṃ ‘samohaṃ cittan’ti pajānāti, vītamohaṃ vā cittaṃ ‘vītamohaṃ cittan’ti pajānāti, saṅkhittaṃ vā cittaṃ ‘saṅkhittaṃ cittan’ti pajānāti, vikkhittaṃ vā cittaṃ ‘vikkhittaṃ cittan’ti pajānāti, mahaggataṃ vā cittaṃ ‘mahaggataṃ cittan’ti pajānāti, amahaggataṃ vā cittaṃ ‘amahaggataṃ cittan’ti pajānāti, sauttaraṃ vā cittaṃ ‘sauttaraṃ cittan’ti pajānāti, anuttaraṃ vā cittaṃ ‘anuttaraṃ cittan’ti pajānāti, samāhitaṃ vā cittaṃ ‘samāhitaṃ cittan’ti pajānāti, asamāhitaṃ vā cittaṃ ‘asamāhitaṃ cittan’ti pajānāti, vimuttaṃ vā cittaṃ ‘vimuttaṃ cittan’ti pajānāti, avimuttaṃ vā cittaṃ ‘avimuttaṃ cittan’ti pajānāti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "dn24:2.13.6",
+            "parsegment": "‘Taṃ kiṃ maññasi, sunakkhatta, /   yadi evaṃ sante kataṃ vā hoti uttari manussadhammā iddhipāṭihāriyaṃ, akataṃ vā’ti?"
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "dn32:13.4",
+            "parsegment": "Atthasaṃhitā, bhikkhave, āṭānāṭiyā rakkhā bhikkhūnaṃ bhikkhunīnaṃ upāsakānaṃ upāsikānaṃ guttiyā rakkhāya avihiṃsāya phāsuvihārāyā”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "ja485:28.3",
+            "parsegment": "Tattheva taṃ apassantī, /   Kimpurisa kathaṃ ahaṃ kassaṃ”. /   “Vande te ayirabrahme,"
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn10:47.2",
+            "parsegment": "Iti yaṃ taṃ vuttaṃ, idametaṃ paṭicca vuttan”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn103:17.6",
+            "parsegment": "Evaṃ byākaramāno kho, bhikkhave, bhikkhu na ceva attānaṃ ukkaṃseti, na paraṃ vambheti, dhammassa cānudhammaṃ byākaroti, na ca koci sahadhammiko vādānuvādo gārayhaṃ ṭhānaṃ āgacchatī”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn104:17.7",
+            "parsegment": "‘iṅghāyasmā sādhukameva jānāhi yadi sarasi evarūpiṃ garukaṃ āpattiṃ āpajjitā pārājikaṃ vā pārājikasāmantaṃ vā’ti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn108:1.2",
+            "parsegment": "ekaṃ samayaṃ āyasmā ānando rājagahe viharati veḷuvane kalandakanivāpe aciraparinibbute bhagavati. /   Tena kho pana samayena rājā māgadho ajātasattu vedehiputto rājagahaṃ paṭisaṅkhārāpeti rañño pajjotassa āsaṅkamāno."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn112:21.4",
+            "parsegment": "ye mayaṃ āyasmantaṃ tādisaṃ sabrahmacāriṃ samanupassāmā’”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn116:6.25",
+            "parsegment": "Bodhi mahānāmo athopi uttaro, /   Kesī sikhī sundaro dvārabhājo;"
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn137:28.2",
+            "parsegment": "iti yaṃ taṃ vuttaṃ idametaṃ paṭicca vuttan”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn139:4.5",
+            "parsegment": "Yo attakilamathānuyogo dukkho anariyo anatthasaṃhito, sadukkho eso dhammo saupaghāto saupāyāso sapariḷāho; micchāpaṭipadā."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn49:5.10",
+            "parsegment": "Iṅgha tvaṃ, mārisa, yadeva te brahmā āha tadeva tvaṃ karohi, mā tvaṃ brahmuno vacanaṃ upātivattittho. /   Nanu tvaṃ, bhikkhu, passasi brahmaparisaṃ sannipatitan’ti?"
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn73:28.8",
+            "parsegment": "‘tevijjo, bhante, vacchagotto bhikkhu mahiddhiko mahānubhāvo’”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mn88:22.3",
+            "parsegment": "yaṃ rājā pasenadi kosalo labhati ānandaṃ dassanāya, labhati payirupāsanāyā”ti. /   Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "mnd6:66.22",
+            "parsegment": "Mamāyitaṃ vatthuṃ acchedasaṅkinopi socanti, acchijjantepi socanti, acchinnepi socanti, mamāyitaṃ vatthuṃ vipariṇāmasaṅkinopi socanti, vipariṇāmantepi socanti, vipariṇatepi socanti, mamāyitaṃ vatthuṃ acchedasaṅkinopi paridevanti, acchijjantepi paridevanti, acchinnepi paridevanti."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "sn16.2:4.2",
+            "parsegment": "Idhāvuso, bhikkhu ‘anuppannā me pāpakā akusalā dhammā uppajjamānā anatthāya saṃvatteyyun’ti ātappaṃ karoti, ‘uppannā me pāpakā akusalā dhammā appahīyamānā anatthāya saṃvatteyyun’ti ātappaṃ karoti, anuppannā me kusalā dhammā … pe … ātappaṃ karoti. /   Evaṃ kho, āvuso, ātāpī hoti. /   Kathañcāvuso, ottappī hoti?"
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "sn46.77-88:0.3",
+            "parsegment": "77–​88. Gaṅgānadīādisutta /   “Seyyathāpi, bhikkhave, gaṅgā nadī pācīnaninnā pācīnapoṇā pācīnapabbhārā;"
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "tha-ap270:6.4",
+            "parsegment": "buddhapūjāyidaṃ phalaṃ. /   Paṭisambhidā catasso, … pe … /   kataṃ buddhassa sāsanaṃ”."
+        },
+        {
+            "probability": "2.384",
+            "parsegnr": "ya7.2.2:280.1",
+            "parsegment": "⇐ Yato vā pana mānānusayena niranusayo tato kāmarāgānusayena niranusayoti?"
+        },
+        {
+            "probability": "3.576",
+            "parsegnr": "an10.109:2.1",
+            "parsegment": "Ahañca kho, bhikkhave, ariyaṃ vamanaṃ desessāmi, yaṃ vamanaṃ sampajjatiyeva no vipajjati, yaṃ vamanaṃ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti."
+        },
+        {
+            "probability": "7.152",
+            "parsegnr": "mn51:28.3",
+            "parsegment": "Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti."
+        },
+        {
+            "probability": "7.152",
+            "parsegnr": "sn46.54:3.4",
+            "parsegment": "Muditāsahagatena cetasā ekaṃ disaṃ pharitvā viharatha, tathā dutiyaṃ, tathā tatiyaṃ, tathā catutthaṃ; iti uddhamadho tiriyaṃ sabbadhi sabbattatāya sabbāvantaṃ lokaṃ muditāsahagatena cetasā vipulena mahaggatena appamāṇena averena abyāpajjena pharitvā viharatha."
+        },
+        {
+            "probability": "1.311",
+            "parsegnr": "sn35.28:2.1",
+            "parsegment": "Idamavoca bhagavā. /   Attamanā te bhikkhū bhagavato bhāsitaṃ abhinanduṃ."
+        },
+        {
+            "probability": "0.015",
+            "parsegnr": "mn19:27.4",
+            "parsegment": "Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti. /   Dvedhāvitakkasuttaṃ niṭṭhitaṃ navamaṃ."
+        },
+        {
+            "probability": "0.019",
+            "parsegnr": "mn21:21.7",
+            "parsegment": "Attamanā te bhikkhū bhagavato bhāsitaṃ abhinandunti. /   Kakacūpamasuttaṃ niṭṭhitaṃ paṭhamaṃ."
+        },
+        {
+            "probability": "0.019",
+            "parsegnr": "cnd16:8.11",
+            "parsegment": "nandiñjahaṃ oghatiṇṇaṃ. /   **Vimuttan**ti bhagavato rāgā cittaṃ muttaṃ vimuttaṃ suvimuttaṃ, dosā cittaṃ … mohā cittaṃ … pe … sabbākusalābhisaṅkhārehi cittaṃ muttaṃ vimuttaṃ suvimuttanti—"
+        }
+    ]
+}
+,{
+    "segmentnr": "8.16",
+    "segment": "   Vitakkasaṇṭhānasuttaṃ niṭṭhitaṃ dasamaṃ. /   Sīhanādavaggo niṭṭhito dutiyo.",
+    "parallels": []
+}
+,{
+    "segmentnr": "8.18",
+    "segment": "   Cūḷasīhanādalomahaṃsavaro, /   Mahācūḷadukkhakkhandhaanumānikasuttaṃ;",
+    "parallels": []
+}
+]
