@@ -1,7 +1,7 @@
 {
   "name": "pwa-conf-app",
   "version": "1.0.0",
-  "description": "This is a PWA tutorial app. You can find the tutorial on the [Vaadin website](https://vaadin.com/progressive-web-applications).",
+  "description": "This is a pali segmentation parallels app.",
   "main": "sw.js",
   "scripts": {
     "webpack": "webpack",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vaadin-learning-center/lit-element-tutorial-00-starter.git"
+    "url": "git+https://github.com/ayya-vimala/pali-networks"
   },
   "keywords": [],
-  "author": "Marcus Hellberg <marcus@vaadin.com>",
+  "author": "Ayya Vimala <ayya.vimala@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/vaadin-learning-center/lit-element-tutorial-00-starter/issues"
+    "url": "https://github.com/ayya-vimala/pali-networks/issues"
   },
-  "homepage": "https://github.com/vaadin-learning-center/lit-element-tutorial-00-starter#readme",
+  "homepage": "https://github.com/ayya-vimala/pali-networks",
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
@@ -41,8 +41,6 @@
   },
   "dependencies": {
     "@polymer/iron-ajax": "^3.0.1",
-    "@vaadin/vaadin-button": "^2.1.5",
-    "@vaadin/vaadin-checkbox": "^2.2.7",
     "@vaadin/vaadin-radio-button": "^1.2.0",
     "@vaadin/vaadin-text-field": "^2.3.6",
     "@webcomponents/webcomponentsjs": "^2.1.3",
