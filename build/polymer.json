@@ -1,0 +1,40 @@
+{
+  "entrypoint": "src/index.html",
+  "shell": "src/views/todo-view.js",
+  "fragments": [],
+  "sources": [
+    "src/views/todo-view.js",
+    "src/img/icon/**",
+    "package.json",
+    "src/index.html",
+    "src/views/todo-view.js"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js",
+    "node_modules/@webcomponents/webcomponentsjs/**",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**.*"
+  ],
+  "builds": [
+    {
+      "name": "es5-bundled",
+      "js": {
+        "minify": true,
+        "compile": "es5",
+        "transformModulesToAmd": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true,
+      "addPushManifest": false,
+      "preset": "es5-bundled"
+    }
+  ],
+  "npm": true,
+  "componentDir": "node_modules/",
+  "moduleResolution": "node"
+}

@@ -1,0 +1,20 @@
+{
+  "entrypoint": "src/index.html",
+  "shell": "src/views/todo-view.js",
+  "sources": [
+   "src/views/todo-view.js",
+   "src/img/icon/**",
+   "package.json"
+  ],
+  "extraDependencies": [
+    "node_modules/@webcomponents/webcomponentsjs/**",
+    "node_modules/@webcomponents/webcomponentsjs/bundles/**.*"
+  ],
+  "moduleResolution": "node",
+  "npm": true,
+  "builds": [
+    { 
+      "preset": "es5-bundled"
+    }
+  ]
+}
