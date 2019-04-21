@@ -4,7 +4,8 @@
   "sources": [
    "src/views/todo-view.js",
    "src/img/icon/**",
-   "package.json"
+   "package.json",
+   "now.json"
   ],
   "extraDependencies": [
     "node_modules/@webcomponents/webcomponentsjs/**",
