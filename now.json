@@ -1,5 +1,5 @@
 {
   "builds": [
-    { "src": "build/es5-bundled/src/views*.html", "use": "@now/static" }
+    { "src": "build/es5-bundled/src/views/index.html", "use": "@now/static" }
   ]
 }
