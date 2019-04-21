@@ -4,8 +4,12 @@
   "fragments": [],
   "sources": [
     "src/views/todo-view.js",
+    "src/index.js",
+    "src/styles.css",
     "src/img/icon/**",
+    "package-lock.json",
     "package.json",
+    "now.json",
     "src/index.html",
     "src/views/todo-view.js"
   ],
