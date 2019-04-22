@@ -1,7 +1,6 @@
 {
   "builds": [
     { "src": "build/es5-bundled/src/index.html", "use": "@now/static" },
-    { "src": "build/es5-bundled/src/*.js", "use": "@now/node" },
-    { "src": "build/es5-bundled/src/views/*.js", "use": "@now/node" }
+    { "src": "build/es5-bundled/src/*.js", "use": "@now/node" }
   ]
 }

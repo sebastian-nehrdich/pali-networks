@@ -6,7 +6,7 @@
     "src/views/todo-view.js",
     "src/index.js",
     "src/styles.css",
-    "src/img/icon/**",
+    "src/img/icons/**",
     "package-lock.json",
     "package.json",
     "now.json",
