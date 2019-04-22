@@ -32,6 +32,10 @@ const assets = [
   {
     from: 'src/img',
     to: 'img/'
+  },
+  {
+    from: "suttas",
+    to: "suttas/"
   }
 ];
 
