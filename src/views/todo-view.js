@@ -1,19 +1,16 @@
-import { LitElement, html } from 'lit-element'; 
+import { LitElement, html } from 'lit-element';
 import '@vaadin/vaadin-text-field';
 import '@polymer/iron-ajax/iron-ajax.js';
 import '@vaadin/vaadin-radio-button/vaadin-radio-button';
 import '@vaadin/vaadin-radio-button/vaadin-radio-group';
 
-
-const VisibilityFilters = { 
+const VisibilityFilters = {
   SHOW_SEGMENT: 'Segment',
   SHOW_NUMBERS: 'Numbers'
 };
 
 class TodoView extends LitElement {
-
-
-  static get properties() { 
+  static get properties() {
     return {
       task: { type: String },
       suttaData: { type: String },
@@ -21,7 +18,7 @@ class TodoView extends LitElement {
     };
   }
 
-  constructor() { 
+  constructor() {
     super();
     this.task = '';
     this.suttaData = 'Enter a sutta number and press ENTER';
@@ -92,16 +89,16 @@ class TodoView extends LitElement {
   }
 
   updateTask(e) {
-    this.task = e.target.value; 
+    this.task = e.target.value;
   }
 
   shortcutListener(e) {
-    if (e.key === 'Enter') { 
+    if (e.key === 'Enter') {
       this.applyFilter();
     }
   }
 
-  filterChanged(e) { 
+  filterChanged(e) {
     this.filter = e.target.value;
     this.task ? this.applyFilter() : '';
   }
@@ -111,7 +108,7 @@ class TodoView extends LitElement {
     if (this.filter == VisibilityFilters.SHOW_NUMBERS) {
         fetch(url).then(r => r.json()).then(data => {
           this.buildSegTable(data);
-        });        
+        });
     } else {
         fetch(url).then(r => r.json()).then(data => {
           this.buildTable(data);
