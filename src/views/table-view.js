@@ -1,40 +1,45 @@
 import { LitElement, html } from 'lit-element';
-import '@vaadin/vaadin-text-field';
+import '@vaadin/vaadin-text-field/theme/material/vaadin-text-field';
 import '@polymer/iron-ajax/iron-ajax.js';
-import '@vaadin/vaadin-radio-button/vaadin-radio-button';
-import '@vaadin/vaadin-radio-button/vaadin-radio-group';
+import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-button';
+import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-group';
+import '@vaadin/vaadin-select/theme/material/vaadin-select';
+import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
+import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
 
 const VisibilityFilters = {
   SHOW_SEGMENT: 'Segment',
   SHOW_NUMBERS: 'Numbers'
 };
 
-class TodoView extends LitElement {
+class TableView extends LitElement {
   static get properties() {
     return {
       task: { type: String },
+      sanskritTask: { type: String },
       probability: { type: Number },
       maxResults: { type: Number },
       suttaData: { type: String },
       filter: { type: String },
-      maxResultsHidden: { type: String }
+      maxResultsHidden: { type: String },
+      panelOpened: { type: String }
     };
   }
 
   constructor() {
     super();
     this.task = '';
+    this.sanskritTask = '';
     this.probability = 0.065;
-    this.maxResults = 5;
-    this.suttaData = 'Enter a sutta number and press ENTER';
+    this.maxResults = 10;
+    this.suttaData = '';
     this.filter = VisibilityFilters.SHOW_SEGMENT;
     this.maxResultsHidden = '';
+    this.panelOpened = '10';
   }
 
   connectedCallback() {
     super.connectedCallback();
-
-
   }
 
   render() {
@@ -42,9 +47,17 @@ class TodoView extends LitElement {
     return html` 
 
       <style>
+        vaadin-radio-button, vaadin-text-field, vaadin-select {
+          --material-primary-color: rgba(206, 132, 0, 1);
+          --material-primary-text-color: rgba(206, 132, 0, 1);
+        }
 
         vaadin-text-field {
-          width: 70px;
+          width: 150px;
+        }
+
+        vaadin-accordion {
+          display: table;
         }
 
         .start-segment {
@@ -62,8 +75,15 @@ class TodoView extends LitElement {
 
         td {
           vertical-align: top;
-          border: 1px solid black;
+          padding: 10px;
+          border: 3px solid white;
           font-family: sans-serif;
+          border-radius: 10px;
+          background-color: rgb(244, 243, 242);
+        }
+
+        td.parallel-item {          
+          border: 2px solid white;
         }
 
         .max-results-hidden {
@@ -75,14 +95,55 @@ class TodoView extends LitElement {
       <div class="input-layout"
   		  @keyup="${this.shortcutListener}"> 
 
-        Sutta number: 
-  		  <vaadin-text-field
-  		    placeholder="Sutta Nr"
-  		    value="${this.task}" 
-          @change="${this.updateTask}"> 
-  		  </vaadin-text-field>
+        <vaadin-accordion opened="${this.panelOpened}">
+
+          <vaadin-accordion-panel class="main-panel" theme="material">
+            <div slot="summary">Pali texts</div>
+            <div>
+
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">Majjhima Nikaya</div>
+                <div>
+                  <vaadin-select 
+                    placeholder="Select a sutta" 
+                    value="${this.task}" 
+                    @value-changed="${this.updateTask}">
+                    <template>
+                      <vaadin-list-box>
+                        ${this.insertSuttaNumbers()}
+                      </vaadin-list-box>
+                    </template>
+                  </vaadin-select>
+                </div>
+              </vaadin-accordion-panel>
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">Digha Nikaya</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>
+
+            </div>
+          </vaadin-accordion-panel>
+
+          <vaadin-accordion-panel class="main-panel" theme="material">
+            <div slot="summary">Sanskrit texts</div>
+            <div>
+                  <vaadin-select 
+                    placeholder="Select a sutta" 
+                    value="${this.sanskritTask}"
+                    @value-changed="${this.updateSanskritTask}">
+                    <template>
+                      <vaadin-list-box>
+                        ${this.insertSanskrit()}
+                      </vaadin-list-box>
+                    </template>
+                  </vaadin-select>
+            </div>
+          </vaadin-accordion-panel>
+
+        </vaadin-accordion>
 
         <vaadin-radio-group
+          label="Choose view:"
           class="visibility-filters"
           value="${this.filter}"
           @value-changed="${this.filterChanged}"> 
@@ -95,15 +156,15 @@ class TodoView extends LitElement {
           )}
         </vaadin-radio-group>
 
-        Probability cutoff: 
         <vaadin-text-field
+          label="Probability cutoff:"
           placeholder="Probability cutoff (default = 0.065)"
           value="${this.probability}" 
           @change="${this.updateProbability}"> 
         </vaadin-text-field>
 
-        <span class="${this.maxResultsHidden}">Max number of results: </span>
         <vaadin-text-field
+          label="Max number of results:"
           class="${this.maxResultsHidden}"
           placeholder="Default value: 5"
           value="${this.maxResults}" 
@@ -120,6 +181,12 @@ class TodoView extends LitElement {
 
   updateTask(e) {
     this.task = e.target.value;
+    this.applyFilter();
+  }
+
+  updateSanskritTask(e) {
+    this.sanskritTask = e.target.value;
+    // this.applyFilter();
   }
 
   updateProbability(e) {
@@ -136,6 +203,24 @@ class TodoView extends LitElement {
     }
   }
 
+  insertSuttaNumbers() {
+    let suttaNumberList = '';
+    for (let i = 1; i <= 152; i++) {
+      suttaNumberList = html`${suttaNumberList}
+            <vaadin-item>mn${i}</vaadin-item>`
+    }
+    return suttaNumberList
+  }
+
+  insertSanskrit() {
+    let sanskritSuttaList = 'Not yet available';
+    // for (let i = 1; i <= 152; i++) {
+    //   sanskritSuttaList = html`${sanskritSuttaList}
+    //         <vaadin-item>mn${i}</vaadin-item>`
+    // }
+    return sanskritSuttaList
+  }
+
   filterChanged(e) {
     this.filter = e.target.value;
     (this.filter == VisibilityFilters.SHOW_NUMBERS) ? this.hideMaxNumbers() : this.showMaxNumbers();
@@ -143,6 +228,9 @@ class TodoView extends LitElement {
   }
 
   applyFilter() {
+    if (!this.task) {
+      return;
+    }
     let url = `suttas/${this.task}.json`;
     if (this.filter == VisibilityFilters.SHOW_NUMBERS) {
         fetch(url).then(r => r.json()).then(data => {
@@ -166,12 +254,12 @@ class TodoView extends LitElement {
   buildTable(data) {
     let suttaItem = '';
     suttaItem = html`${suttaItem}
-      <tr><td colspan="2">Parallel segments for each segment in ${this.task}.<br>
+      <tr class="info-row"><td colspan="2"><b>Parallel segments for each segment in ${this.task.toUpperCase()}.</b><br>
         The lower the probability number, the better the match. You can change the cutoff for the probability in the box above. Default = 0.065<br>
         Click on the segment numbers to go to the relevant section in SuttaCentral.<br>
         When there is a range of parallel segment numbers, only the first one is shown.
       </td></tr>
-      <tr>
+      <tr class="header-row">
           <td class="start-segment segment-header">
             Segment Number in ${this.task}
           </td>
@@ -199,7 +287,7 @@ class TodoView extends LitElement {
         if (data[i].parallels[p].probability <= this.probability && showCounter < this.maxResults) {      
           parallelsItems = html`${parallelsItems}
               <tr>
-                <td>
+                <td class="parallel-item">
                   <a href="https://suttacentral.net/${parSutta[0]}/pli/ms#${parSutta[1]}" target="_blank">${parSegmentRef}</a><br>
                   Probability: ${data[i].parallels[p].probability}<br>
                   ${data[i].parallels[p].parsegment}
@@ -228,7 +316,7 @@ class TodoView extends LitElement {
     let suttaItem = '';
     let collectionkeys = ["dn","mn","sn","an","dhp","ud","iti","snp","vv","pv","thag","thig","ja","mnd","cnd","ne","pe","mil","other"];
     suttaItem = html`${suttaItem}
-      <tr><td colspan="20">Parallel segment numbers sorted by collection.<br>
+      <tr><td colspan="20"><b>Parallel segment numbers sorted by collection for ${this.task.toUpperCase()}.</b><br>
         Click on the segment numbers to go to the relevant section in SuttaCentral.<br>
         When there is a range of parallel segment numbers, only the first one is shown.
       </td></tr>
@@ -307,6 +395,6 @@ class TodoView extends LitElement {
   }
 }
 
-customElements.define('todo-view', TodoView);
+customElements.define('table-view', TableView);
 
 

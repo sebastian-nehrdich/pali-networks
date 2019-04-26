@@ -1,14 +1,13 @@
 {
   "entrypoint": "src/index.html",
-  "shell": "src/views/todo-view.js",
+  "shell": "src/views/table-view.js",
   "sources": [
-   "src/views/todo-view.js",
+   "src/views/table-view.js",
    "src/index.js",
    "src/styles.css",
    "src/img/icons/**",
    "package-lock.json",
-   "package.json",
-   "now.json"
+   "package.json"
   ],
   "extraDependencies": [
     "node_modules/@webcomponents/webcomponentsjs/**",

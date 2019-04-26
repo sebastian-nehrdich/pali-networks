@@ -1,2 +1,2 @@
 import './styles.css';
-import './views/todo-view.js';
+import './views/table-view.js';
