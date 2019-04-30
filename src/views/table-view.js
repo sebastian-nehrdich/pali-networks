@@ -87,7 +87,7 @@ class TableView extends LitElement {
           border: 2px solid white;
         }
 
-        .max-results-hidden {
+        .element-hidden {
           display: none;
         }
 
@@ -100,6 +100,12 @@ class TableView extends LitElement {
 
         .probability {
           font-size: 14px;
+        }
+
+        iframe {
+          width: 100%;
+          border: 0;
+          height: 650px;
         }
 
       </style>
@@ -132,26 +138,8 @@ class TableView extends LitElement {
                 <div slot="summary">Digha Nikaya</div>
                 <div>Not yet available</div>
               </vaadin-accordion-panel>
-              <div slot="summary"><a href="../sigma/network/" targe="blank">Pali Graph</a></div>
             </div>
           </vaadin-accordion-panel>
-
-          <vaadin-accordion-panel class="main-panel" theme="material">
-            <div slot="summary">Sanskrit texts</div>
-            <div>
-                  <vaadin-select 
-                    placeholder="Select a sutta" 
-                    value="${this.sanskritTask}"
-                    @value-changed="${this.updateSanskritTask}">
-                    <template>
-                      <vaadin-list-box>
-                        ${this.insertSanskrit()}
-                      </vaadin-list-box>
-                    </template>
-                  </vaadin-select>
-            </div>
-          </vaadin-accordion-panel>
-
         </vaadin-accordion>
 
         <vaadin-radio-group
@@ -170,6 +158,7 @@ class TableView extends LitElement {
 
         <vaadin-text-field
           label="Probability cutoff:"
+          class="${this.probabilityHidden}"
           placeholder="Probability cutoff (default = 0.065)"
           value="${this.probability}" 
           @change="${this.updateProbability}"> 
@@ -233,7 +222,8 @@ class TableView extends LitElement {
 
   filterChanged(e) {
     this.filter = e.target.value;
-    (this.filter == VisibilityFilters.SHOW_NUMBERS) ? this.hideMaxNumbers() : this.showMaxNumbers();
+    (this.filter == VisibilityFilters.SHOW_SEGMENT) ? this.maxResultsHidden = '' : this.maxResultsHidden = 'element-hidden';
+    (this.filter == VisibilityFilters.SHOW_GRAPH) ? this.probabilityHidden = 'element-hidden' : this.probabilityHidden = '';
     this.task ? this.applyFilter() : '';
   }
 
@@ -251,16 +241,8 @@ class TableView extends LitElement {
           this.buildTable(data);
         });
     } else {
-        window.location.href = `sigma/network/index.html#${this.task}`;
+        this.suttaData = html`<iframe src="src/network/index.html#${this.task}"></iframe>`;
     }
-  }
-
-  hideMaxNumbers() {
-    this.maxResultsHidden = 'max-results-hidden';
-  }
-
-  showMaxNumbers() {
-    this.maxResultsHidden = '';
   }
 
   buildTable(data) {
