@@ -48,8 +48,8 @@ class TableView extends LitElement {
 
       <style>
         vaadin-radio-button, vaadin-text-field, vaadin-select {
-          --material-primary-color: rgba(206, 132, 0, 1);
-          --material-primary-text-color: rgba(206, 132, 0, 1);
+          --material-primary-color: rgb(67, 160, 71);
+          --material-primary-text-color: rgba(33, 33, 33);
         }
 
         vaadin-text-field {
@@ -88,6 +88,16 @@ class TableView extends LitElement {
 
         .max-results-hidden {
           display: none;
+        }
+
+        a {
+          text-decoration: none;
+          color: rgba(0, 0, 0, 0.54);
+          font-size: 16px;
+        }
+
+        .probability {
+          font-size: 14px;
         }
 
       </style>
@@ -261,7 +271,7 @@ class TableView extends LitElement {
       </td></tr>
       <tr class="header-row">
           <td class="start-segment segment-header">
-            Segment Number in ${this.task}
+            SuttaCentral Segment in ${this.task.toUpperCase()}
           </td>
           <td class="segment-header">
             Parallel segments and probabilities.
@@ -289,7 +299,7 @@ class TableView extends LitElement {
               <tr>
                 <td class="parallel-item">
                   <a href="https://suttacentral.net/${parSutta[0]}/pli/ms#${parSutta[1]}" target="_blank">${parSegmentRef}</a><br>
-                  Probability: ${data[i].parallels[p].probability}<br>
+                  <span class="probability">Probability: ${data[i].parallels[p].probability}</span><br>
                   ${data[i].parallels[p].parsegment}
                 </td>
               </tr>
@@ -322,7 +332,7 @@ class TableView extends LitElement {
       </td></tr>
       <tr>
           <td class="start-segment-nr segment-header">
-            Segment Number in ${this.task}
+            SuttaCentral Segment id in ${this.task.toUpperCase()}
           </td>
           ${this.addHeader(collectionkeys)}
       </tr>
