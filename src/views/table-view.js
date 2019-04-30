@@ -9,7 +9,8 @@ import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
 
 const VisibilityFilters = {
   SHOW_SEGMENT: 'Segment',
-  SHOW_NUMBERS: 'Numbers'
+  SHOW_NUMBERS: 'Numbers',
+  SHOW_GRAPH: 'Graph'
 };
 
 class TableView extends LitElement {
@@ -94,6 +95,7 @@ class TableView extends LitElement {
           text-decoration: none;
           color: rgba(0, 0, 0, 0.54);
           font-size: 16px;
+          white-space: nowrap;
         }
 
         .probability {
@@ -130,7 +132,7 @@ class TableView extends LitElement {
                 <div slot="summary">Digha Nikaya</div>
                 <div>Not yet available</div>
               </vaadin-accordion-panel>
-
+              <div slot="summary"><a href="../sigma/network/" targe="blank">Pali Graph</a></div>
             </div>
           </vaadin-accordion-panel>
 
@@ -182,10 +184,8 @@ class TableView extends LitElement {
         </vaadin-text-field>
   		</div>
 
-      <table>
-        ${this.suttaData}
+      ${this.suttaData}
 
-      </table>
     `;
   }
 
@@ -246,10 +246,12 @@ class TableView extends LitElement {
         fetch(url).then(r => r.json()).then(data => {
           this.buildSegTable(data);
         });
-    } else {
+    } else if (this.filter == VisibilityFilters.SHOW_SEGMENT) {
         fetch(url).then(r => r.json()).then(data => {
           this.buildTable(data);
         });
+    } else {
+        window.location.href = `sigma/network/index.html#${this.task}`;
     }
   }
 
@@ -319,14 +321,14 @@ class TableView extends LitElement {
         </tr>
       `
     }
-    this.suttaData = suttaItem;
+    this.suttaData = html`<table>${suttaItem}</table>`;
   }
 
   buildSegTable(data) {
     let suttaItem = '';
-    let collectionkeys = ["dn","mn","sn","an","dhp","ud","iti","snp","vv","pv","thag","thig","ja","mnd","cnd","ne","pe","mil","other"];
+    let collectionkeys = ["dn","mn","sn","an","dhp","ud","iti","snp","vv","pv","thag","thig","tha-ap","thi-ap","ja","mnd","cnd","ps","ne","pe","mil","vinaya","ds","vb","dt","pp","kv","ya","patthana","other"];
     suttaItem = html`${suttaItem}
-      <tr><td colspan="20"><b>Parallel segment numbers sorted by collection for ${this.task.toUpperCase()}.</b><br>
+      <tr><td colspan="${collectionkeys.length+1}"><b>Parallel segment numbers sorted by collection for ${this.task.toUpperCase()}.</b><br>
         Click on the segment numbers to go to the relevant section in SuttaCentral.<br>
         When there is a range of parallel segment numbers, only the first one is shown.
       </td></tr>
@@ -339,12 +341,12 @@ class TableView extends LitElement {
     `;
 
     for (let i = 0; i < data.length; i++) {
-      let collections = {dn:[],mn:[],sn:[],an:[],dhp:[],ud:[],iti:[],snp:[],vv:[],pv:[],thag:[],thig:[],ja:[],mnd:[],cnd:[],ne:[],pe:[],mil:[],other:[]};
+      let collections = {dn:[],mn:[],sn:[],an:[],dhp:[],ud:[],iti:[],snp:[],vv:[],pv:[],thag:[],thig:[],thaap:[],thiap:[],ja:[],mnd:[],cnd:[],ps:[],ne:[],pe:[],mil:[],plitvpvr:[],ds:[],vb:[],dt:[],pp:[],kv:[],ya:[],patthana:[],other:[]};
 
       for (let p = 0; p < data[i].parallels.length; p++) {
         let parSegmentRef = data[i].parallels[p].parsegnr;
         let parSutta = (parSegmentRef ? parSegmentRef.split(':') : []);
-        let parCollection = parSutta[0].match(/[a-z\-]*/g)[0];
+        let parCollection = parSutta[0].match(/[a-z\-]*/g)[0].replace(/-/g,'');
 
         if (data[i].parallels[p].probability <= this.probability) {
             if (collections[`${parCollection}`]) {
@@ -364,7 +366,7 @@ class TableView extends LitElement {
         </tr>
       `
     }
-    this.suttaData = suttaItem;
+    this.suttaData = html`<table>${suttaItem}</table>`;
   }
 
   addParallelItems(collections) {
