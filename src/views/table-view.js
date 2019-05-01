@@ -6,6 +6,7 @@ import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-group';
 import '@vaadin/vaadin-select/theme/material/vaadin-select';
 import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
+import { tableViewCss } from './table-view-css';
 
 const VisibilityFilters = {
   SHOW_SEGMENT: 'Segment',
@@ -44,77 +45,8 @@ class TableView extends LitElement {
   }
 
   render() {
-
-    return html` 
-
-      <style>
-        vaadin-radio-button, vaadin-text-field, vaadin-select {
-          --material-primary-color: rgb(67, 160, 71);
-          --material-primary-text-color: rgba(33, 33, 33);
-        }
-
-        vaadin-text-field {
-          width: 150px;
-        }
-
-        vaadin-accordion, .filter-group {
-          display: inline-flex;
-        }
-
-        .start-segment {
-          padding-right: 10px;
-          width: 30%;
-        }
-
-        .start-segment.nr {
-          width: 10%;
-        }
-
-        .segment-header {
-          font-weight: bold;
-        }
-
-        table {
-          margin-top: 12px;
-        }
-
-        td {
-          vertical-align: top;
-          padding: 10px;
-          border: 3px solid white;
-          font-family: sans-serif;
-          border-radius: 10px;
-          background-color: rgb(244, 243, 242);
-        }
-
-        td.parallel-item {          
-          border: 2px solid white;
-        }
-
-        .element-hidden {
-          display: none;
-        }
-
-        a {
-          text-decoration: none;
-          color: rgba(0, 0, 0, 0.54);
-          font-size: 16px;
-          white-space: nowrap;
-        }
-
-        .probability {
-          font-size: 14px;
-        }
-
-        iframe {
-          width: 100%;
-          border: 0;
-          height: 650px;
-          margin-top: 12px;
-        }
-
-      </style>
-
+    return html`
+      ${tableViewCss}
       <div class="input-layout"
   		  @keyup="${this.shortcutListener}"> 
 
@@ -354,7 +286,8 @@ class TableView extends LitElement {
     if (!this.task) {
       return;
     }
-    let url = `suttas/${this.task}.json`;
+    let url = `./suttas/${this.task}.json`;
+    let networkUrl = `./network/index.html#${this.task}`;
     if (this.filter == VisibilityFilters.SHOW_NUMBERS) {
         fetch(url).then(r => r.json()).then(data => {
           this.buildSegTable(data);
@@ -364,7 +297,9 @@ class TableView extends LitElement {
           this.buildTable(data);
         });
     } else {
-        this.suttaData = html`<iframe src="src/network/index.html#${this.task}"></iframe>`;
+        fetch(networkUrl).then(r => r.text()).then(data => {
+          this.suttaData = html`<iframe src="${networkUrl}"></iframe>`;
+        });
     }
   }
 
