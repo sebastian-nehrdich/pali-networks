@@ -57,8 +57,8 @@ class TableView extends LitElement {
           width: 150px;
         }
 
-        vaadin-accordion {
-          display: table;
+        vaadin-accordion, .filter-group {
+          display: inline-flex;
         }
 
         .start-segment {
@@ -72,6 +72,10 @@ class TableView extends LitElement {
 
         .segment-header {
           font-weight: bold;
+        }
+
+        table {
+          margin-top: 12px;
         }
 
         td {
@@ -106,6 +110,7 @@ class TableView extends LitElement {
           width: 100%;
           border: 0;
           height: 650px;
+          margin-top: 12px;
         }
 
       </style>
@@ -116,61 +121,110 @@ class TableView extends LitElement {
         <vaadin-accordion opened="${this.panelOpened}">
 
           <vaadin-accordion-panel class="main-panel" theme="material">
-            <div slot="summary">Pali texts</div>
+            <div slot="summary">Pali</div>
             <div>
 
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">Majjhima Nikaya</div>
+              <vaadin-accordion-panel class="main-panel" theme="material">
+                <div slot="summary">Suttas</div>
                 <div>
-                  <vaadin-select 
-                    placeholder="Select a sutta" 
-                    value="${this.task}" 
-                    @value-changed="${this.updateTask}">
-                    <template>
-                      <vaadin-list-box>
-                        ${this.insertSuttaNumbers()}
-                      </vaadin-list-box>
-                    </template>
-                  </vaadin-select>
+
+                  <vaadin-accordion-panel theme="material">
+                    <div slot="summary">Digha Nikaya</div>
+                    <div>Not yet available</div>
+                  </vaadin-accordion-panel>
+
+                  <vaadin-accordion-panel theme="material">
+                    <div slot="summary">Majjhima Nikaya</div>
+                    <div>
+                      <vaadin-select 
+                        placeholder="Select a sutta" 
+                        value="${this.task}" 
+                        @value-changed="${this.updateTask}">
+                        <template>
+                          <vaadin-list-box>
+                            ${this.insertSuttaNumbers("mn")}
+                          </vaadin-list-box>
+                        </template>
+                      </vaadin-select>
+                    </div>
+                  </vaadin-accordion-panel>
+
+                  <vaadin-accordion-panel theme="material">
+                    <div slot="summary">Samyutta Nikaya</div>
+                    <div>
+                      ${this.insertSuttaNumbers("sn")}
+                    </div>
+                  </vaadin-accordion-panel>
+
+                  <vaadin-accordion-panel theme="material">
+                    <div slot="summary">Anguttara Nikaya</div>
+                    <div>
+                      ${this.insertSuttaNumbers("an")}
+                    </div>
+                  </vaadin-accordion-panel>
+
+                  <vaadin-accordion-panel theme="material">
+                    <div slot="summary">Khuddaka Nikaya</div>
+                    <div>
+                      ${this.insertSuttaNumbers("kn")}
+                    </div>
+                  </vaadin-accordion-panel>
+
                 </div>
               </vaadin-accordion-panel>
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">Digha Nikaya</div>
-                <div>Not yet available</div>
-              </vaadin-accordion-panel>
+
+             <vaadin-accordion-panel class="main-panel" theme="material">
+                <div slot="summary">Vinaya</div>
+                <div>${this.insertSuttaNumbers("vinaya")}</div>
+             </vaadin-accordion-panel>
+
+             <vaadin-accordion-panel class="main-panel" theme="material">
+                <div slot="summary">Abhidhamma</div>
+                <div>${this.insertSuttaNumbers("abhidhamma")}</div>
+             </vaadin-accordion-panel>
+
             </div>
           </vaadin-accordion-panel>
+
         </vaadin-accordion>
 
-        <vaadin-radio-group
-          label="Choose view:"
-          class="visibility-filters"
-          value="${this.filter}"
-          @value-changed="${this.filterChanged}"> 
+        <vaadin-accordion opened="${this.panelOpened}">
+          <vaadin-accordion-panel class="main-panel" theme="material">
+            <div slot="summary">Sanskrit texts</div>
+            <div>Not yet available</div>
+        </vaadin-accordion>
 
-          ${Object.values(VisibilityFilters).map( 
-            filter => html`
-              <vaadin-radio-button value="${filter}">
-                ${filter}
-              </vaadin-radio-button>`
-          )}
-        </vaadin-radio-group>
+        <div class="filter-group">
+            <vaadin-radio-group
+              label="Choose view:"
+              class="visibility-filters"
+              value="${this.filter}"
+              @value-changed="${this.filterChanged}"> 
 
-        <vaadin-text-field
-          label="Probability cutoff:"
-          class="${this.probabilityHidden}"
-          placeholder="Probability cutoff (default = 0.065)"
-          value="${this.probability}" 
-          @change="${this.updateProbability}"> 
-        </vaadin-text-field>
+              ${Object.values(VisibilityFilters).map( 
+                filter => html`
+                  <vaadin-radio-button value="${filter}">
+                    ${filter}
+                  </vaadin-radio-button>`
+              )}
+            </vaadin-radio-group>
 
-        <vaadin-text-field
-          label="Max number of results:"
-          class="${this.maxResultsHidden}"
-          placeholder="Default value: 5"
-          value="${this.maxResults}" 
-          @change="${this.updateMaxResults}"> 
-        </vaadin-text-field>
+            <vaadin-text-field
+              label="Probability cutoff:"
+              class="${this.probabilityHidden}"
+              placeholder="Probability cutoff (default = 0.065)"
+              value="${this.probability}" 
+              @change="${this.updateProbability}"> 
+            </vaadin-text-field>
+
+            <vaadin-text-field
+              label="Max number of results:"
+              class="${this.maxResultsHidden}"
+              placeholder="Default value: 5"
+              value="${this.maxResults}" 
+              @change="${this.updateMaxResults}"> 
+            </vaadin-text-field>
+        </div>
   		</div>
 
       ${this.suttaData}
@@ -202,14 +256,83 @@ class TableView extends LitElement {
     }
   }
 
-  insertSuttaNumbers() {
+  insertSuttaNumbers(collection) {
     let suttaNumberList = '';
-    for (let i = 1; i <= 152; i++) {
-      suttaNumberList = html`${suttaNumberList}
-            <vaadin-item>mn${i}</vaadin-item>`
+    const collectionLength = {"dn": 34, "mn": 152, "sn": 56, "an": 11};
+
+    switch(collection) {
+      case ("dn"):
+        for (let i = 1; i <= collectionLength[collection]; i++) {
+          suttaNumberList = html`${suttaNumberList}
+                <vaadin-item>${collection}${i}</vaadin-item>`
+        }
+        return suttaNumberList;
+        break;
+      case ("mn"):
+        for (let i = 1; i <= collectionLength[collection]; i++) {
+          suttaNumberList = html`${suttaNumberList}
+                <vaadin-item>${collection}${i}</vaadin-item>`
+        }
+        return suttaNumberList;
+        break;
+      case ("sn"):
+        for (let i = 1; i <= collectionLength[collection]; i++) {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${collection.toUpperCase()} ${i}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        }
+        return suttaNumberList;
+        break;
+      case ("an"):
+        for (let i = 1; i <= collectionLength[collection]; i++) {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${collection.toUpperCase()} ${i}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        }
+        return suttaNumberList;
+        break;
+      case ("kn"):
+        const knCollection = ["kp","dhp","ud","iti","snp","vv","pv","thag","thig","tha-ap","thi-ap","bv","cp","ja","mnd","cnd","ps","ne","pe","mil"];
+        knCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${item.toUpperCase()}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        });
+        return suttaNumberList;
+        break;
+      case ("vinaya"):
+        const vinayaCollection = ["pli-tv-pvr"];
+        vinayaCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${item.toUpperCase()}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        });
+        return suttaNumberList;
+        break;
+      case ("abhidhamma"):
+        const abhidhammaCollection = ["ds","vb","dt","pp","kv","ya","patthana"];
+        abhidhammaCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${item.toUpperCase()}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        });
+        return suttaNumberList;
+        break;
+      default:
+        return suttaNumberList;
     }
-    return suttaNumberList
   }
+
 
   insertSanskrit() {
     let sanskritSuttaList = 'Not yet available';
@@ -217,7 +340,7 @@ class TableView extends LitElement {
     //   sanskritSuttaList = html`${sanskritSuttaList}
     //         <vaadin-item>mn${i}</vaadin-item>`
     // }
-    return sanskritSuttaList
+    return sanskritSuttaList;
   }
 
   filterChanged(e) {

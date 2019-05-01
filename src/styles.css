@@ -49,4 +49,5 @@ nav {
 header {
   background: rgba(206, 132, 0, 1);
   color: var(--base-color);
+  box-shadow: 0px 6px 8px #888888;
 }
