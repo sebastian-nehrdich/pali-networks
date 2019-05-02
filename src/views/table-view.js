@@ -287,7 +287,6 @@ class TableView extends LitElement {
       return;
     }
     let url = `./suttas/${this.task}.json`;
-    let networkUrl = `./network/index.html#${this.task}`;
     if (this.filter == VisibilityFilters.SHOW_NUMBERS) {
         fetch(url).then(r => r.json()).then(data => {
           this.buildSegTable(data);
@@ -297,9 +296,7 @@ class TableView extends LitElement {
           this.buildTable(data);
         });
     } else {
-        fetch(networkUrl).then(r => r.text()).then(data => {
-          this.suttaData = html`<iframe src="${networkUrl}"></iframe>`;
-        });
+        this.suttaData = html`<iframe src="./src/network/index.html#${this.task}"></iframe>`;
     }
   }
 

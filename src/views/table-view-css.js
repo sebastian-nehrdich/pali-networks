@@ -4,7 +4,7 @@ export const tableViewCss =  html`
 <style>
 
     vaadin-radio-button, vaadin-text-field, vaadin-select {
-      --material-primary-color: rgb(67, 160, 71);
+      --material-primary-color: #0031ca;
       --material-primary-text-color: rgba(33, 33, 33);
     }
 

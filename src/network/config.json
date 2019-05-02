@@ -8,8 +8,8 @@
     "text": "Vimala"
   },
   "text": {
-    "more": "long description",
-    "intro": "short description",
+    "more": "Possible quotations and similar passages within the pali canon based on SIF-weighted averages of word vectors.\nSome filters have been applied to this data so we refer to the tables for more detailed analysis.",
+    "intro": "Pali canon potential parallels",
     "title": "Pali Segment Parallels"
   },
   "legend": {
@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Label",
+    "groupSelectorAttribute": "color",
     "hoverBehavior": "default"
   },
   "informationPanel": {
