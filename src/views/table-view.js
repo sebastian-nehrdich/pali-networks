@@ -50,7 +50,7 @@ class TableView extends LitElement {
       <div class="input-layout"
   		  @keyup="${this.shortcutListener}"> 
 
-        <vaadin-accordion opened="${this.panelOpened}">
+        <vaadin-accordion id="pali-accordion" opened="${this.panelOpened}">
 
           <vaadin-accordion-panel class="main-panel" theme="material">
             <div slot="summary">Pali</div>
@@ -120,7 +120,7 @@ class TableView extends LitElement {
 
         </vaadin-accordion>
 
-        <vaadin-accordion opened="${this.panelOpened}">
+        <vaadin-accordion id="sanskrit-accordion">
           <vaadin-accordion-panel class="main-panel" theme="material">
             <div slot="summary">Sanskrit texts</div>
             <div>Not yet available</div>
@@ -166,6 +166,8 @@ class TableView extends LitElement {
 
   updateTask(e) {
     this.task = e.target.value;
+    this.shadowRoot.querySelector('#pali-accordion').opened = '10';
+    this.shadowRoot.querySelector('#sanskrit-accordion').opened = '10';
     this.applyFilter();
   }
 
@@ -184,6 +186,8 @@ class TableView extends LitElement {
 
   shortcutListener(e) {
     if (e.key === 'Enter') {
+      this.shadowRoot.querySelector('#pali-accordion').opened = '10';
+      this.shadowRoot.querySelector('#sanskrit-accordion').opened = '10';
       this.applyFilter();
     }
   }
