@@ -9,6 +9,7 @@ This is an ongoing project and at the moment only displays results for the Majjh
 After downloading the repro, unzip and run:
 
 > $ npm install
+
 > $ npm run dev
 
 This will start the development server and navigate to http://localhost:8080.
