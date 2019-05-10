@@ -19,6 +19,7 @@ export const tableViewCss =  html`
     .start-segment {
       padding-right: 10px;
       width: 30%;
+      max-width: 300px;
     }
 
     .start-segment.nr {
