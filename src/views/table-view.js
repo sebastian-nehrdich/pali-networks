@@ -1,4 +1,5 @@
-import { LitElement, html } from 'lit-element';
+import { html } from 'lit-element';
+import { BaseView } from './base-view.js';
 import '@vaadin/vaadin-text-field/theme/material/vaadin-number-field';
 import '@polymer/iron-ajax/iron-ajax.js';
 import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-button';
@@ -14,7 +15,7 @@ const VisibilityFilters = {
   SHOW_GRAPH: 'Graph'
 };
 
-class TableView extends LitElement {
+class TableView extends BaseView {
   static get properties() {
     return {
       task: { type: String },
@@ -185,8 +186,8 @@ class TableView extends LitElement {
 
   updateTask(e) {
     this.task = e.target.value;
-    this.shadowRoot.querySelector('#pali-accordion').opened = '10';
-    this.shadowRoot.querySelector('#sanskrit-accordion').opened = '10';
+    this.querySelector('#pali-accordion').opened = '10';
+    this.querySelector('#sanskrit-accordion').opened = '10';
     this.reloadSutta();
   }
 
@@ -285,20 +286,20 @@ class TableView extends LitElement {
     this.filter = e.target.value;
     switch(this.filter) {
           case (VisibilityFilters.SHOW_SEGMENT):
-            this.shadowRoot.querySelector('#max-results').disabled = false;
-            this.shadowRoot.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#max-results').disabled = false;
+            this.querySelector('#probability-cutoff').disabled = false;
             break;
           case (VisibilityFilters.SHOW_NUMBERS):
-            this.shadowRoot.querySelector('#max-results').disabled = true;
-            this.shadowRoot.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#max-results').disabled = true;
+            this.querySelector('#probability-cutoff').disabled = false;
             break;
           case (VisibilityFilters.SHOW_GRAPH):
-            this.shadowRoot.querySelector('#max-results').disabled = true;
-            this.shadowRoot.querySelector('#probability-cutoff').disabled = true;
+            this.querySelector('#max-results').disabled = true;
+            this.querySelector('#probability-cutoff').disabled = true;
             break;
           default:
-            this.shadowRoot.querySelector('#max-results').disabled = false;
-            this.shadowRoot.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#max-results').disabled = false;
+            this.querySelector('#probability-cutoff').disabled = false;
         }
     this.task ? this.applyFilter() : '';
   }
@@ -317,8 +318,8 @@ class TableView extends LitElement {
   applyFilter() {
     let sutta = this.task.match(/[a-z-]*/g);
     if (this.paliCollection.includes(sutta[0])) {
-      this.shadowRoot.querySelectorAll('vaadin-radio-button')[1].disabled=false;
-      this.shadowRoot.querySelectorAll('vaadin-radio-button')[2].disabled=false;
+      this.querySelectorAll('vaadin-radio-button')[1].disabled=false;
+      this.querySelectorAll('vaadin-radio-button')[2].disabled=false;
       switch(this.filter) {
             case (VisibilityFilters.SHOW_SEGMENT):
               this.buildTable(this.inputData);
@@ -333,9 +334,9 @@ class TableView extends LitElement {
               this.buildTable(this.inputData);
           }
     } else {
-      this.shadowRoot.querySelectorAll('vaadin-radio-button')[1].disabled=true;
-      this.shadowRoot.querySelectorAll('vaadin-radio-button')[2].disabled=true;
-      this.shadowRoot.querySelectorAll('vaadin-radio-button')[0].checked=true;
+      this.querySelectorAll('vaadin-radio-button')[1].disabled=true;
+      this.querySelectorAll('vaadin-radio-button')[2].disabled=true;
+      this.querySelectorAll('vaadin-radio-button')[0].checked=true;
       this.buildTable(this.inputData);
     }
   }

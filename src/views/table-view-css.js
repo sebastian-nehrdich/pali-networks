@@ -51,7 +51,7 @@ export const tableViewCss =  html`
       display: none;
     }
 
-    a {
+    td a {
       text-decoration: none;
       color: rgba(0, 0, 0, 0.54);
       font-size: 16px;

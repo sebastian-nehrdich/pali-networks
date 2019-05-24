@@ -27,23 +27,24 @@ body {
   display: none;
 }
 
-a {
-  color: var(--dark-color);
+h1, nav {
+  display: inline-block;
 }
 
-a:visited,
-a:active {
-  color: var(--shade-color);
+h1 {
+  padding-right: 2em;
+}
+
+a {
+  text-decoration: none;
+  padding-right: var(--spacing);
+  font-family: Source Sans Pro, sans-serif;
+  color: var(--base-color);
 }
 
 header,
-main,
-nav {
+main {
   padding: var(--spacing);
-}
-
-nav {
-  height: 3em;
 }
 
 header {
@@ -51,3 +52,4 @@ header {
   color: var(--base-color);
   box-shadow: 0px 4px 8px #888888;
 }
+
