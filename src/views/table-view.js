@@ -9,13 +9,15 @@ import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
 import { tableViewCss } from './table-view-css';
 
-const VisibilityFilters = {
-  SHOW_SEGMENT: 'Segment',
-  SHOW_NUMBERS: 'Numbers',
-  SHOW_GRAPH: 'Graph'
-};
+import { VisibilityFilters } from '../redux/reducer.js';
+import { connect } from 'pwa-helpers';
+import { store } from '../redux/store.js';
+import { updateFilter,
+         updateProbability,
+         updateMaxResults
+       } from '../redux/actions.js';
 
-class TableView extends BaseView {
+class TableView extends connect(store)(BaseView) {
   static get properties() {
     return {
       task: { type: String },
@@ -34,14 +36,17 @@ class TableView extends BaseView {
     };
   }
 
+  stateChanged(state) { 
+    this.filter = state.filter;
+    this.probability = state.probability;
+    this.maxResults = state.maxResults;
+  }
+
   constructor() {
     super();
     this.task = '';
     this.inputData = {};
-    this.probability = 0.065;
-    this.maxResults = 10;
     this.suttaData = '';
-    this.filter = VisibilityFilters.SHOW_SEGMENT;
     this.panelOpened = '10';
     this.knCollection = ["kp","dhp","ud","iti","snp","vv","pv","thag","thig","tha-ap","thi-ap","bv","cp","ja","mnd","cnd","ps","ne","pe","mil"];
     this.vinayaCollection = ["pli-tv-pvr"];
@@ -192,12 +197,14 @@ class TableView extends BaseView {
   }
 
   updateProbability(e) {
-    this.probability = parseFloat(e.target.value);
+    store.dispatch(updateProbability(parseFloat(e.target.value)));
+    // this.probability = parseFloat(e.target.value);
     this.task ? this.applyFilter() : '';
   }
 
   updateMaxResults(e) {
-    this.maxResults = parseInt(e.target.value);
+    store.dispatch(updateMaxResults(parseInt(e.target.value)));
+    // this.maxResults = parseInt(e.target.value);
     this.task ? this.applyFilter() : '';
   }
 
@@ -283,7 +290,7 @@ class TableView extends BaseView {
   }
 
   filterChanged(e) {
-    this.filter = e.target.value;
+    store.dispatch(updateFilter(e.target.value));
     switch(this.filter) {
           case (VisibilityFilters.SHOW_SEGMENT):
             this.querySelector('#max-results').disabled = false;

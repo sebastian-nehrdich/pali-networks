@@ -36,6 +36,10 @@ const assets = [
   {
     from: "suttas",
     to: "suttas/"
+  },
+  {
+    from: "network",
+    to: "network/"
   }
 ];
 
