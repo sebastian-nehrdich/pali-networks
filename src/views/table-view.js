@@ -103,7 +103,6 @@ class TableView extends connect(store)(BaseView) {
         </div>
   		</div>
       ${this.suttaData}
-
     `;
   }
 
