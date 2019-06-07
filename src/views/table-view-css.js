@@ -16,6 +16,10 @@ export const tableViewCss =  html`
       display: inline-flex;
     }
 
+    .filter-group {
+      margin-left: 10px;
+    }
+
     .start-segment {
       padding-right: 10px;
       width: 30%;

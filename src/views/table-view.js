@@ -68,14 +68,51 @@ class TableView extends connect(store)(BaseView) {
       ${tableViewCss}
       <div class="input-layout"> 
 
-        <vaadin-accordion id="pali-accordion" opened="${this.panelOpened}">
+        ${this.renderMenu()}
 
-          <vaadin-accordion-panel class="main-panel" theme="material">
-            <div slot="summary">Pali</div>
-            <div>
+        <div class="filter-group">
+            <vaadin-radio-group
+              label="Choose view:"
+              class="visibility-filters"
+              value="${this.filter}"
+              @value-changed="${this.filterChanged}"> 
 
+              ${Object.values(VisibilityFilters).map( 
+                filter => html`
+                  <vaadin-radio-button value="${filter}">
+                    ${filter}
+                  </vaadin-radio-button>`
+              )}
+            </vaadin-radio-group>
+
+            <vaadin-number-field
+              label="Probability cutoff:"
+              id="probability-cutoff"
+              placeholder="Default = 0.065"
+              value="${this.probability}" 
+              @change="${this.updateProbability}"> 
+            </vaadin-number-field>
+
+            <vaadin-number-field
+              label="Max number of results:"
+              id="max-results"
+              placeholder="Default: 10"
+              value="${this.maxResults}" 
+              @change="${this.updateMaxResults}"> 
+            </vaadin-number-field>
+        </div>
+  		</div>
+      ${this.suttaData}
+
+    `;
+  }
+
+  renderMenu() {
+    if (this.page == 1) {
+      return html`
+            <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
               <vaadin-accordion-panel class="main-panel" theme="material">
-                <div slot="summary">Suttas</div>
+                <div slot="summary">Sutta</div>
                 <div>
 
                   <vaadin-accordion-panel theme="material">
@@ -119,28 +156,28 @@ class TableView extends connect(store)(BaseView) {
                       ${this.insertSuttaNumbers("kn")}
                     </div>
                   </vaadin-accordion-panel>
-
                 </div>
               </vaadin-accordion-panel>
+            </vaadin-accordion>
 
+            <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
              <vaadin-accordion-panel class="main-panel" theme="material">
                 <div slot="summary">Vinaya</div>
                 <div>${this.insertSuttaNumbers("vinaya")}</div>
              </vaadin-accordion-panel>
+            </vaadin-accordion>
 
+            <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
              <vaadin-accordion-panel class="main-panel" theme="material">
                 <div slot="summary">Abhidhamma</div>
                 <div>${this.insertSuttaNumbers("abhidhamma")}</div>
              </vaadin-accordion-panel>
-
-            </div>
-          </vaadin-accordion-panel>
-
-        </vaadin-accordion>
-
-        <vaadin-accordion id="sanskrit-accordion">
+            </vaadin-accordion>`;
+  }
+  else if (this.page == 2) {
+    return html`<vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
           <vaadin-accordion-panel class="main-panel" theme="material">
-            <div slot="summary">Sanskrit texts</div>
+            <div slot="summary">Sutta</div>
                     <div>
                       <vaadin-select 
                         placeholder="Select a sutta" 
@@ -153,49 +190,15 @@ class TableView extends connect(store)(BaseView) {
                         </template>
                       </vaadin-select>
                     </div>
-        </vaadin-accordion>
-
-        <div class="filter-group">
-            <vaadin-radio-group
-              label="Choose view:"
-              class="visibility-filters"
-              value="${this.filter}"
-              @value-changed="${this.filterChanged}"> 
-
-              ${Object.values(VisibilityFilters).map( 
-                filter => html`
-                  <vaadin-radio-button value="${filter}">
-                    ${filter}
-                  </vaadin-radio-button>`
-              )}
-            </vaadin-radio-group>
-
-            <vaadin-number-field
-              label="Probability cutoff:"
-              id="probability-cutoff"
-              placeholder="Default = 0.065"
-              value="${this.probability}" 
-              @change="${this.updateProbability}"> 
-            </vaadin-number-field>
-
-            <vaadin-number-field
-              label="Max number of results:"
-              id="max-results"
-              placeholder="Default: 10"
-              value="${this.maxResults}" 
-              @change="${this.updateMaxResults}"> 
-            </vaadin-number-field>
-        </div>
-  		</div>
-      ${this.suttaData}
-
-    `;
+          </vaadin-accordion-panel>
+        </vaadin-accordion>`;
+    }
   }
 
   updateTask(e) {
     this.task = e.target.value;
-    this.querySelector('#pali-accordion').opened = '10';
-    this.querySelector('#sanskrit-accordion').opened = '10';
+    const accordionMenu = this.querySelectorAll('.menu-accordion');
+    Array.from(accordionMenu, item => item.opened = '10');
     this.reloadSutta();
   }
 
