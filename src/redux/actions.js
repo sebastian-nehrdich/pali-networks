@@ -1,6 +1,7 @@
 export const UPDATE_FILTER = 'UPDATE_FILTER';
 export const UPDATE_PROBABILITY = 'UPDATE_PROBABILITY';
 export const UPDATE_MAXRESULTS = 'UPDATE_MAXRESULTS';
+export const UPDATE_PAGE = 'UPDATE_PAGE';
 
 export const updateFilter = filter => {
   return {
@@ -20,5 +21,12 @@ export const updateMaxResults = maxResults => {
   return {
     type: UPDATE_MAXRESULTS,
     maxResults
+  };
+};
+
+export const updatePage = page => {
+  return {
+    type: UPDATE_PAGE,
+    page
   };
 };

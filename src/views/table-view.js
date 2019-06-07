@@ -14,7 +14,8 @@ import { connect } from 'pwa-helpers';
 import { store } from '../redux/store.js';
 import { updateFilter,
          updateProbability,
-         updateMaxResults
+         updateMaxResults,
+         updatePage
        } from '../redux/actions.js';
 
 class TableView extends connect(store)(BaseView) {
@@ -26,6 +27,7 @@ class TableView extends connect(store)(BaseView) {
       maxResults: { type: Number },
       suttaData: { type: String },
       filter: { type: String },
+      page: { type: Number },
       panelOpened: { type: String },
       paliCollection: { type: Array },
       sanskritCollection: { type: Array },
@@ -40,6 +42,7 @@ class TableView extends connect(store)(BaseView) {
     this.filter = state.filter;
     this.probability = state.probability;
     this.maxResults = state.maxResults;
+    this.page = state.page;
   }
 
   constructor() {
@@ -198,13 +201,11 @@ class TableView extends connect(store)(BaseView) {
 
   updateProbability(e) {
     store.dispatch(updateProbability(parseFloat(e.target.value)));
-    // this.probability = parseFloat(e.target.value);
     this.task ? this.applyFilter() : '';
   }
 
   updateMaxResults(e) {
     store.dispatch(updateMaxResults(parseInt(e.target.value)));
-    // this.maxResults = parseInt(e.target.value);
     this.task ? this.applyFilter() : '';
   }
 

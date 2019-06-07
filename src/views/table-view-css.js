@@ -38,7 +38,7 @@ export const tableViewCss =  html`
       vertical-align: top;
       padding: 10px;
       border: 3px solid white;
-      font-family: sans-serif;
+      font-family: Roboto, sans-serif;
       border-radius: 10px;
       background-color: rgb(244, 243, 242);
     }

@@ -29,12 +29,20 @@
     <header>
       <h1>Buddhist-DB</h1>
       <nav>
-      <a href="/">Home</a>
-      <a href="/pali">Pali</a>
-      <a href="/sanskrit">Sanskrit</a>
+        <vaadin-tabs selected="{{page}}">
+          <vaadin-tab>Home</vaadin-tab>
+          <vaadin-tab>Pali</vaadin-tab>
+          <vaadin-tab>Sanskrit</vaadin-tab>
+        </vaadin-tabs>
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <iron-pages selected=0>
+        <page><home-view></home-view></page>
+        <page><table-view></table-view></page>
+        <page><table-view></table-view></page>
+      </iron-pages>
+    </main>
   </body>
 </html>
