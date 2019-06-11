@@ -69,18 +69,18 @@ class TableView extends connect(store)(BaseView) {
   }
 
   render() {
-    let menuData = {};
-    if (this.page == 1) {
-      menuData = this.paliMenuData;
-    }
-    else if (this.page == 2) {
-      menuData = this.sanskritMenuData;
-    };
+    // let menuData = {};
+    // if (this.page == 1) {
+    //   menuData = this.paliMenuData;
+    // }
+    // else if (this.page == 2) {
+    //   menuData = this.sanskritMenuData;
+    // };
     return html`
       ${tableViewCss}
       <div class="input-layout"> 
 
-        ${this.renderMenu(menuData)}
+        ${this.renderMenu()}
 
         <div class="filter-group">
             <vaadin-radio-group
@@ -129,7 +129,7 @@ class TableView extends connect(store)(BaseView) {
     })
   }
 
-  renderMenu(menuData) {
+  renderMenu() {
     if (this.page == 1) {
       return html`
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
@@ -137,22 +137,22 @@ class TableView extends connect(store)(BaseView) {
                 <div slot="summary">Sutta</div>
                 <div>
 
-                  ${this.insertCollectionMenu("Digha Nikaya","dn",menuData)}
-                  ${this.insertCollectionMenu("Majjhima Nikaya","mn",menuData)}
-                  ${this.insertCollectionMenu("Samyutta Nikaya","sn",menuData)}
-                  ${this.insertCollectionMenu("Anguttara Nikaya","an",menuData)}
-                  ${this.insertCollectionMenu("Khuddaka Nikaya","kn",menuData)}
+                  ${this.insertCollectionMenu("Digha Nikaya","dn")}
+                  ${this.insertCollectionMenu("Majjhima Nikaya","mn")}
+                  ${this.insertCollectionMenu("Samyutta Nikaya","sn")}
+                  ${this.insertCollectionMenu("Anguttara Nikaya","an")}
+                  ${this.insertCollectionMenu("Khuddaka Nikaya","kn")}
 
                 </div>
               </vaadin-accordion-panel>
             </vaadin-accordion>
 
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
-              ${this.insertCollectionMenu("Vinaya","vinaya",menuData)}
+              ${this.insertCollectionMenu("Vinaya","vinaya")}
             </vaadin-accordion>
 
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
-              ${this.insertCollectionMenu("Abhidhamma","abhidhamma",menuData)}
+              ${this.insertCollectionMenu("Abhidhamma","abhidhamma")}
             </vaadin-accordion>`;
   }
   else if (this.page == 2) {
@@ -166,7 +166,7 @@ class TableView extends connect(store)(BaseView) {
                         @value-changed="${this.updateTask}">
                         <template>
                           <vaadin-list-box>
-                            ${this.insertSuttaNumbers("sanskrit",menuData)}
+                            ${this.insertSuttaNumbers("sanskrit")}
                           </vaadin-list-box>
                         </template>
                       </vaadin-select>
@@ -176,25 +176,25 @@ class TableView extends connect(store)(BaseView) {
     }
   }
 
-  insertCollectionMenu(colName,collection,menuData) {
+  insertCollectionMenu(colName,collection) {
     return html`
       <vaadin-accordion-panel theme="material">
         <div slot="summary">${colName}</div>
         <div>
-          ${this.insertSuttaNumbers(collection,menuData)}
+          ${this.insertSuttaNumbers(collection)}
         </div>
       </vaadin-accordion-panel>`
   }
 
-  insertSuttaNumbers(collection,menuData) {
+  insertSuttaNumbers(collection) {
     let suttaNumberList = '';
     const collectionLength = {"sn": 56, "an": 11};
     switch(collection) {
       case ("dn"):
-        return html`${this.insertSuttaDropDown(menuData[collection])}`
+        return html`${this.insertSuttaDropDown(this.paliMenuData[collection])}`
         break;
       case ("mn"):
-        return html`${this.insertSuttaDropDown(menuData[collection])}`
+        return html`${this.insertSuttaDropDown(this.paliMenuData[collection])}`
         break;
       case ("sn"):
         suttaNumberList = '';
@@ -203,7 +203,7 @@ class TableView extends connect(store)(BaseView) {
             <vaadin-accordion-panel theme="material">
               <div slot="summary">${collection.toUpperCase()} ${i}</div>
               <div>
-                ${this.insertSuttaDropDown(menuData[collection+i])}
+                ${this.insertSuttaDropDown(this.paliMenuData[collection+i])}
               </div>
             </vaadin-accordion-panel>`
         }
@@ -216,7 +216,7 @@ class TableView extends connect(store)(BaseView) {
             <vaadin-accordion-panel theme="material">
               <div slot="summary">${collection.toUpperCase()} ${i}</div>
               <div>
-                ${this.insertSuttaDropDown(menuData[collection+i])}
+                ${this.insertSuttaDropDown(this.paliMenuData[collection+i])}
               </div>
             </vaadin-accordion-panel>`
         }
