@@ -8,6 +8,7 @@ import {
 export const VisibilityFilters = {
   SHOW_SEGMENT: 'Segment',
   SHOW_NUMBERS: 'Numbers',
+  SHOW_TEXT: 'Text',
   SHOW_GRAPH: 'Graph'
 };
 

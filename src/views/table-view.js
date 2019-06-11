@@ -7,6 +7,7 @@ import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-group';
 import '@vaadin/vaadin-select/theme/material/vaadin-select';
 import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
+import '@vaadin/vaadin-split-layout/theme/material/vaadin-split-layout';
 import { tableViewCss } from './table-view-css';
 
 import { VisibilityFilters } from '../redux/reducer.js';
@@ -319,6 +320,10 @@ class TableView extends connect(store)(BaseView) {
             this.querySelector('#max-results').disabled = true;
             this.querySelector('#probability-cutoff').disabled = false;
             break;
+          case (VisibilityFilters.SHOW_TEXT):
+            this.querySelector('#max-results').disabled = false;
+            this.querySelector('#probability-cutoff').disabled = false;
+            break;
           case (VisibilityFilters.SHOW_GRAPH):
             this.querySelector('#max-results').disabled = true;
             this.querySelector('#probability-cutoff').disabled = true;
@@ -364,6 +369,9 @@ class TableView extends connect(store)(BaseView) {
           case (VisibilityFilters.SHOW_NUMBERS):
             (this.page == 1) ? this.buildSegTable(this.inputData) : '';
             break;
+          case (VisibilityFilters.SHOW_TEXT):
+            this.buildTextView(this.inputData);
+            break;
           case (VisibilityFilters.SHOW_GRAPH):
               (this.page == 1) ? this.suttaData = html`<iframe src="./network/index.html#${this.task}"></iframe>` : 
                                  this.suttaData = html`<iframe src="http://buddhist-db.de/graph/#Arthaviniscayasutra%20%20(bsu005_u.htm.txt)"></iframe>`;
@@ -373,16 +381,30 @@ class TableView extends connect(store)(BaseView) {
     }
   }
 
+  buildTextView(data) {
+    let suttaItem = '';
+    for (let i = 0; i < data.length; i++) { 
+      suttaItem = html`${suttaItem} <span style="user-select: all; cursor: pointer;" class="sutta-segment" id="${data[i].segmentnr}">${data[i].segment}</span>`
+    }
+
+    this.suttaData = html`
+        <vaadin-split-layout>
+          <div style="width: 50%">${suttaItem}</div>
+          <vaadin-split-layout>
+            <div style="padding-left: 24px">Click on segment in the text to display the parallels.</div>
+            <div style="padding-left: 24px; width: 20%">Click on a parallel to display the full text of the relevant sutta.</div>
+          </vaadin-split-layout>
+        </vaadin-split-layout>`;
+  }
+
   buildTable(data) {
     let suttaItem = '';
-    let paliCheck = true;
-    (this.paliCollection.includes(this.task.match(/[a-z-]*/g)[0])) ? paliCheck = true : paliCheck = false;
 
     let headerText = html`<b>Parallel segments for each segment in ${this.task.toUpperCase()}.</b><br>
         The lower the probability number, the better the match. You can change the cutoff for the probability in the box above. Default = 0.065<br>
         When there is a range of parallel segment numbers, only the first one is shown.`
 
-    if (paliCheck) {
+    if (this.page == 1) {
       headerText = html`${headerText}<br>Click on the segment numbers to go to the relevant section in SuttaCentral.`
     }
 
@@ -415,7 +437,7 @@ class TableView extends connect(store)(BaseView) {
         let parSutta = (parSegmentRef ? parSegmentRef.split(':') : []);
         let segmentInputText = '';
 
-        if (!paliCheck) {
+        if (this.page == 2) {
           segmentInputText = html`<a>${parSutta[0]} ${parSegmentName}</a>`;
         } else {
           segmentInputText = html`<a href="https://suttacentral.net/${parSutta[0]}/pli/ms#${parSutta[1]}" target="_blank">${parSegmentRef}</a>`;
@@ -437,7 +459,7 @@ class TableView extends connect(store)(BaseView) {
 
       let segmentLink = html`<a href="https://suttacentral.net/${this.task}/pli/ms#${data[i].segmentnr}" target="_blank">${data[i].segmentnr}</a>`;
 
-      if (!paliCheck) {
+      if (this.page == 2) {
         segmentLink = html`<a>${data[i].segmentnr}</a>`
       }
 

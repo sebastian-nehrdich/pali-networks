@@ -3,7 +3,7 @@ import { LitElement, html } from 'lit-element';
 export const tableViewCss =  html`
 <style>
 
-    vaadin-radio-button, vaadin-text-field, vaadin-select {
+    vaadin-radio-button, vaadin-text-field, vaadin-select, vaadin-split-layout {
       --material-primary-color: #0031ca;
       --material-primary-text-color: rgba(33, 33, 33);
     }
@@ -34,8 +34,12 @@ export const tableViewCss =  html`
       font-weight: bold;
     }
 
-    table {
+    table, vaadin-split-layout {
       margin-top: 12px;
+    }
+
+    .parallelslist {
+      padding-left: 24px;
     }
 
     td {
