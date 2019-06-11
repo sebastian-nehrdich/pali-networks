@@ -24,6 +24,7 @@ class TableView extends connect(store)(BaseView) {
       task: { type: String },
       paliMenuData: { type: Object },
       sanskritMenuData: { type: Object },
+      menuItems: { type: String },
       inputData: { type: Object },
       probability: { type: Number },
       maxResults: { type: Number },
@@ -53,6 +54,7 @@ class TableView extends connect(store)(BaseView) {
     this.inputData = {};
     this.paliMenuData = {};
     this.sanskritMenuData = {};
+    this.menuItems = '';
     this.suttaData = '';
     this.panelOpened = '10';
     this.knCollection = ["kp","dhp","ud","iti","snp","vv","pv","thag","thig","tha-ap","thi-ap","bv","cp","ja","mnd","cnd","ps","ne","pe","mil"];
@@ -69,18 +71,12 @@ class TableView extends connect(store)(BaseView) {
   }
 
   render() {
-    // let menuData = {};
-    // if (this.page == 1) {
-    //   menuData = this.paliMenuData;
-    // }
-    // else if (this.page == 2) {
-    //   menuData = this.sanskritMenuData;
-    // };
+    this.renderMenu()
     return html`
       ${tableViewCss}
       <div class="input-layout"> 
 
-        ${this.renderMenu()}
+        ${this.menuItems}
 
         <div class="filter-group">
             <vaadin-radio-group
@@ -113,6 +109,7 @@ class TableView extends connect(store)(BaseView) {
               @change="${this.updateMaxResults}"> 
             </vaadin-number-field>
         </div>
+
   		</div>
       ${this.suttaData}
     `;
@@ -131,7 +128,7 @@ class TableView extends connect(store)(BaseView) {
 
   renderMenu() {
     if (this.page == 1) {
-      return html`
+      this.menuItems = html`
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
               <vaadin-accordion-panel class="main-panel" theme="material">
                 <div slot="summary">Sutta</div>
@@ -156,7 +153,7 @@ class TableView extends connect(store)(BaseView) {
             </vaadin-accordion>`;
   }
   else if (this.page == 2) {
-    return html`<vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
+    this.menuItems = html`<vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
           <vaadin-accordion-panel class="main-panel" theme="material">
             <div slot="summary">Sutta</div>
                     <div>
@@ -173,6 +170,8 @@ class TableView extends connect(store)(BaseView) {
                     </div>
           </vaadin-accordion-panel>
         </vaadin-accordion>`;
+    } else {
+      this.menuItems = '';
     }
   }
 
@@ -342,29 +341,35 @@ class TableView extends connect(store)(BaseView) {
     });
   }
 
-  applyFilter() {
-    let sutta = this.task.match(/[a-z-]*/g);
-    if (this.paliCollection.includes(sutta[0])) {
+  calculateAvailableFilterOptions() {
+    if (this.page == 1) {
       this.querySelectorAll('vaadin-radio-button')[1].disabled=false;
       this.querySelectorAll('vaadin-radio-button')[2].disabled=false;
-      switch(this.filter) {
-            case (VisibilityFilters.SHOW_SEGMENT):
-              this.buildTable(this.inputData);
-              break;
-            case (VisibilityFilters.SHOW_NUMBERS):
-              this.buildSegTable(this.inputData);
-              break;
-            case (VisibilityFilters.SHOW_GRAPH):
-              this.suttaData = html`<iframe src="./network/index.html#${this.task}"></iframe>`;
-              break;
-            default:
-              this.buildTable(this.inputData);
-          }
+    } else if (this.page == 2) {
+      this.querySelectorAll('vaadin-radio-button')[1].disabled=true;
+      this.querySelectorAll('vaadin-radio-button')[2].disabled=false;
     } else {
       this.querySelectorAll('vaadin-radio-button')[1].disabled=true;
       this.querySelectorAll('vaadin-radio-button')[2].disabled=true;
-      this.querySelectorAll('vaadin-radio-button')[0].checked=true;
-      this.buildTable(this.inputData);
+    }
+  }
+
+  applyFilter() {
+    this.calculateAvailableFilterOptions();
+    let sutta = this.task.match(/[a-z-]*/g);
+    switch(this.filter) {
+          case (VisibilityFilters.SHOW_SEGMENT):
+            this.buildTable(this.inputData);
+            break;
+          case (VisibilityFilters.SHOW_NUMBERS):
+            (this.page == 1) ? this.buildSegTable(this.inputData) : '';
+            break;
+          case (VisibilityFilters.SHOW_GRAPH):
+              (this.page == 1) ? this.suttaData = html`<iframe src="./network/index.html#${this.task}"></iframe>` : 
+                                 this.suttaData = html`<iframe src="http://buddhist-db.de/graph/#Arthaviniscayasutra%20%20(bsu005_u.htm.txt)"></iframe>`;
+            break;
+          default:
+            this.buildTable(this.inputData);
     }
   }
 

@@ -27,12 +27,14 @@
 
   <body>
     <header>
-      <h1>Buddhist-DB</h1>
+      <h1>Buddhist DB</h1>
       <nav>
         <vaadin-tabs selected="{{page}}">
           <vaadin-tab>Home</vaadin-tab>
           <vaadin-tab>Pali</vaadin-tab>
           <vaadin-tab>Sanskrit</vaadin-tab>
+          <vaadin-tab>Tibetan</vaadin-tab>
+          <vaadin-tab>Visual Charts</vaadin-tab>
         </vaadin-tabs>
       </nav>
     </header>
@@ -42,6 +44,8 @@
         <page><home-view></home-view></page>
         <page><table-view></table-view></page>
         <page><table-view></table-view></page>
+        <page><table-view></table-view></page>
+        <page><visual-view></visual-view></page>
       </iron-pages>
     </main>
   </body>
