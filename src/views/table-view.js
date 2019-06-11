@@ -22,6 +22,8 @@ class TableView extends connect(store)(BaseView) {
   static get properties() {
     return {
       task: { type: String },
+      paliMenuData: { type: Object },
+      sanskritMenuData: { type: Object },
       inputData: { type: Object },
       probability: { type: Number },
       maxResults: { type: Number },
@@ -49,6 +51,8 @@ class TableView extends connect(store)(BaseView) {
     super();
     this.task = '';
     this.inputData = {};
+    this.paliMenuData = {};
+    this.sanskritMenuData = {};
     this.suttaData = '';
     this.panelOpened = '10';
     this.knCollection = ["kp","dhp","ud","iti","snp","vv","pv","thag","thig","tha-ap","thi-ap","bv","cp","ja","mnd","cnd","ps","ne","pe","mil"];
@@ -61,14 +65,22 @@ class TableView extends connect(store)(BaseView) {
 
   connectedCallback() {
     super.connectedCallback();
+    this.getMenuData();
   }
 
   render() {
+    let menuData = {};
+    if (this.page == 1) {
+      menuData = this.paliMenuData;
+    }
+    else if (this.page == 2) {
+      menuData = this.sanskritMenuData;
+    };
     return html`
       ${tableViewCss}
       <div class="input-layout"> 
 
-        ${this.renderMenu()}
+        ${this.renderMenu(menuData)}
 
         <div class="filter-group">
             <vaadin-radio-group
@@ -106,7 +118,18 @@ class TableView extends connect(store)(BaseView) {
     `;
   }
 
-  renderMenu() {
+  getMenuData() {
+    let paliUrl = `./src/suttalists/pli_texts.json`;
+    fetch(paliUrl).then(r => r.json()).then(data => { 
+      this.paliMenuData = data;
+    })
+    let sanskritUrl = `./src/suttalists/san_texts.json`;
+    fetch(sanskritUrl).then(r => r.json()).then(data => { 
+      this.sanskritMenuData = data;
+    })
+  }
+
+  renderMenu(menuData) {
     if (this.page == 1) {
       return html`
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
@@ -114,63 +137,22 @@ class TableView extends connect(store)(BaseView) {
                 <div slot="summary">Sutta</div>
                 <div>
 
-                  <vaadin-accordion-panel theme="material">
-                    <div slot="summary">Digha Nikaya</div>
-                    <div>Not yet available</div>
-                  </vaadin-accordion-panel>
+                  ${this.insertCollectionMenu("Digha Nikaya","dn",menuData)}
+                  ${this.insertCollectionMenu("Majjhima Nikaya","mn",menuData)}
+                  ${this.insertCollectionMenu("Samyutta Nikaya","sn",menuData)}
+                  ${this.insertCollectionMenu("Anguttara Nikaya","an",menuData)}
+                  ${this.insertCollectionMenu("Khuddaka Nikaya","kn",menuData)}
 
-                  <vaadin-accordion-panel theme="material">
-                    <div slot="summary">Majjhima Nikaya</div>
-                    <div>
-                      <vaadin-select 
-                        placeholder="Select a sutta" 
-                        value="${this.task}" 
-                        @value-changed="${this.updateTask}">
-                        <template>
-                          <vaadin-list-box>
-                            ${this.insertSuttaNumbers("mn")}
-                          </vaadin-list-box>
-                        </template>
-                      </vaadin-select>
-                    </div>
-                  </vaadin-accordion-panel>
-
-                  <vaadin-accordion-panel theme="material">
-                    <div slot="summary">Samyutta Nikaya</div>
-                    <div>
-                      ${this.insertSuttaNumbers("sn")}
-                    </div>
-                  </vaadin-accordion-panel>
-
-                  <vaadin-accordion-panel theme="material">
-                    <div slot="summary">Anguttara Nikaya</div>
-                    <div>
-                      ${this.insertSuttaNumbers("an")}
-                    </div>
-                  </vaadin-accordion-panel>
-
-                  <vaadin-accordion-panel theme="material">
-                    <div slot="summary">Khuddaka Nikaya</div>
-                    <div>
-                      ${this.insertSuttaNumbers("kn")}
-                    </div>
-                  </vaadin-accordion-panel>
                 </div>
               </vaadin-accordion-panel>
             </vaadin-accordion>
 
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
-             <vaadin-accordion-panel class="main-panel" theme="material">
-                <div slot="summary">Vinaya</div>
-                <div>${this.insertSuttaNumbers("vinaya")}</div>
-             </vaadin-accordion-panel>
+              ${this.insertCollectionMenu("Vinaya","vinaya",menuData)}
             </vaadin-accordion>
 
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
-             <vaadin-accordion-panel class="main-panel" theme="material">
-                <div slot="summary">Abhidhamma</div>
-                <div>${this.insertSuttaNumbers("abhidhamma")}</div>
-             </vaadin-accordion-panel>
+              ${this.insertCollectionMenu("Abhidhamma","abhidhamma",menuData)}
             </vaadin-accordion>`;
   }
   else if (this.page == 2) {
@@ -184,7 +166,7 @@ class TableView extends connect(store)(BaseView) {
                         @value-changed="${this.updateTask}">
                         <template>
                           <vaadin-list-box>
-                            ${this.insertSuttaNumbers("sanskrit")}
+                            ${this.insertSuttaNumbers("sanskrit",menuData)}
                           </vaadin-list-box>
                         </template>
                       </vaadin-select>
@@ -192,6 +174,122 @@ class TableView extends connect(store)(BaseView) {
           </vaadin-accordion-panel>
         </vaadin-accordion>`;
     }
+  }
+
+  insertCollectionMenu(colName,collection,menuData) {
+    return html`
+      <vaadin-accordion-panel theme="material">
+        <div slot="summary">${colName}</div>
+        <div>
+          ${this.insertSuttaNumbers(collection,menuData)}
+        </div>
+      </vaadin-accordion-panel>`
+  }
+
+  insertSuttaNumbers(collection,menuData) {
+    let suttaNumberList = '';
+    const collectionLength = {"sn": 56, "an": 11};
+    switch(collection) {
+      case ("dn"):
+        return html`${this.insertSuttaDropDown(menuData[collection])}`
+        break;
+      case ("mn"):
+        return html`${this.insertSuttaDropDown(menuData[collection])}`
+        break;
+      case ("sn"):
+        suttaNumberList = '';
+        for (let i = 1; i <= collectionLength[collection]; i++) {
+          suttaNumberList = html`${suttaNumberList}
+            <vaadin-accordion-panel theme="material">
+              <div slot="summary">${collection.toUpperCase()} ${i}</div>
+              <div>
+                ${this.insertSuttaDropDown(menuData[collection+i])}
+              </div>
+            </vaadin-accordion-panel>`
+        }
+        return suttaNumberList;
+        break;
+      case ("an"):
+        suttaNumberList = '';
+        for (let i = 1; i <= collectionLength[collection]; i++) {
+          suttaNumberList = html`${suttaNumberList}
+            <vaadin-accordion-panel theme="material">
+              <div slot="summary">${collection.toUpperCase()} ${i}</div>
+              <div>
+                ${this.insertSuttaDropDown(menuData[collection+i])}
+              </div>
+            </vaadin-accordion-panel>`
+        }
+        return suttaNumberList;
+        break;
+      case ("kn"):
+        suttaNumberList = '';
+        this.knCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${item.toUpperCase()}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        });
+        return suttaNumberList;
+        break;
+      case ("vinaya"):
+        suttaNumberList = '';
+        this.vinayaCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${item.toUpperCase()}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        });
+        return suttaNumberList;
+        break;
+      case ("abhidhamma"):
+        suttaNumberList = '';
+        this.abhidhammaCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+              <vaadin-accordion-panel theme="material">
+                <div slot="summary">${item.toUpperCase()}</div>
+                <div>Not yet available</div>
+              </vaadin-accordion-panel>`
+        });
+        return suttaNumberList;
+        break;
+      case ("sanskrit"):
+        suttaNumberList = '';
+        this.sanskritCollection.forEach(item => {
+          suttaNumberList = html`${suttaNumberList}
+                <vaadin-item>${item}</vaadin-item>`
+        });
+        return suttaNumberList;
+        break;
+      default:
+        return '';
+    }
+  }
+
+  insertSuttaDropDown(collectiondata) {
+    return html`
+        <vaadin-select 
+          placeholder="Select a sutta" 
+          value="${this.task}" 
+          @value-changed="${this.updateTask}">
+          <template>
+            <vaadin-list-box>
+              ${this.insertSuttaSubNumbers(collectiondata)}
+            </vaadin-list-box>
+          </template>
+        </vaadin-select>
+    `
+  }
+
+  insertSuttaSubNumbers(collectiondata) {
+      let suttaSubNumberList = '';
+      for (let i = 0; i < collectiondata.length; i++) {
+        suttaSubNumberList = html`${suttaSubNumberList}
+              <vaadin-item>${collectiondata[i]}</vaadin-item>`
+      }
+    return suttaSubNumberList;
   }
 
   updateTask(e) {
@@ -209,87 +307,6 @@ class TableView extends connect(store)(BaseView) {
   updateMaxResults(e) {
     store.dispatch(updateMaxResults(parseInt(e.target.value)));
     this.task ? this.applyFilter() : '';
-  }
-
-  insertSuttaNumbers(collection) {
-    let suttaNumberList = '';
-    const collectionLength = {"dn": 34, "mn": 152, "sn": 56, "an": 11};
-
-    switch(collection) {
-      case ("dn"):
-        for (let i = 1; i <= collectionLength[collection]; i++) {
-          suttaNumberList = html`${suttaNumberList}
-                <vaadin-item>${collection}${i}</vaadin-item>`
-        }
-        return suttaNumberList;
-        break;
-      case ("mn"):
-        for (let i = 1; i <= collectionLength[collection]; i++) {
-          suttaNumberList = html`${suttaNumberList}
-                <vaadin-item>${collection}${i}</vaadin-item>`
-        }
-        return suttaNumberList;
-        break;
-      case ("sn"):
-        for (let i = 1; i <= collectionLength[collection]; i++) {
-          suttaNumberList = html`${suttaNumberList}
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">${collection.toUpperCase()} ${i}</div>
-                <div>Not yet available</div>
-              </vaadin-accordion-panel>`
-        }
-        return suttaNumberList;
-        break;
-      case ("an"):
-        for (let i = 1; i <= collectionLength[collection]; i++) {
-          suttaNumberList = html`${suttaNumberList}
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">${collection.toUpperCase()} ${i}</div>
-                <div>Not yet available</div>
-              </vaadin-accordion-panel>`
-        }
-        return suttaNumberList;
-        break;
-      case ("kn"):
-        this.knCollection.forEach(item => {
-          suttaNumberList = html`${suttaNumberList}
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">${item.toUpperCase()}</div>
-                <div>Not yet available</div>
-              </vaadin-accordion-panel>`
-        });
-        return suttaNumberList;
-        break;
-      case ("vinaya"):
-        this.vinayaCollection.forEach(item => {
-          suttaNumberList = html`${suttaNumberList}
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">${item.toUpperCase()}</div>
-                <div>Not yet available</div>
-              </vaadin-accordion-panel>`
-        });
-        return suttaNumberList;
-        break;
-      case ("abhidhamma"):
-        this.abhidhammaCollection.forEach(item => {
-          suttaNumberList = html`${suttaNumberList}
-              <vaadin-accordion-panel theme="material">
-                <div slot="summary">${item.toUpperCase()}</div>
-                <div>Not yet available</div>
-              </vaadin-accordion-panel>`
-        });
-        return suttaNumberList;
-        break;
-      case ("sanskrit"):
-        this.sanskritCollection.forEach(item => {
-          suttaNumberList = html`${suttaNumberList}
-                <vaadin-item>${item}</vaadin-item>`
-        });
-        return suttaNumberList;
-        break;
-      default:
-        return suttaNumberList;
-    }
   }
 
   filterChanged(e) {

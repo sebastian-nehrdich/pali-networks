@@ -22,7 +22,7 @@ class HomeView extends BaseView {
 		      <li>Maximum number of results: for Segment-view only; the maximum number of results shown for each segment. The default value is 10. If there are more results, there is the possibility of this being a standard passage that appears everywhere and is not of much value for parallel analysis.</li>
 	      </ul>
 	      <p>Note that due to the sheer volume of some of the text, loading a page might take some time</p>
-	      <p><a href="https://github.com/sebastian-nehrdich/gretil-quotations#board" target="blank">The code and a description of the technical background</a> as well as the <a href="https://github.com/ayya-vimala/pali-networks" target="blank">frontend code</a> can be found on github.</p>
+	      <p><a href="https://github.com/sebastian-nehrdich/gretil-quotations#board" target="blank">The code and a description of the technical background</a> as well as the <a href="https://github.com/ayya-vimala/pali-networks" target="blank">frontend code</a> can be found on GitHub.</p>
 	    </div>
     `;
   }
