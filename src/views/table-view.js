@@ -9,6 +9,7 @@ import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
 import '@vaadin/vaadin-split-layout/theme/material/vaadin-split-layout';
 import { tableViewCss } from './table-view-css';
+import { pliMenu } from '../suttalists/pli-menu';
 
 import { VisibilityFilters } from '../redux/reducer.js';
 import { connect } from 'pwa-helpers';
@@ -23,8 +24,6 @@ class TableView extends connect(store)(BaseView) {
   static get properties() {
     return {
       task: { type: String },
-      paliMenuData: { type: Object },
-      sanskritMenuData: { type: Object },
       menuItems: { type: String },
       inputData: { type: Object },
       probability: { type: Number },
@@ -32,6 +31,8 @@ class TableView extends connect(store)(BaseView) {
       suttaData: { type: String },
       filter: { type: String },
       page: { type: Number },
+      parallelTextWindow: { type: Number },
+      ParallelText: { type: Number },
       panelOpened: { type: String },
       paliCollection: { type: Array },
       sanskritCollection: { type: Array },
@@ -53,26 +54,27 @@ class TableView extends connect(store)(BaseView) {
     super();
     this.task = '';
     this.inputData = {};
-    this.paliMenuData = {};
-    this.sanskritMenuData = {};
     this.menuItems = '';
     this.suttaData = '';
     this.panelOpened = '10';
+    this.parallelTextWindow = 'Click on a segment in the text to display the parallels.';
+    this.parallelText = 'Click on a parallel to display the full text of the relevant sutta.';
     this.knCollection = ["kp","dhp","ud","iti","snp","vv","pv","thag","thig","tha-ap","thi-ap","bv","cp","ja","mnd","cnd","ps","ne","pe","mil"];
     this.vinayaCollection = ["pli-tv-pvr"];
     this.abhidhammaCollection = ["ds","vb","dt","pp","kv","ya","patthana"];
     this.suttaCollection = ["dn","mn","sn","an"].concat(this.knCollection);
     this.paliCollection = this.suttaCollection.concat(this.vinayaCollection).concat(this.abhidhammaCollection);
-    this.sanskritCollection = ["arv"];
+    this.sanskritCollection = ["arv","arvtest"];
   }
 
   connectedCallback() {
     super.connectedCallback();
-    this.getMenuData();
   }
 
   render() {
-    this.renderMenu()
+    if (this.page == 1) {this.renderPaliMenu()};
+    if (this.page == 2) {this.renderSanskritMenu()};
+    if (this.page == 3) {this.renderTibetanMenu()};
     return html`
       ${tableViewCss}
       <div class="input-layout"> 
@@ -116,19 +118,7 @@ class TableView extends connect(store)(BaseView) {
     `;
   }
 
-  getMenuData() {
-    let paliUrl = `./src/suttalists/pli_texts.json`;
-    fetch(paliUrl).then(r => r.json()).then(data => { 
-      this.paliMenuData = data;
-    })
-    let sanskritUrl = `./src/suttalists/san_texts.json`;
-    fetch(sanskritUrl).then(r => r.json()).then(data => { 
-      this.sanskritMenuData = data;
-    })
-  }
-
-  renderMenu() {
-    if (this.page == 1) {
+  renderPaliMenu() {
       this.menuItems = html`
             <vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
               <vaadin-accordion-panel class="main-panel" theme="material">
@@ -153,7 +143,8 @@ class TableView extends connect(store)(BaseView) {
               ${this.insertCollectionMenu("Abhidhamma","abhidhamma")}
             </vaadin-accordion>`;
   }
-  else if (this.page == 2) {
+
+  renderSanskritMenu() {
     this.menuItems = html`<vaadin-accordion class="menu-accordion" opened="${this.panelOpened}">
           <vaadin-accordion-panel class="main-panel" theme="material">
             <div slot="summary">Sutta</div>
@@ -171,9 +162,10 @@ class TableView extends connect(store)(BaseView) {
                     </div>
           </vaadin-accordion-panel>
         </vaadin-accordion>`;
-    } else {
-      this.menuItems = '';
-    }
+  }
+
+  renderTibetanMenu() {
+    this.menuItems = html``;
   }
 
   insertCollectionMenu(colName,collection) {
@@ -187,14 +179,15 @@ class TableView extends connect(store)(BaseView) {
   }
 
   insertSuttaNumbers(collection) {
+    console.log(collection);
     let suttaNumberList = '';
     const collectionLength = {"sn": 56, "an": 11};
     switch(collection) {
       case ("dn"):
-        return html`${this.insertSuttaDropDown(this.paliMenuData[collection])}`
+        return html`${this.insertSuttaDropDown(pliMenu[collection])}`
         break;
       case ("mn"):
-        return html`${this.insertSuttaDropDown(this.paliMenuData[collection])}`
+        return html`${this.insertSuttaDropDown(pliMenu[collection])}`
         break;
       case ("sn"):
         suttaNumberList = '';
@@ -203,7 +196,7 @@ class TableView extends connect(store)(BaseView) {
             <vaadin-accordion-panel theme="material">
               <div slot="summary">${collection.toUpperCase()} ${i}</div>
               <div>
-                ${this.insertSuttaDropDown(this.paliMenuData[collection+i])}
+                ${this.insertSuttaDropDown(pliMenu[collection+i])}
               </div>
             </vaadin-accordion-panel>`
         }
@@ -216,7 +209,7 @@ class TableView extends connect(store)(BaseView) {
             <vaadin-accordion-panel theme="material">
               <div slot="summary">${collection.toUpperCase()} ${i}</div>
               <div>
-                ${this.insertSuttaDropDown(this.paliMenuData[collection+i])}
+                ${this.insertSuttaDropDown(pliMenu[collection+i])}
               </div>
             </vaadin-accordion-panel>`
         }
@@ -276,26 +269,23 @@ class TableView extends connect(store)(BaseView) {
           @value-changed="${this.updateTask}">
           <template>
             <vaadin-list-box>
-              ${this.insertSuttaSubNumbers(collectiondata)}
+              ${collectiondata}
             </vaadin-list-box>
           </template>
         </vaadin-select>
     `
   }
 
-  insertSuttaSubNumbers(collectiondata) {
-      let suttaSubNumberList = '';
-      for (let i = 0; i < collectiondata.length; i++) {
-        suttaSubNumberList = html`${suttaSubNumberList}
-              <vaadin-item>${collectiondata[i]}</vaadin-item>`
-      }
-    return suttaSubNumberList;
-  }
-
   updateTask(e) {
     this.task = e.target.value;
     const accordionMenu = this.querySelectorAll('.menu-accordion');
     Array.from(accordionMenu, item => item.opened = '10');
+    if (this.querySelector('#selected-parallels-window')) {
+        this.querySelector('#selected-parallels-window').innerHTML = this.parallelTextWindow;
+    };
+    if (this.querySelector('#selected-parallel-text-window')) {
+        this.querySelector('#selected-parallel-text-window').innerHTML = this.parallelText;
+    };
     this.reloadSutta();
   }
 
@@ -321,8 +311,8 @@ class TableView extends connect(store)(BaseView) {
             this.querySelector('#probability-cutoff').disabled = false;
             break;
           case (VisibilityFilters.SHOW_TEXT):
-            this.querySelector('#max-results').disabled = false;
-            this.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#max-results').disabled = true;
+            this.querySelector('#probability-cutoff').disabled = true;
             break;
           case (VisibilityFilters.SHOW_GRAPH):
             this.querySelector('#max-results').disabled = true;
@@ -340,6 +330,7 @@ class TableView extends connect(store)(BaseView) {
       return;
     }
     let url = `./suttas/${this.task}.json`;
+    this.suttaData = `Loading text for ${this.task}...`;
     fetch(url).then(r => r.json()).then(data => {
       this.inputData = data;
       this.applyFilter();
@@ -383,18 +374,96 @@ class TableView extends connect(store)(BaseView) {
 
   buildTextView(data) {
     let suttaItem = '';
+    let suttaCounter = 0;
+
     for (let i = 0; i < data.length; i++) { 
-      suttaItem = html`${suttaItem} <span style="user-select: all; cursor: pointer;" class="sutta-segment" id="${data[i].segmentnr}">${data[i].segment}</span>`
+      let dataSegment = this.cleanSegments(data[i].segment,1);
+      if (this.page == 1) {
+        let newNumberCheck = parseInt(data[i].segmentnr.match(/\d+/)[0]);
+        if (newNumberCheck !== suttaCounter) {
+          suttaItem = html`${suttaItem}</p><p>`
+          suttaCounter = newNumberCheck;
+        }
+      }
+      suttaItem = html`${suttaItem} <span @click="${this.displayParallels}" class="sutta-segment" id="${i}">${dataSegment}</span>`
     }
 
     this.suttaData = html`
-        <vaadin-split-layout>
-          <div style="width: 50%">${suttaItem}</div>
+        <vaadin-split-layout class="top-level-split">
+          <div style="width: 50%"><p>${suttaItem}</p></div>
           <vaadin-split-layout>
-            <div style="padding-left: 24px">Click on segment in the text to display the parallels.</div>
-            <div style="padding-left: 24px; width: 20%">Click on a parallel to display the full text of the relevant sutta.</div>
+            <div id="selected-parallels-window" style="padding: 0 12px; width: 40%">${this.parallelTextWindow}</div>
+            <div id="selected-parallel-text-window" style="padding-left: 12px; width: 20%">${this.parallelText}</div>
           </vaadin-split-layout>
         </vaadin-split-layout>`;
+  }
+
+  cleanSegments(text,frame) {
+    let dataSegments = text.split(/\//g);
+    let dataSegment = dataSegments[0];
+    if (dataSegments.length > 1) {
+      if (frame == 1) {
+        for (let s = 1; s < dataSegments.length; s++) {
+          dataSegment = html`${dataSegment}
+                  <br>${dataSegments[s]}`;
+        }
+      } else {
+        for (let s = 1; s < dataSegments.length; s++) {
+          dataSegment = dataSegment +
+                  `<br>${dataSegments[s]}`;
+        }
+      }
+    };
+    return dataSegment;
+  }
+
+  displayParallels(e) {
+    this.querySelector('#selected-parallel-text-window').innerHTML = this.parallelText;
+    let allSegments = this.querySelectorAll('.sutta-segment');
+    allSegments.forEach(item => {item.classList.remove("selected-segment")});
+    let selectedSegment = e.target;
+    selectedSegment.classList.add("selected-segment");
+
+    let selectedParallels = this.inputData[selectedSegment.id].parallels;
+    let selectedParallelsText = '';
+
+    for (let i = 0; i < selectedParallels.length; i++) { 
+      let segmentNrText = '';
+      if (selectedParallels[i].parsegmenttext) {
+        segmentNrText = `${selectedParallels[i].parsegnr} ${selectedParallels[i].parsegmenttext}`
+      } else {
+        segmentNrText = `${selectedParallels[i].parsegnr}`
+      }
+      selectedParallelsText = selectedParallelsText + 
+            `<p class="selected-parallel"><span class="selected-parallel-nr">
+            ${segmentNrText}</span><br>
+            <span class="probability">${selectedParallels[i].probability}</span><br>
+            ${selectedParallels[i].parsegment}</p>`;
+    }
+    if (!selectedParallelsText) {
+      selectedParallelsText = this.parallelTextWindow;
+    }
+    let selectedParallelWindow = this.querySelector('#selected-parallels-window');
+    selectedParallelWindow.innerHTML = selectedParallelsText;
+
+    let allParallels = this.querySelectorAll('.selected-parallel');
+    allParallels.forEach(item => {item.addEventListener("click", (e) => this.displayParallelsText(e))});
+  }
+
+  displayParallelsText(e) {
+    let selectedParallelTextWindow = this.querySelector('#selected-parallel-text-window');
+    console.log(e.target.innerText);
+    let url = `./suttas/arvtest.json`;
+    fetch(url).then(r => r.json()).then(data => {
+      let suttaItem = '';
+      for (let i = 0; i < data.length; i++) { 
+        let dataSegment = this.cleanSegments(data[i].segment,2);
+        suttaItem = suttaItem + 
+              ` ${dataSegment}`
+      }
+
+      selectedParallelTextWindow.innerHTML = suttaItem;
+    });
   }
 
   buildTable(data) {

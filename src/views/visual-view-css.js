@@ -7,4 +7,12 @@ export const visualViewCss =  html`
       border: 0;
       margin-top: 12px;
     }
+
+    .visual-view-dropdown {
+    	margin: 0 24px;
+    }
+
+    p.expanation-text {
+    	text-align: center;
+    }
 </style>`;

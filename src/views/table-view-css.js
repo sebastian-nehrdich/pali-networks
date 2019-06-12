@@ -6,6 +6,7 @@ export const tableViewCss =  html`
     vaadin-radio-button, vaadin-text-field, vaadin-select, vaadin-split-layout {
       --material-primary-color: #0031ca;
       --material-primary-text-color: rgba(33, 33, 33);
+      --_material-split-layout-splitter-background-color: #0031ca;
     }
 
     vaadin-text-field {
@@ -34,12 +35,12 @@ export const tableViewCss =  html`
       font-weight: bold;
     }
 
-    table, vaadin-split-layout {
+    table, .top-level-split {
       margin-top: 12px;
     }
 
-    .parallelslist {
-      padding-left: 24px;
+    .selected-segment {
+      background-color: #db960a;
     }
 
     td {
@@ -59,7 +60,16 @@ export const tableViewCss =  html`
       display: none;
     }
 
-    td a {
+    .selected-parallel {
+      background-color: rgb(244, 243, 242);
+      margin-top: 0;
+      margin-bottom: 8px;
+      padding: 10px;
+      font-family: Roboto, sans-serif;
+      border-radius: 10px;
+    }
+
+    td a, .selected-parallel-nr {
       text-decoration: none;
       color: rgba(0, 0, 0, 0.54);
       font-size: 16px;

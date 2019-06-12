@@ -1,0 +1,359 @@
+[{
+    "segmentnr": "2953693",
+    "segment": "(Vaidya 311) /    Arthaviniścayasūtram | /    śrīmañjugurave(śriye) namaḥ |",
+    "parallels": []
+},
+{
+    "segmentnr": "2953703",
+    "segment": "bhagavānāha - kaścāsau bhikṣavo 'rthaviniścayo nāma dharmaparyāyaḥ?",
+    "parallels": [
+        {
+            "parsegmenttext": "Arthaviniscayasutra",
+            "parsegnr": "2959585",
+            "probability": "0.051",
+            "parsegment": "ārya - arthaviniścayo nāma dharmaparyāyaḥ samāptaḥ ||"
+        }
+    ]
+},
+{
+    "segmentnr": "2953710",
+    "segment": "yaduktam - pañca skandhāḥ | pañcopādānaskandhāḥ | aṣṭādaśa dhātavaḥ |",
+    "parallels": [
+        {
+            "parsegmenttext": "Harivarman: Satyasiddhisastra",
+            "parsegnr": "1954012",
+            "probability": "0.028",
+            "parsegment": "sarve ca dharmāḥ pañcadhā vikalpyante  pañca skandhāḥ dvādaśāyatanāni /    aṣṭādaśa dhātavo dvādaśa nidānāni dvāviṃśatirindriyāṇi iti |"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6937122",
+            "probability": "0.028",
+            "parsegment": "16606 pañca skandhā dvādaśāyatanāni aṣṭādaśa dhātavo daśa kuśalāḥ"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "758971",
+            "probability": "0.028",
+            "parsegment": "subhūtir āha katame bhagavan laukikāḥ kuśalā dharmāḥ bhagavān āha pañca /    skandhā dvādaśāyatanāni aṣṭādaśa dhātavo daśa kuśalāḥ karmapathāś catvāri"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "759328",
+            "probability": "0.028",
+            "parsegment": "bhagavan sāsravā dharmāḥ bhagavān āha pañcaskandhā dvādaśāyatanāni /    aṣṭādaśa dhātavaś catvāri dhyānāni catvāry apramāṇāni catasra"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15096945",
+            "probability": "0.028",
+            "parsegment": "bhagavān āha: pañca skandhā dvādaśāyatanāny aṣṭādaśa dhātavo daśa kuśalāḥ"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15097310",
+            "probability": "0.028",
+            "parsegment": "bhagavān āha: pañca skandhā dvādaśāyatanāny aṣṭādaśa dhātavaś catvāri"
+        },
+        {
+            "parsegmenttext": "Vasubandhu: Abhidharmakosa-bhasya",
+            "parsegnr": "23985237",
+            "probability": "0.028",
+            "parsegment": "cakṣurvijñānadhāturyāvanmanovijñānadhātumanodhātuśca / /    evamatra pañca skandhā dvādaśāyatanāni aṣṭādaśa dhātavo nirddiṣṭā bhavaṇti"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6937483",
+            "probability": "0.034",
+            "parsegment": "pañcaskandhā /    16804 dvādaśāyatanāni aṣṭādaśa dhātavaś catvāri dhyānāni catvāry"
+        },
+        {
+            "parsegmenttext": "Fragments of Prajnaparamita texts (from 16 sources)",
+            "parsegnr": "18559932",
+            "probability": "0.037",
+            "parsegment": "6     śūnyaḥ parabhāvaḥ parabhāvena śūnyaḥ tatra katamo bhāvaḥ bhāva /    ucyate pañca skandhāḥ tatra pañca skandhā bhāvena śūnyā ajātatvād | evaṃ"
+        },
+        {
+            "parsegmenttext": "Prajnakaramati: Bodhicaryavatarapanjika",
+            "parsegnr": "19447598",
+            "probability": "0.045",
+            "parsegment": "sarvaṃ sarvamiti brāhmaṇa yāvadeva pañca skandhāḥ, dvādaśāyatanāni, /    aṣṭādaśaḥ dhātavaḥ / iti /"
+        },
+        {
+            "parsegmenttext": "sthiramati_pskvbh.txt.r.o.combined",
+            "parsegnr": "11840566",
+            "probability": "0.056",
+            "parsegment": "nirviśeṣaṇaskandhaśabdaprayogātsāsravānāsravaskandhopādānam / pañcaiva skandhā na nyūnā adhikā vā"
+        },
+        {
+            "parsegmenttext": "Arthaviniscayasutra",
+            "parsegnr": "2953826",
+            "probability": "0.056",
+            "parsegment": "saṃskāropādānaskandhaḥ | vijñānopādānaskandhaḥ | ime bhikṣavaḥ /    pañcopādānaskandhāḥ ||"
+        },
+        {
+            "parsegmenttext": "Arthaviniscayasutra",
+            "parsegnr": "2953810",
+            "probability": "0.059",
+            "parsegment": "bhikṣavaḥ pañca skandhāḥ || /    (2) tatra bhikṣavaḥ katame pañcopādānaskandhāḥ? tadyathā -"
+        },
+        {
+            "parsegmenttext": "Harivarman: Satyasiddhisastra",
+            "parsegnr": "1962698",
+            "probability": "0.061",
+            "parsegment": "(pṛ) yadbhavānāha  pañcopādānaskandhā duḥkhasatyamiti | ke te pañca | (u)"
+        },
+        {
+            "parsegmenttext": "Dasasahasrika Prajnaparamita, chapter 1 and 2 translated from the Tibetan",
+            "parsegnr": "25254557",
+            "probability": "0.062",
+            "parsegment": "pañcendriyāṇy, avyākṛtāḥ pañca skandhā, dvādaśāyatanāny, aṣṭādaśa dhātavo,"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "768984",
+            "probability": "0.064",
+            "parsegment": "ucyate pañcopādānaskandhāḥ sa ca bhāvo bhāvena śūnyo 'kūṭasthāvināśitām"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15105248",
+            "probability": "0.064",
+            "parsegment": "tatra katamā bhāvaśūnyatā? bhāva ucyate pañcopādānaskandhāḥ, sa ca bhāvo"
+        }
+    ]
+},
+{
+    "segmentnr": "2953719",
+    "segment": "dvādaśāyatanāni | dvādaśāṅgaḥ pratītyasamutpādaḥ | catvāri āryasatyāni |",
+    "parallels": [
+        {
+            "parsegmenttext": "Harivarman: Satyasiddhisastra",
+            "parsegnr": "1954013",
+            "probability": "0.0",
+            "parsegment": "sarve ca dharmāḥ pañcadhā vikalpyante  pañca skandhāḥ dvādaśāyatanāni /    aṣṭādaśa dhātavo dvādaśa nidānāni dvāviṃśatirindriyāṇi iti |"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6937122",
+            "probability": "0.014",
+            "parsegment": "16606 pañca skandhā dvādaśāyatanāni aṣṭādaśa dhātavo daśa kuśalāḥ"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "758971",
+            "probability": "0.014",
+            "parsegment": "subhūtir āha katame bhagavan laukikāḥ kuśalā dharmāḥ bhagavān āha pañca /    skandhā dvādaśāyatanāni aṣṭādaśa dhātavo daśa kuśalāḥ karmapathāś catvāri"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "759328",
+            "probability": "0.014",
+            "parsegment": "bhagavan sāsravā dharmāḥ bhagavān āha pañcaskandhā dvādaśāyatanāni /    aṣṭādaśa dhātavaś catvāri dhyānāni catvāry apramāṇāni catasra"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15096945",
+            "probability": "0.014",
+            "parsegment": "bhagavān āha: pañca skandhā dvādaśāyatanāny aṣṭādaśa dhātavo daśa kuśalāḥ"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15097310",
+            "probability": "0.014",
+            "parsegment": "bhagavān āha: pañca skandhā dvādaśāyatanāny aṣṭādaśa dhātavaś catvāri"
+        },
+        {
+            "parsegmenttext": "Vasubandhu: Abhidharmakosa-bhasya",
+            "parsegnr": "23985237",
+            "probability": "0.014",
+            "parsegment": "evamatra pañca skandhā dvādaśāyatanāni aṣṭādaśa dhātavo nirddiṣṭā bhavaṇti"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6937483",
+            "probability": "0.019",
+            "parsegment": "pañcaskandhā /    16804 dvādaśāyatanāni aṣṭādaśa dhātavaś catvāri dhyānāni catvāry"
+        },
+        {
+            "parsegmenttext": "Dasasahasrika Prajnaparamita, chapter 1 and 2 translated from the Tibetan",
+            "parsegnr": "25250409",
+            "probability": "0.027",
+            "parsegment": "dvādaśāyatanāny, aṣṭādaśa dhātavaś, catvāry āryasatyāni, dvādaśa /    pratītyasamutpādāṅgāni, catvāri smṛtyupasthānāni, catvāri samyakprahāṇāṇi,"
+        },
+        {
+            "parsegmenttext": "Vimalamitra(?): Abhidharmadipa (= Abhidh-d), with auto(?)-commentary",
+            "parsegnr": "19357047",
+            "probability": "0.035",
+            "parsegment": "taddhātutvam | /    atha kasmāddvādaśāyatanānyaṣṭādaśa ca dhātavaḥ pṛthaṅnirucyante ?"
+        },
+        {
+            "parsegmenttext": "Prajnakaramati: Bodhicaryavatarapanjika",
+            "parsegnr": "19447598",
+            "probability": "0.037",
+            "parsegment": "sarvaṃ sarvamiti brāhmaṇa yāvadeva pañca skandhāḥ, dvādaśāyatanāni, /    aṣṭādaśaḥ dhātavaḥ / iti /"
+        },
+        {
+            "parsegmenttext": "Kamalasila: Bhavanakrama ",
+            "parsegnr": "9568808",
+            "probability": "0.054",
+            "parsegment": "dharmanairātmyamapi evaṃ bhavanīyam / dharma iti saṃkṣepataḥ pañcaskandho /    dvādaśāyatanam, aṣṭādaśadhātavaśca / tatra ye ca"
+        },
+        {
+            "parsegmenttext": "Harivarman: Satyasiddhisastra",
+            "parsegnr": "2050902",
+            "probability": "0.056",
+            "parsegment": "kecit pañcaskandhān paśyanto mārgamadhigacchanti | kecit dvādaśāyatanāni /    vā aṣṭādaśadhātūn vā dvādaśanidānāni vā anyāni vā paśyanto"
+        },
+        {
+            "parsegmenttext": "Mahasahasrapramardani",
+            "parsegnr": "24942478",
+            "probability": "0.063",
+            "parsegment": "catvāri dhyānāni / catvāry āryasatyāni / pañcendriyāṇi / pañcabalāni /"
+        }
+    ]
+},
+{
+    "segmentnr": "2953727",
+    "segment": "dvāviṃśati indriyāṇi | catvāri dhyānāni | [catasra ārūpyasamāpattayaḥ] |",
+    "parallels": [
+        {
+            "parsegmenttext": "Astadasasahasrika Prajnaparamita, Parivartas 55 - 70 (first part)",
+            "parsegnr": "23116179",
+            "probability": "0.020",
+            "parsegment": "ādhyātmikabāhyā dharmāḥ abhāvāḥ, catvāri dhyānāni catvāry apramāṇāni /    catasra ārūpyasamāpattayaḥ catvāri smṛtyupasthānāni catvāri"
+        },
+        {
+            "parsegmenttext": "Astadasasahasrika Prajnaparamita, Parivartas 70 (contd.) - 82",
+            "parsegnr": "15029720",
+            "probability": "0.020",
+            "parsegment": "vimokṣamukhāni catvāri dhyānāni catvāry apramāṇāni catasraḥ /    ārūpyasamāpattayo 'ṣṭau vimokṣā navānupūrvasamāpattayo daśatathāgatabalāni"
+        },
+        {
+            "parsegmenttext": "Astadasasahasrika Prajnaparamita, Parivartas 70 (contd.) - 82",
+            "parsegnr": "15047452",
+            "probability": "0.020",
+            "parsegment": "dhyānāni catvāry apramāṇāni: catasraḥ ārūpyasamāpattayaḥ catvāri"
+        },
+        {
+            "parsegmenttext": "Dasasahasrika Prajnaparamita, chapter 1 and 2 translated from the Tibetan",
+            "parsegnr": "25254652",
+            "probability": "0.020",
+            "parsegment": "skandhā, dvādaśāyatanāny, aṣṭādaśa dhātavaś, catvari dhyānāni, catvāry /    apramāṇāni, catasra ārūpyasamāpattaya ete ucyante sāsravā dharmāḥ."
+        },
+        {
+            "parsegmenttext": "Dasasahasrika Prajnaparamita, chapter 1 and 2 translated from the Tibetan",
+            "parsegnr": "25254754",
+            "probability": "0.020",
+            "parsegment": "[DsP_67] tatra katame sādhāraṇā dharmāḥ? yaduta catvāri dhyānāni, catvāry /    apramāṇāni, catasra ārūpyasamāpattayaḥ, pañcābhijñā, ete pṛthagjanaiḥ saha"
+        },
+        {
+            "parsegmenttext": "Larger Prajnaparamita",
+            "parsegnr": "27750910",
+            "probability": "0.020",
+            "parsegment": "samādhir apraṇihitaḥ samādhiḥ paripūrayitavyaḥ catvāri dhyānāni catvāry /    apramāṇāni | catasraḥ ārūpyasamāpattayaḥ aṣṭau vimokṣā"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6894771",
+            "probability": "0.020",
+            "parsegment": "01917 dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaḥ aṣṭau"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6937132",
+            "probability": "0.020",
+            "parsegment": "16607 dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaḥ pañcābhijñāḥ"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6937622",
+            "probability": "0.020",
+            "parsegment": "16819 dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaḥ"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "6951502",
+            "probability": "0.020",
+            "parsegment": "uta catvāri dhyānāni catvāry apramāṇāni catasra ārūpya  /    21010 samāpattayo 'ṣṭau vimokṣā navānupūrvavihārasamāpattayaḥ/ idam api"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "758981",
+            "probability": "0.020",
+            "parsegment": "dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaḥ pañcābhijñāḥ ye"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita",
+            "parsegnr": "759455",
+            "probability": "0.020",
+            "parsegment": "āha catvāri dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaḥ"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita, II-III",
+            "parsegnr": "15246577",
+            "probability": "0.020",
+            "parsegment": "saptabodhyaṅgāni āryāṣṭāṅgo mārgaś catvāry apramāṇāni catvāri dhyānāni /    catasra ārūpyasamāpattayaḥ ṣaḍ abhijñā daśa tathāgatabalāni catvāri"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita, IV",
+            "parsegnr": "1632312",
+            "probability": "0.020",
+            "parsegment": "catvāri dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaś catvāry"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita, V",
+            "parsegnr": "17267597",
+            "probability": "0.020",
+            "parsegment": "evam adhyātmikā vā bāhyā dharmā abhāvaḥ? catvāri dhyānāni catvāry /    apramāṇāni catasra ārūpyasamāpattayaś catvāri smṛtyupasthānāni catvāri"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita, VI-VIII",
+            "parsegnr": "9799629",
+            "probability": "0.020",
+            "parsegment": "catvāry apramāṇāni catvāri dhyānāni catasra ārūpyasamāpattayo 'ṣṭavimokṣā"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita, VI-VIII",
+            "parsegnr": "9812718",
+            "probability": "0.020",
+            "parsegment": "catvāri dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaś catvāri"
+        },
+        {
+            "parsegmenttext": "Pancavimsatisahasrika Prajnaparamita, VI-VIII",
+            "parsegnr": "9822123",
+            "probability": "0.020",
+            "parsegment": "evaṃ catvāri dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaś"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15057544",
+            "probability": "0.020",
+            "parsegment": "catvāri dhyānāni catvāry apramāṇāni catasra ārūpyasamāpattayaḥ, aṣṭau"
+        },
+        {
+            "parsegmenttext": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I",
+            "parsegnr": "15096823",
+            "probability": "0.020",
+            "parsegment": "(PvsP1 2: 25) asthisaṃjñā vidagdhakasaṃjñā, laukikāni catvāri dhyānāni /    catvāry apramāṇāni catasra ārūpyasamāpattayaḥ, laukikyaḥ pañcābhijñāḥ,"
+        }
+    ]
+},
+{
+    "segmentnr": "2953734",
+    "segment": "catvāro brahmavihārāḥ | catasraḥ pratisaṃvidaḥ | catasraḥ samādhibhāvanāḥ",
+    "parallels": [
+        {
+            "parsegmenttext": "Arthaviniscayasutra",
+            "parsegnr": "2955830",
+            "probability": "0.023",
+            "parsegment": "catvāro brahmavihārāḥ || /    (11) tatra katamāścatasraḥ pratisaṃvidaḥ? asti duḥkhā pratipad"
+        },
+        {
+            "parsegmenttext": "Arthaviniscayasutra",
+            "parsegnr": "2956200",
+            "probability": "0.035",
+            "parsegment": "catasraḥ pratisaṃvidaḥ || /    [12] tatra katamāścatastraḥ samādhibhāvanāḥ? ...........asti bhikṣavaḥ"
+        }
+    ]
+}]
