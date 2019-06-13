@@ -66,7 +66,7 @@
         {
             "probability": "0.0",
             "parsegnr": "pli-tv-pvr15:22.3",
-            "parsegment": "Evaṃ na chandāgatiṃ gacchati. /   **Kathaṃ na dosāgatiṃ gacchati**?"
+            "parsegment": "Evaṃ na chandāgatiṃ gacchati. /   Kathaṃ na dosāgatiṃ gacchati?"
         },
         {
             "probability": "0.0",
@@ -522,12 +522,12 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd13:83.1",
-            "parsegment": "**Saddhammapūjāpi nesaṃ tatheva,** /   **Yathā pasaṃsanti sakāyanāni;**"
+            "parsegment": "Saddhammapūjāpi nesaṃ tatheva, /   Yathā pasaṃsanti sakāyanāni;"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd13:83.3",
-            "parsegment": "**Sabbeva vādā tathiyā bhaveyyuṃ,** /   **Suddhī hi nesaṃ paccattameva. /   **Saddhammapūjāpi nesaṃ tathevā**ti."
+            "parsegment": "Sabbeva vādā tathiyā bhaveyyuṃ, /   Suddhī hi nesaṃ paccattameva. /   Saddhammapūjāpi nesaṃ tathevāti."
         },
         {
             "probability": "0.0",
@@ -752,7 +752,7 @@
         {
             "probability": "2.384",
             "parsegnr": "cnd22:55.3",
-            "parsegment": "**Pabhaṅkaro**ti pabhaṅkaro ālokakaro obhāsakaro dīpaṅkaro padīpakaro ujjotakaro pajjotakaroti— /   jutimā so pabhaṅkaro. /   **Gotamo bhūripaññāṇo**ti gotamo bhūripaññāṇo ñāṇapaññāṇo paññādhajo paññāketu paññādhipateyyo vicayabahulo pavicayabahulo okkhāyanabahulo samokkhāyanadhammo vibhūtavihārī taccarito tabbahulo taggaruko tanninno tappoṇo tappabbhāro tadadhimutto tadadhipateyyo."
+            "parsegment": "Pabhaṅkaroti pabhaṅkaro ālokakaro obhāsakaro dīpaṅkaro padīpakaro ujjotakaro pajjotakaroti— /   jutimā so pabhaṅkaro. /   Gotamo bhūripaññāṇoti gotamo bhūripaññāṇo ñāṇapaññāṇo paññādhajo paññāketu paññādhipateyyo vicayabahulo pavicayabahulo okkhāyanabahulo samokkhāyanadhammo vibhūtavihārī taccarito tabbahulo taggaruko tanninno tappoṇo tappabbhāro tadadhimutto tadadhipateyyo."
         },
         {
             "probability": "2.384",
@@ -767,7 +767,7 @@
         {
             "probability": "2.384",
             "parsegnr": "mnd4:70.3",
-            "parsegment": "**Sīmātigo brāhmaṇo tassa natthi, ñatvā va disvā va samuggahītan**ti. /   Tassa idaṃ paramaṃ aggaṃ seṭṭhaṃ visiṭṭhaṃ pāmokkhaṃ uttamaṃ pavaranti gahitaṃ parāmaṭṭhaṃ abhiniviṭṭhaṃ ajjhositaṃ adhimuttaṃ natthi na santi na saṃvijjati nupalabbhati, pahīnaṃ samucchinnaṃ vūpasantaṃ paṭipassaddhaṃ abhabbuppattikaṃ ñāṇagginā daḍḍhanti—"
+            "parsegment": "Sīmātigo brāhmaṇo tassa natthi, ñatvā va disvā va samuggahītanti. /   Tassa idaṃ paramaṃ aggaṃ seṭṭhaṃ visiṭṭhaṃ pāmokkhaṃ uttamaṃ pavaranti gahitaṃ parāmaṭṭhaṃ abhiniviṭṭhaṃ ajjhositaṃ adhimuttaṃ natthi na santi na saṃvijjati nupalabbhati, pahīnaṃ samucchinnaṃ vūpasantaṃ paṭipassaddhaṃ abhabbuppattikaṃ ñāṇagginā daḍḍhanti—"
         },
         {
             "probability": "2.384",
@@ -902,7 +902,7 @@
         {
             "probability": "4.768",
             "parsegnr": "cnd21:20.3",
-            "parsegment": "Pucchantā nipuṇe pañhe, /   buddhaseṭṭhaṃ upāgamun”ti. /   **Tesaṃ buddho pabyākāsi,**"
+            "parsegment": "Pucchantā nipuṇe pañhe, /   buddhaseṭṭhaṃ upāgamun”ti. /   Tesaṃ buddho pabyākāsi,"
         },
         {
             "probability": "4.768",
@@ -1139,7 +1139,7 @@
         {
             "probability": "0.0",
             "parsegnr": "cnd23:305.1",
-            "parsegment": "**Upakkilese byapanujja sabbe**ti rāgo cittassa upakkileso, doso cittassa upakkileso, moho cittassa upakkileso, kodho … upanāho … pe … sabbākusalābhisaṅkhārā cittassa upakkilesā."
+            "parsegment": "Upakkilese byapanujja sabbeti rāgo cittassa upakkileso, doso cittassa upakkileso, moho cittassa upakkileso, kodho … upanāho … pe … sabbākusalābhisaṅkhārā cittassa upakkilesā."
         }
     ]
 }
@@ -1186,7 +1186,7 @@
         {
             "probability": "0.0",
             "parsegnr": "cnd23:305.1",
-            "parsegment": "**Upakkilese byapanujja sabbe**ti rāgo cittassa upakkileso, doso cittassa upakkileso, moho cittassa upakkileso, kodho … upanāho … pe … sabbākusalābhisaṅkhārā cittassa upakkilesā."
+            "parsegment": "Upakkilese byapanujja sabbeti rāgo cittassa upakkileso, doso cittassa upakkileso, moho cittassa upakkileso, kodho … upanāho … pe … sabbākusalābhisaṅkhārā cittassa upakkilesā."
         }
     ]
 }
@@ -1292,7 +1292,7 @@
         {
             "probability": "0.017",
             "parsegnr": "cnd23:255.1",
-            "parsegment": "**Appassādo dukkhamettha bhiyyo**ti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
+            "parsegment": "Appassādo dukkhamettha bhiyyoti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
         },
         {
             "probability": "0.017",
@@ -1549,7 +1549,7 @@
         {
             "probability": "0.017",
             "parsegnr": "cnd23:255.1",
-            "parsegment": "**Appassādo dukkhamettha bhiyyo**ti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
+            "parsegment": "Appassādo dukkhamettha bhiyyoti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
         },
         {
             "probability": "0.017",
@@ -1785,7 +1785,7 @@
         {
             "probability": "0.017",
             "parsegnr": "cnd23:255.1",
-            "parsegment": "**Appassādo dukkhamettha bhiyyo**ti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
+            "parsegment": "Appassādo dukkhamettha bhiyyoti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
         },
         {
             "probability": "0.017",
@@ -2026,7 +2026,7 @@
         {
             "probability": "0.017",
             "parsegnr": "cnd23:255.1",
-            "parsegment": "**Appassādo dukkhamettha bhiyyo**ti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
+            "parsegment": "Appassādo dukkhamettha bhiyyoti appassādā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; /   ādīnavo ettha bhiyyo. /   Aṭṭhikaṅkalūpamā kāmā vuttā bhagavatā, maṃsapesūpamā kāmā vuttā bhagavatā, tiṇukkūpamā kāmā vuttā bhagavatā, aṅgārakāsūpamā kāmā vuttā bhagavatā, supinakūpamā kāmā vuttā bhagavatā, yācitakūpamā kāmā vuttā bhagavatā, rukkhaphalūpamā kāmā vuttā bhagavatā, asisūnūpamā kāmā vuttā bhagavatā, sattisūlūpamā kāmā vuttā bhagavatā, sappasirūpamā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyoti—"
         },
         {
             "probability": "0.017",
@@ -2568,7 +2568,7 @@
         {
             "probability": "0.018",
             "parsegnr": "cnd23:171.8",
-            "parsegment": "**Citrā**ti nānāvaṇṇā rūpā nānāvaṇṇā saddā nānāvaṇṇā gandhā nānāvaṇṇā rasā nānāvaṇṇā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṃhitā rajanīyā. /   **Madhurā**ti vuttañhetaṃ bhagavatā—"
+            "parsegment": "Citrāti nānāvaṇṇā rūpā nānāvaṇṇā saddā nānāvaṇṇā gandhā nānāvaṇṇā rasā nānāvaṇṇā phoṭṭhabbā iṭṭhā kantā manāpā piyarūpā kāmūpasaṃhitā rajanīyā. /   Madhurāti vuttañhetaṃ bhagavatā—"
         }
     ]
 }
@@ -3420,7 +3420,7 @@
         {
             "probability": "1.251",
             "parsegnr": "mnd14:13.2",
-            "parsegment": "**Upadhi** vuccanti kilesā ca khandhā ca abhisaṅkhārā ca. /   Upadhiviveko vuccati amataṃ nibbānaṃ."
+            "parsegment": "Upadhi vuccanti kilesā ca khandhā ca abhisaṅkhārā ca. /   Upadhiviveko vuccati amataṃ nibbānaṃ."
         }
     ]
 }
@@ -5934,17 +5934,17 @@
         {
             "probability": "0.0",
             "parsegnr": "ne14:28.3",
-            "parsegment": "Kāmā hi loke saṅgoti ñatvā, /   Tesaṃ satīmā vinayāya sikkhe”ti. /   **“Yo dukkhan”**ti vevacanapaññatti ca dukkhassa pariññāpaññatti ca."
+            "parsegment": "Kāmā hi loke saṅgoti ñatvā, /   Tesaṃ satīmā vinayāya sikkhe”ti. /   “Yo dukkhan”ti vevacanapaññatti ca dukkhassa pariññāpaññatti ca."
         },
         {
             "probability": "0.0",
             "parsegnr": "ne14:29.2",
-            "parsegment": "**“Yatonidānan”**ti pabhavapaññatti ca samudayassa pahānapaññatti ca."
+            "parsegment": "“Yatonidānan”ti pabhavapaññatti ca samudayassa pahānapaññatti ca."
         },
         {
             "probability": "0.0",
             "parsegnr": "ne14:29.3",
-            "parsegment": "**“Addakkhī”**ti vevacanapaññatti ca ñāṇacakkhussa paṭivedhapaññatti ca. /   **“Kāmesu so jantu kathaṃ nameyyā”**ti vevacanapaññatti ca kāmataṇhāya abhinivesapaññatti ca."
+            "parsegment": "“Addakkhī”ti vevacanapaññatti ca ñāṇacakkhussa paṭivedhapaññatti ca. /   “Kāmesu so jantu kathaṃ nameyyā”ti vevacanapaññatti ca kāmataṇhāya abhinivesapaññatti ca."
         },
         {
             "probability": "0.0",
@@ -6598,7 +6598,7 @@
         {
             "probability": "0.0",
             "parsegnr": "patthana1.8:127.4",
-            "parsegment": "**Pakatūpanissayo**— /   pītisahagataṃ saddhaṃ upanissāya pītisahagatena ca sukhasahagatena ca cittena dānaṃ deti … pe …"
+            "parsegment": "Pakatūpanissayo— /   pītisahagataṃ saddhaṃ upanissāya pītisahagatena ca sukhasahagatena ca cittena dānaṃ deti … pe …"
         },
         {
             "probability": "0.0",
@@ -7053,7 +7053,7 @@
         {
             "probability": "0.018",
             "parsegnr": "mnd14:39.3",
-            "parsegment": "seyyo na tena maññeyya. /   **Nīceyyo atha vāpi sarikkho**ti."
+            "parsegment": "seyyo na tena maññeyya. /   Nīceyyo atha vāpi sarikkhoti."
         }
     ]
 }
@@ -7442,7 +7442,7 @@
         {
             "probability": "0.013",
             "parsegnr": "mnd13:100.1",
-            "parsegment": "**Adakkhi ce kiñhi tumassa tenā**ti. /   **Adakkhī**ti paracittañāṇena vā adakkhi, pubbenivāsānussatiñāṇena vā adakkhi, maṃsacakkhunā vā adakkhi, dibbena cakkhunā vā adakkhīti—"
+            "parsegment": "Adakkhi ce kiñhi tumassa tenāti. /   Adakkhīti paracittañāṇena vā adakkhi, pubbenivāsānussatiñāṇena vā adakkhi, maṃsacakkhunā vā adakkhi, dibbena cakkhunā vā adakkhīti—"
         },
         {
             "probability": "0.013",
@@ -8660,7 +8660,7 @@
         {
             "probability": "0.009",
             "parsegnr": "cnd9:14.5",
-            "parsegment": "dhotakāti bhagavā. /   **Idheva nipako sato**ti. /   **Idhā**ti imissā diṭṭhiyā imissā khantiyā imissā ruciyā imasmiṃ ādāye imasmiṃ dhamme imasmiṃ vinaye imasmiṃ dhammavinaye imasmiṃ pāvacane imasmiṃ brahmacariye imasmiṃ satthusāsane imasmiṃ attabhāve imasmiṃ manussaloke."
+            "parsegment": "dhotakāti bhagavā. /   Idheva nipako satoti. /   Idhāti imissā diṭṭhiyā imissā khantiyā imissā ruciyā imasmiṃ ādāye imasmiṃ dhamme imasmiṃ vinaye imasmiṃ dhammavinaye imasmiṃ pāvacane imasmiṃ brahmacariye imasmiṃ satthusāsane imasmiṃ attabhāve imasmiṃ manussaloke."
         },
         {
             "probability": "0.009",
@@ -8700,7 +8700,7 @@
         {
             "probability": "0.011",
             "parsegnr": "cnd14:22.1",
-            "parsegment": "**Jarāmaccuparetānan**ti jarāya phuṭṭhānaṃ paretānaṃ samohitānaṃ samannāgatānaṃ, maccunā phuṭṭhānaṃ paretānaṃ samohitānaṃ samannāgatānaṃ jātiyā anugatānaṃ jarāya anusaṭānaṃ byādhinā abhibhūtānaṃ maraṇena abbhāhatānaṃ atāṇānaṃ aleṇānaṃ asaraṇānaṃ asaraṇībhūtānanti—"
+            "parsegment": "Jarāmaccuparetānanti jarāya phuṭṭhānaṃ paretānaṃ samohitānaṃ samannāgatānaṃ, maccunā phuṭṭhānaṃ paretānaṃ samohitānaṃ samannāgatānaṃ jātiyā anugatānaṃ jarāya anusaṭānaṃ byādhinā abhibhūtānaṃ maraṇena abbhāhatānaṃ atāṇānaṃ aleṇānaṃ asaraṇānaṃ asaraṇībhūtānanti—"
         },
         {
             "probability": "0.011",

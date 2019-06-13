@@ -90,7 +90,7 @@
         {
             "probability": "2.980",
             "parsegnr": "mnd9:28.1",
-            "parsegment": "**Kathaṃ nu dhīrehi paveditaṃ tan**ti. /   **Kathaṃ nū**ti padaṃ saṃsayapucchā vimatipucchā dveḷhakapucchā anekaṃsapucchā, evaṃ nu kho nanu kho kiṃ nu kho kathaṃ nu khoti—"
+            "parsegment": "Kathaṃ nu dhīrehi paveditaṃ tanti. /   Kathaṃ nūti padaṃ saṃsayapucchā vimatipucchā dveḷhakapucchā anekaṃsapucchā, evaṃ nu kho nanu kho kiṃ nu kho kathaṃ nu khoti—"
         },
         {
             "probability": "2.980",
@@ -656,7 +656,7 @@
         {
             "probability": "1.668",
             "parsegnr": "mnd9:28.1",
-            "parsegment": "**Kathaṃ nu dhīrehi paveditaṃ tan**ti. /   **Kathaṃ nū**ti padaṃ saṃsayapucchā vimatipucchā dveḷhakapucchā anekaṃsapucchā, evaṃ nu kho nanu kho kiṃ nu kho kathaṃ nu khoti—"
+            "parsegment": "Kathaṃ nu dhīrehi paveditaṃ tanti. /   Kathaṃ nūti padaṃ saṃsayapucchā vimatipucchā dveḷhakapucchā anekaṃsapucchā, evaṃ nu kho nanu kho kiṃ nu kho kathaṃ nu khoti—"
         },
         {
             "probability": "1.668",
@@ -1339,7 +1339,7 @@
         {
             "probability": "0.0",
             "parsegnr": "patthana2.3:391.2",
-            "parsegment": "sahajātaṃ, purejātaṃ. /   **Sahajāto**— /   domanassasahagato vicikicchāsahagato uddhaccasahagato moho sampayuttakānaṃ khandhānaṃ atthipaccayena paccayo."
+            "parsegment": "sahajātaṃ, purejātaṃ. /   Sahajāto— /   domanassasahagato vicikicchāsahagato uddhaccasahagato moho sampayuttakānaṃ khandhānaṃ atthipaccayena paccayo."
         },
         {
             "probability": "0.0",
@@ -2131,7 +2131,7 @@
         {
             "probability": "0.0",
             "parsegnr": "patthana2.3:391.4",
-            "parsegment": "domanassasahagato vicikicchāsahagato uddhaccasahagato moho sampayuttakānaṃ khandhānaṃ atthipaccayena paccayo. /   **Purejātaṃ**—"
+            "parsegment": "domanassasahagato vicikicchāsahagato uddhaccasahagato moho sampayuttakānaṃ khandhānaṃ atthipaccayena paccayo. /   Purejātaṃ—"
         },
         {
             "probability": "0.0",
@@ -4460,12 +4460,12 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd6:38.5",
-            "parsegment": "**Nāgāramāvase**ti sabbaṃ gharāvāsapalibodhaṃ chinditvā puttadārapalibodhaṃ chinditvā ñātipalibodhaṃ chinditvā mittāmaccapalibodhaṃ chinditvā sannidhipalibodhaṃ chinditvā kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajitvā akiñcanabhāvaṃ upagantvā eko careyya vihareyya iriyeyya vatteyya pāleyya yapeyya yāpeyyāti—"
+            "parsegment": "Nāgāramāvaseti sabbaṃ gharāvāsapalibodhaṃ chinditvā puttadārapalibodhaṃ chinditvā ñātipalibodhaṃ chinditvā mittāmaccapalibodhaṃ chinditvā sannidhipalibodhaṃ chinditvā kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajitvā akiñcanabhāvaṃ upagantvā eko careyya vihareyya iriyeyya vatteyya pāleyya yapeyya yāpeyyāti—"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:45.3",
-            "parsegment": "**Yan**ti rūpagataṃ vedanāgataṃ saññāgataṃ saṅkhāragataṃ viññāṇagataṃ. /   **Puriso**ti saṅkhā samaññā paññatti vohāro nāmaṃ nāmakammaṃ nāmadheyyaṃ nirutti byañjanaṃ abhilāpo."
+            "parsegment": "Yanti rūpagataṃ vedanāgataṃ saññāgataṃ saṅkhāragataṃ viññāṇagataṃ. /   Purisoti saṅkhā samaññā paññatti vohāro nāmaṃ nāmakammaṃ nāmadheyyaṃ nirutti byañjanaṃ abhilāpo."
         },
         {
             "probability": "0.0",
@@ -4475,12 +4475,12 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd6:54.4",
-            "parsegment": "**Paṭibuddho puriso na passatī**ti yathā puriso supinagato candaṃ passati, sūriyaṃ passati, mahāsamuddaṃ passati, sineruṃ pabbatarājānaṃ passati, hatthiṃ passati, assaṃ passati, rathaṃ passati, pattiṃ passati, senābyūhaṃ passati, ārāmarāmaṇeyyakaṃ passati, vanarāmaṇeyyakaṃ … /   bhūmirāmaṇeyyakaṃ …"
+            "parsegment": "Paṭibuddho puriso na passatīti yathā puriso supinagato candaṃ passati, sūriyaṃ passati, mahāsamuddaṃ passati, sineruṃ pabbatarājānaṃ passati, hatthiṃ passati, assaṃ passati, rathaṃ passati, pattiṃ passati, senābyūhaṃ passati, ārāmarāmaṇeyyakaṃ passati, vanarāmaṇeyyakaṃ … /   bhūmirāmaṇeyyakaṃ …"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:62.5",
-            "parsegment": "nāmaṃ evāvasissati akkheyyaṃ. /   **Petassa jantuno**ti."
+            "parsegment": "nāmaṃ evāvasissati akkheyyaṃ. /   Petassa jantunoti."
         },
         {
             "probability": "0.0",
@@ -4602,12 +4602,12 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd6:38.5",
-            "parsegment": "**Nāgāramāvase**ti sabbaṃ gharāvāsapalibodhaṃ chinditvā puttadārapalibodhaṃ chinditvā ñātipalibodhaṃ chinditvā mittāmaccapalibodhaṃ chinditvā sannidhipalibodhaṃ chinditvā kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajitvā akiñcanabhāvaṃ upagantvā eko careyya vihareyya iriyeyya vatteyya pāleyya yapeyya yāpeyyāti—"
+            "parsegment": "Nāgāramāvaseti sabbaṃ gharāvāsapalibodhaṃ chinditvā puttadārapalibodhaṃ chinditvā ñātipalibodhaṃ chinditvā mittāmaccapalibodhaṃ chinditvā sannidhipalibodhaṃ chinditvā kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajitvā akiñcanabhāvaṃ upagantvā eko careyya vihareyya iriyeyya vatteyya pāleyya yapeyya yāpeyyāti—"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:45.3",
-            "parsegment": "**Yan**ti rūpagataṃ vedanāgataṃ saññāgataṃ saṅkhāragataṃ viññāṇagataṃ. /   **Puriso**ti saṅkhā samaññā paññatti vohāro nāmaṃ nāmakammaṃ nāmadheyyaṃ nirutti byañjanaṃ abhilāpo."
+            "parsegment": "Yanti rūpagataṃ vedanāgataṃ saññāgataṃ saṅkhāragataṃ viññāṇagataṃ. /   Purisoti saṅkhā samaññā paññatti vohāro nāmaṃ nāmakammaṃ nāmadheyyaṃ nirutti byañjanaṃ abhilāpo."
         },
         {
             "probability": "0.0",
@@ -4617,12 +4617,12 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd6:54.4",
-            "parsegment": "**Paṭibuddho puriso na passatī**ti yathā puriso supinagato candaṃ passati, sūriyaṃ passati, mahāsamuddaṃ passati, sineruṃ pabbatarājānaṃ passati, hatthiṃ passati, assaṃ passati, rathaṃ passati, pattiṃ passati, senābyūhaṃ passati, ārāmarāmaṇeyyakaṃ passati, vanarāmaṇeyyakaṃ … /   bhūmirāmaṇeyyakaṃ …"
+            "parsegment": "Paṭibuddho puriso na passatīti yathā puriso supinagato candaṃ passati, sūriyaṃ passati, mahāsamuddaṃ passati, sineruṃ pabbatarājānaṃ passati, hatthiṃ passati, assaṃ passati, rathaṃ passati, pattiṃ passati, senābyūhaṃ passati, ārāmarāmaṇeyyakaṃ passati, vanarāmaṇeyyakaṃ … /   bhūmirāmaṇeyyakaṃ …"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:62.5",
-            "parsegment": "nāmaṃ evāvasissati akkheyyaṃ. /   **Petassa jantuno**ti."
+            "parsegment": "nāmaṃ evāvasissati akkheyyaṃ. /   Petassa jantunoti."
         },
         {
             "probability": "0.0",
@@ -4867,12 +4867,12 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd6:38.5",
-            "parsegment": "**Nāgāramāvase**ti sabbaṃ gharāvāsapalibodhaṃ chinditvā puttadārapalibodhaṃ chinditvā ñātipalibodhaṃ chinditvā mittāmaccapalibodhaṃ chinditvā sannidhipalibodhaṃ chinditvā kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajitvā akiñcanabhāvaṃ upagantvā eko careyya vihareyya iriyeyya vatteyya pāleyya yapeyya yāpeyyāti—"
+            "parsegment": "Nāgāramāvaseti sabbaṃ gharāvāsapalibodhaṃ chinditvā puttadārapalibodhaṃ chinditvā ñātipalibodhaṃ chinditvā mittāmaccapalibodhaṃ chinditvā sannidhipalibodhaṃ chinditvā kesamassuṃ ohāretvā kāsāyāni vatthāni acchādetvā agārasmā anagāriyaṃ pabbajitvā akiñcanabhāvaṃ upagantvā eko careyya vihareyya iriyeyya vatteyya pāleyya yapeyya yāpeyyāti—"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:45.3",
-            "parsegment": "**Yan**ti rūpagataṃ vedanāgataṃ saññāgataṃ saṅkhāragataṃ viññāṇagataṃ. /   **Puriso**ti saṅkhā samaññā paññatti vohāro nāmaṃ nāmakammaṃ nāmadheyyaṃ nirutti byañjanaṃ abhilāpo."
+            "parsegment": "Yanti rūpagataṃ vedanāgataṃ saññāgataṃ saṅkhāragataṃ viññāṇagataṃ. /   Purisoti saṅkhā samaññā paññatti vohāro nāmaṃ nāmakammaṃ nāmadheyyaṃ nirutti byañjanaṃ abhilāpo."
         },
         {
             "probability": "0.0",
@@ -4882,17 +4882,17 @@
         {
             "probability": "0.0",
             "parsegnr": "mnd6:54.4",
-            "parsegment": "**Paṭibuddho puriso na passatī**ti yathā puriso supinagato candaṃ passati, sūriyaṃ passati, mahāsamuddaṃ passati, sineruṃ pabbatarājānaṃ passati, hatthiṃ passati, assaṃ passati, rathaṃ passati, pattiṃ passati, senābyūhaṃ passati, ārāmarāmaṇeyyakaṃ passati, vanarāmaṇeyyakaṃ … /   bhūmirāmaṇeyyakaṃ …"
+            "parsegment": "Paṭibuddho puriso na passatīti yathā puriso supinagato candaṃ passati, sūriyaṃ passati, mahāsamuddaṃ passati, sineruṃ pabbatarājānaṃ passati, hatthiṃ passati, assaṃ passati, rathaṃ passati, pattiṃ passati, senābyūhaṃ passati, ārāmarāmaṇeyyakaṃ passati, vanarāmaṇeyyakaṃ … /   bhūmirāmaṇeyyakaṃ …"
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:62.4",
-            "parsegment": "Akkhātuṃ kathetuṃ bhaṇituṃ dīpayituṃ voharitunti— /   nāmaṃ evāvasissati akkheyyaṃ. /   **Petassa jantuno**ti."
+            "parsegment": "Akkhātuṃ kathetuṃ bhaṇituṃ dīpayituṃ voharitunti— /   nāmaṃ evāvasissati akkheyyaṃ. /   Petassa jantunoti."
         },
         {
             "probability": "0.0",
             "parsegnr": "mnd6:66.3",
-            "parsegment": "**Paridevo**ti ñātibyasanena vā phuṭṭhassa … pe … /   diṭṭhibyasanena vā phuṭṭhassa aññataraññatarena byasanena samannāgatassa aññataraññatarena dukkhadhammena phuṭṭhassa ādevo paridevo ādevanā paridevanā ādevitattaṃ paridevitattaṃ vācā palāpo vippalāpo lālappo lālappāyanā lālappāyitattaṃ."
+            "parsegment": "Paridevoti ñātibyasanena vā phuṭṭhassa … pe … /   diṭṭhibyasanena vā phuṭṭhassa aññataraññatarena byasanena samannāgatassa aññataraññatarena dukkhadhammena phuṭṭhassa ādevo paridevo ādevanā paridevanā ādevitattaṃ paridevitattaṃ vācā palāpo vippalāpo lālappo lālappāyanā lālappāyitattaṃ."
         },
         {
             "probability": "0.0",
@@ -5167,7 +5167,7 @@
         {
             "probability": "0.0",
             "parsegnr": "cnd7:34.2",
-            "parsegment": "**Āsīsamānā**ti rūpapaṭilābhaṃ āsīsamānā, saddapaṭilābhaṃ āsīsamānā, gandhapaṭilābhaṃ āsīsamānā, rasapaṭilābhaṃ āsīsamānā, phoṭṭhabbapaṭilābhaṃ āsīsamānā, puttapaṭilābhaṃ āsīsamānā, dārapaṭilābhaṃ āsīsamānā, dhanapaṭilābhaṃ āsīsamānā, yasapaṭilābhaṃ āsīsamānā, issariyapaṭilābhaṃ āsīsamānā, khattiyamahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, brāhmaṇamahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, gahapatimahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, cātumahārājikesu devesu attabhāvapaṭilābhaṃ āsīsamānā, tāvatiṃsesu devesu yāmesu devesu tusitesu devesu nimmānaratīsu devesu paranimmitavasavattīsu devesu brahmakāyikesu devesu attabhāvapaṭilābhaṃ āsīsamānā icchamānā sādiyamānā patthayamānā pihayamānā abhijappamānāti āsīsamānā."
+            "parsegment": "Āsīsamānāti rūpapaṭilābhaṃ āsīsamānā, saddapaṭilābhaṃ āsīsamānā, gandhapaṭilābhaṃ āsīsamānā, rasapaṭilābhaṃ āsīsamānā, phoṭṭhabbapaṭilābhaṃ āsīsamānā, puttapaṭilābhaṃ āsīsamānā, dārapaṭilābhaṃ āsīsamānā, dhanapaṭilābhaṃ āsīsamānā, yasapaṭilābhaṃ āsīsamānā, issariyapaṭilābhaṃ āsīsamānā, khattiyamahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, brāhmaṇamahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, gahapatimahāsālakule attabhāvapaṭilābhaṃ āsīsamānā, cātumahārājikesu devesu attabhāvapaṭilābhaṃ āsīsamānā, tāvatiṃsesu devesu yāmesu devesu tusitesu devesu nimmānaratīsu devesu paranimmitavasavattīsu devesu brahmakāyikesu devesu attabhāvapaṭilābhaṃ āsīsamānā icchamānā sādiyamānā patthayamānā pihayamānā abhijappamānāti āsīsamānā."
         },
         {
             "probability": "0.0",

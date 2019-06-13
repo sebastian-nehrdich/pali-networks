@@ -1,3 +1,5 @@
+// This file contains the old code for reference but the Tibetan tables do not work yet and the code needs to be cleaned for that.
+
 import { html } from 'lit-element';
 import { BaseView } from './base-view.js';
 import '@vaadin/vaadin-text-field/theme/material/vaadin-number-field';
@@ -20,7 +22,7 @@ import { updateFilter,
          updatePage
        } from '../redux/actions.js';
 
-class TableView extends connect(store)(BaseView) {
+class TibetanTableView extends connect(store)(BaseView) {
   static get properties() {
     return {
       task: { type: String },
@@ -69,12 +71,10 @@ class TableView extends connect(store)(BaseView) {
 
   connectedCallback() {
     super.connectedCallback();
+    this.renderTibetanMenu();
   }
 
   render() {
-    if (this.page == 1) {this.renderPaliMenu()};
-    if (this.page == 2) {this.renderSanskritMenu()};
-    if (this.page == 3) {this.renderTibetanMenu()};
     return html`
       ${tableViewCss}
       <div class="input-layout"> 
@@ -629,6 +629,6 @@ class TableView extends connect(store)(BaseView) {
   }
 }
 
-customElements.define('table-view', TableView);
+customElements.define('tibetan-table-view', TibetanTableView);
 
 
