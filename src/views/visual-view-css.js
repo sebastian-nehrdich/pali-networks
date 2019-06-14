@@ -15,4 +15,18 @@ export const visualViewCss =  html`
     p.expanation-text {
     	text-align: center;
     }
+
+    #visuals div {
+      position: fixed;
+      width: 20px;
+    }
+
+    svg {
+      opacity: 0.6;
+    }
+
+    svg:hover {
+      opacity: 1;
+    }
+
 </style>`;

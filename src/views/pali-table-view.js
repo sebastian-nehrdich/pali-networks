@@ -58,9 +58,9 @@ class PaliTableView extends connect(store)(BaseView) {
     this.abhidhammaMenuItems = '';
     this.suttaData = '';
     this.panelOpened = '10';
-    this.parallelTextWindow = 'Click on a segment in the text to display the parallels.';
+    this.parallelTextWindow = 'Click on a segment in the text to display the parallels. Grey text has no parallels.';
     this.parallelText = 'Click on a parallel to display the full text of the relevant sutta.';
-    this.vnCollection = {plitvpvr: "Parivāra"};
+    this.vnCollection = {"plitvpvr": "Parivāra"};
     this.knCollection = {"kp": "Khuddakanikāya",
                     "dhp": "Dhammapada",
                     "ud": "Udāna",
@@ -70,8 +70,8 @@ class PaliTableView extends connect(store)(BaseView) {
                     "pv": "Petavatthu",
                     "thag": "Theragāthā",
                     "thig": "Therīgāthā",
-                    "tha-ap": "Therāpadāna",
-                    "thi-ap": "Therīapadāna",
+                    "thaap": "Therāpadāna",
+                    "thiap": "Therīapadāna",
                     "bv": "Buddhavaṃsa",
                     "cp": "Cariyāpiṭaka",
                     "ja": "Jātaka",
@@ -92,7 +92,7 @@ class PaliTableView extends connect(store)(BaseView) {
 
   connectedCallback() {
     super.connectedCallback();
-    this.renderPaliMenu();
+    // this.renderPaliMenu();
     this.renderPaliVinayaMenu();
     this.renderPaliAbhidhammaMenu();
   }
@@ -372,7 +372,11 @@ class PaliTableView extends connect(store)(BaseView) {
         suttaCounter = newNumberCheck;
       }
 
-      suttaItem = html`${suttaItem} <span @click="${this.displayParallels}" class="sutta-segment" id="${i}">${dataSegment}</span>`
+      if (data[i].parallels.length == 0) {
+        suttaItem = html`${suttaItem} <span class="sutta-segment no-parallels" id="${i}">${dataSegment}</span>`
+      } else {
+        suttaItem = html`${suttaItem} <span @click="${this.displayParallels}" class="sutta-segment" id="${i}">${dataSegment}</span>`
+      }
     }
 
     let windowHeight = window.innerHeight-210;

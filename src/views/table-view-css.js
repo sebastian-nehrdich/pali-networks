@@ -43,6 +43,10 @@ export const tableViewCss =  html`
       background-color: #db960a;
     }
 
+    .no-parallels {
+      color: rgba(0, 0, 0, 0.54);
+    }
+
     td {
       vertical-align: top;
       padding: 10px;

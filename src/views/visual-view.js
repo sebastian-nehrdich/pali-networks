@@ -20,13 +20,13 @@ class VisualView extends BaseView {
     this.rightItem = '';
     this.viewData = '';
     this.collectionData = { ps: "Pali Suttas",
-    						pv: "Pali Vinaya",
-    						pa: "Pali Abhidhamma",
-    						ss: "Sanskrit Suttas",
-    						sv: "Sanskrit Vinaya",
-    						sa: "Sanskrit Abhidhamma",
-    						tk: "Tibetan Kangyur",
-    						tt: "Tibetan Tengyur"};
+                pv: "Pali Vinaya",
+                pa: "Pali Abhidhamma",
+                ss: "Sanskrit Suttas",
+                sv: "Sanskrit Vinaya",
+                sa: "Sanskrit Abhidhamma",
+                tk: "Tibetan Kangyur",
+                tt: "Tibetan Tengyur"};
   }
 
   render() {
@@ -35,61 +35,61 @@ class VisualView extends BaseView {
 
       <p class="expanation-text">This page is still under construction and at the moment only works for Tibetan Kangyur and Tengyur texts</p>
 
-	    <vaadin-select 
+      <vaadin-select 
         class="visual-view-dropdown"
-	      placeholder="Select a collection" 
-	      value="${this.leftItem}" 
-	      @value-changed="${this.updateLeftView}"
-	      style="float:left">
-	      <template>
-	        <vaadin-list-box>
-	          ${this.insertCollectionData()}
-	        </vaadin-list-box>
-	      </template>
-	    </vaadin-select>
+        placeholder="Select a collection" 
+        value="${this.leftItem}" 
+        @value-changed="${this.updateLeftView}"
+        style="float:left">
+        <template>
+          <vaadin-list-box>
+            ${this.insertCollectionData()}
+          </vaadin-list-box>
+        </template>
+      </vaadin-select>
 
-	    <vaadin-select 
+      <vaadin-select 
         class="visual-view-dropdown"
-	      placeholder="Select a collection" 
-	      value="${this.rightItem}" 
-	      @value-changed="${this.updateRightView}"
-	      style="float:right">
-	      <template>
-	        <vaadin-list-box>
-	          ${this.insertCollectionData()}
-	        </vaadin-list-box>
-	      </template>
-	    </vaadin-select>
+        placeholder="Select a collection" 
+        value="${this.rightItem}" 
+        @value-changed="${this.updateRightView}"
+        style="float:right">
+        <template>
+          <vaadin-list-box>
+            ${this.insertCollectionData()}
+          </vaadin-list-box>
+        </template>
+      </vaadin-select>
 
-	  ${this.viewData}
+    ${this.viewData}
     `;
   }
 
   updateLeftView(e) {
-  	this.leftItem = e.target.value;
-  	this.updateView();
+    this.leftItem = e.target.value;
+    this.updateView();
   }
 
   updateRightView(e) {
-  	this.rightItem = e.target.value;
-  	this.updateView();
+    this.rightItem = e.target.value;
+    this.updateView();
   }
 
   updateView() {
-  	let leftItemSelect = Object.keys(this.collectionData).find(key => this.collectionData[key] === this.leftItem);
-  	let rightItemSelect = Object.keys(this.collectionData).find(key => this.collectionData[key] === this.rightItem);
-  	if (leftItemSelect == 'tk' && rightItemSelect == 'tt') {
-  		this.viewData = html`<iframe src="http://buddhist-db.de/buddhnet/show.html"></iframe>`;
-  	}
+    let leftItemSelect = Object.keys(this.collectionData).find(key => this.collectionData[key] === this.leftItem);
+    let rightItemSelect = Object.keys(this.collectionData).find(key => this.collectionData[key] === this.rightItem);
+    if (leftItemSelect == 'tk' && rightItemSelect == 'tt') {
+      this.viewData = html`<iframe src="http://buddhist-db.de/buddhnet/show.html"></iframe>`;
+    }
   }
 
   insertCollectionData() {
-  	let collectionsInput = '';
-  	Object.values(this.collectionData).forEach(value => {
-  		collectionsInput = html`${collectionsInput}
-  			<vaadin-item>${value}</vaadin-item>`
-  		});
-  	return collectionsInput;
+    let collectionsInput = '';
+    Object.values(this.collectionData).forEach(value => {
+      collectionsInput = html`${collectionsInput}
+        <vaadin-item>${value}</vaadin-item>`
+      });
+    return collectionsInput;
   }
 }
 

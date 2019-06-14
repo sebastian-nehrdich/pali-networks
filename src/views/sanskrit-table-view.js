@@ -9,7 +9,6 @@ import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
 import '@vaadin/vaadin-split-layout/theme/material/vaadin-split-layout';
 import { tableViewCss } from './table-view-css';
-import { pliMenu } from '../suttalists/pli-menu';
 
 import { VisibilityFilters } from '../redux/reducer.js';
 import { connect } from 'pwa-helpers';
@@ -52,7 +51,7 @@ class SanskritTableView extends connect(store)(BaseView) {
     this.menuItems = '';
     this.suttaData = '';
     this.panelOpened = '10';
-    this.parallelTextWindow = 'Click on a segment in the text to display the parallels.';
+    this.parallelTextWindow = 'Click on a segment in the text to display the parallels. Grey text has no parallels.';
     this.parallelText = 'Click on a parallel to display the full text of the relevant sutta.';
     this.sanskritCollection = ["arv","arvtest"];
   }
@@ -253,7 +252,12 @@ class SanskritTableView extends connect(store)(BaseView) {
 
     for (let i = 0; i < data.length; i++) { 
       let dataSegment = this.cleanSegments(data[i].segment,1);
-      suttaItem = html`${suttaItem} <span @click="${this.displayParallels}" class="sutta-segment" id="${i}">${dataSegment}</span>`
+
+      if (data[i].parallels.length == 0) {
+        suttaItem = html`${suttaItem} <span class="sutta-segment no-parallels" id="${i}">${dataSegment}</span>`
+      } else {
+        suttaItem = html`${suttaItem} <span @click="${this.displayParallels}" class="sutta-segment" id="${i}">${dataSegment}</span>`
+      }
     }
     let windowHeight = window.innerHeight-210;
 

@@ -11,7 +11,6 @@ import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 import '@vaadin/vaadin-accordion/theme/material/vaadin-accordion';
 import '@vaadin/vaadin-split-layout/theme/material/vaadin-split-layout';
 import { tableViewCss } from './table-view-css';
-import { pliMenu } from '../suttalists/pli-menu';
 
 import { VisibilityFilters } from '../redux/reducer.js';
 import { connect } from 'pwa-helpers';
