@@ -21,12 +21,20 @@ export const visualViewCss =  html`
       width: 20px;
     }
 
-    svg {
-      opacity: 0.6;
+    path {
+      opacity: 0.4;
     }
 
-    svg:hover {
+    path:hover {
       opacity: 1;
+    }
+
+    .source {
+      text-align: right;
+    }
+
+    .target {
+      text-align: left;
     }
 
 </style>`;

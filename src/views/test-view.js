@@ -1,7 +1,7 @@
 import { html } from 'lit-element';
 import { BaseView } from './base-view.js';
 import { visualViewCss } from './visual-view-css';
-
+import { pliCollection } from '../suttalists/pli-collection';
 
 class TestView extends BaseView {
   static get properties() {
@@ -23,55 +23,83 @@ class TestView extends BaseView {
         ${visualViewCss}
         ${this.testSVG()}
         ${this.showStuff}
-
       </div>
     `;
   }
 
-
   testSVG() {
+    let topCounter = 150;
+    let offset = 100;
+    let sourceDivs = this.getCollectionDivs(pliCollection,"source",topCounter,offset);
+    let targetDivs = this.getCollectionDivs(pliCollection,"target",topCounter,offset);
+    let svgLines = this.getCollectionSvg(pliCollection,pliCollection,topCounter,offset);
+    
+    this.showStuff = html`${sourceDivs}${targetDivs}${svgLines}`;
+  }
 
+  getCollectionSvg(sourceCollection,targetCollection,topCounter,offset) {
     let windowWidth = window.innerWidth;
-    const divA = document.createElement("div");
-    let heightA = 30;
-    let topA = 150;
-    divA.id = "diva";
-    divA.style.height = heightA+"px";
-    divA.style.backgroundColor = "#ff3333";
-    divA.style.top = topA+"px";
-    divA.style.left = "20px";
-
-    const divB = document.createElement("div");
-    let heightB = 50;
-    let topB = 250;
-    divB.id = "divb";
-    divB.style.height = heightB+"px";
-    divB.style.backgroundColor = "#4d0000";
-    divB.style.top = topB+"px";
-    divB.style.right = "20px";
-
     const svg1 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg1.setAttribute("width", "100%");
-    svg1.setAttribute("height", "100%");
+    svg1.setAttribute("height", window.innerHeight-topCounter);
 
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    line.setAttribute("stroke", "black");
-    line.setAttribute("fill", "transparent");
-    line.setAttribute("stroke-width", "10");
+    Object.values(sourceCollection).forEach(item => {
+      let sourceColor = this.getRandomColor();
+      Object.keys(item.parallels).forEach(parallel => {
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        line.setAttribute("stroke", sourceColor);
+        line.setAttribute("fill", "transparent");
+        line.setAttribute("stroke-width", item.parallels[parallel][0]/5);
+        line.setAttribute("id", `${item.collection}-${parallel}`);
 
-    let posnA = topA-130+(heightA/2);
-    let posnBy = topB-130+(heightB/2);
-    let posnBx = windowWidth-55;
+        let posnA = topCounter-(130-item.parallels[parallel][0]/10)+item.parallels[parallel][1]/5;
+        let posnBy = 150-(130-item.parallels[parallel][0]/10)+targetCollection[parallel].parallels[item.collection][2]/5;
+        let posnBx = windowWidth-offset-50;
 
-    console.log(posnA,posnBy,posnBx);
+        const dStr = "M"+ (offset+2) + " " + posnA + " C " + (windowWidth/4) + " " + posnA + " , " + 
+                      (windowWidth*3/4) + " " + posnBy + ", " + posnBx + " " + posnBy;
 
-    const dStr = "M22 " + posnA + " C 320 " + posnA + " , 930 "+ posnBy + ", " + posnBx + " " + posnBy;
+        line.setAttribute("d", dStr);
+        svg1.appendChild(line);
+      })
+      topCounter += item.parallelstotal/5 + 5;
+    })
+    return svg1;
+  }
 
-    line.setAttribute("d", dStr);
+  getCollectionDivs(showCollection,classname,topCounter,offset) {
+    let windowWidth = window.innerWidth;
+    let showDivs = '';
 
-    svg1.appendChild(line);
-    console.log(dStr);
-    this.showStuff = html`${divA}${divB}${svg1}`;
+    Object.values(showCollection).forEach(item => {
+      let collectionDiv = document.createElement("div");
+      let collectionHeight = item.parallelstotal/5;
+      let collectionTop = topCounter;
+      collectionDiv.id = item.collection;
+      collectionDiv.style.height = collectionHeight+"px";
+      collectionDiv.style.backgroundColor = this.getRandomColor();
+      collectionDiv.style.top = collectionTop+"px";
+      (classname == "source") ? collectionDiv.style.left = offset+"px" : collectionDiv.style.right = offset+"px";
+      collectionDiv.innerText = item.name;
+      collectionDiv.classList.add(classname);
+
+      topCounter += collectionHeight + 5;
+
+      showDivs = html`${showDivs}
+                ${collectionDiv}`;
+    });
+    return showDivs;
+  }
+
+    
+  testing() {
+    console.log("test");
+  }
+
+
+  getRandomColor() {
+    let hex = Math.floor(Math.random() * 0xFFFFFF);
+    return "#" + ("000000" + hex.toString(16)).substr(-6);
   }
 }
 
