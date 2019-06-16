@@ -44,17 +44,27 @@ class TestView extends BaseView {
     this.addEventListener('click', this.loadSubDataSet);
     const svgMap = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgMap.setAttribute("width", "100%");
-    svgMap.setAttribute("height", window.innerHeight-this.topCounter);
+    svgMap.setAttribute("height", '200px');
 
     this.getCollectionDivs(pliCollection,"source",svgMap);
     this.getCollectionDivs(pliCollection,"target",svgMap);
-    this.getCollectionSvg(pliCollection,pliCollection,svgMap);
+    this.getCollectionSvg(pliCollection,pliCollection,svgMap,'layered');
     
-    this.showStuff = html`${svgMap}`;
+    const svgMap2 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svgMap2.setAttribute("width", "100%");
+    svgMap2.setAttribute("height", '200px');
+    svgMap2.setAttribute('y', '250px');
+
+    this.getCollectionDivs(pliCollection,"source",svgMap2);
+    this.getCollectionDivs(pliCollection,"target",svgMap2);
+    this.getCollectionSvg(pliCollection,pliCollection,svgMap2,'centered');
+
+    this.showStuff = html`${svgMap}${svgMap2}`;
   }
 
-  getCollectionSvg(sourceCollection,targetCollection,svgMap) {
+  getCollectionSvg(sourceCollection,targetCollection,svgMap,mapType) {
     let topCounter = this.topCounter;
+
     let windowWidth = window.innerWidth;
 
     Object.values(sourceCollection).forEach(item => {
@@ -66,8 +76,16 @@ class TestView extends BaseView {
         line.setAttribute("stroke-width", item.parallels[parallel][0]/this.factor);
         line.setAttribute("id", `${item.collection}-${parallel}`);
 
-        let posnA = topCounter+(item.parallels[parallel][0]/(this.factor*2))+item.parallels[parallel][1]/this.factor;
-        let posnBy = (item.parallels[parallel][0]/(this.factor*2))+targetCollection[parallel].parallels[item.collection][2]/this.factor;
+        let posnA = '';
+        let posnBy = '';
+
+        if (mapType == 'layered') {
+          posnA = topCounter+(item.parallels[parallel][0]/(this.factor*2))+item.parallels[parallel][1]/this.factor;
+          posnBy = (item.parallels[parallel][0]/(this.factor*2))+targetCollection[parallel].parallels[item.collection][2]/this.factor;
+        } else {
+          posnA = topCounter + (item.parallelstotal/this.factor)/2;
+          posnBy = targetCollection[parallel].parallels[item.collection][3]/(this.factor);
+        }
         let posnBx = windowWidth-this.offset-this.boxwidth;
 
         const dStr = "M"+ (this.offset/2+this.boxwidth) + " " + posnA + " C " + (windowWidth/2) + " " + posnA + " , " + 
