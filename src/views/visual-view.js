@@ -1,6 +1,7 @@
 import { html } from 'lit-element';
 import { BaseView } from './base-view.js';
 import { visualViewCss } from './visual-view-css';
+import './test-view.js';
 import '@vaadin/vaadin-select/theme/material/vaadin-select';
 import '@vaadin/vaadin-list-box/theme/material/vaadin-list-box';
 
@@ -19,9 +20,7 @@ class VisualView extends BaseView {
     this.leftItem = '';
     this.rightItem = '';
     this.viewData = '';
-    this.collectionData = { ps: "Pali Suttas",
-                pv: "Pali Vinaya",
-                pa: "Pali Abhidhamma",
+    this.collectionData = { pc: "Pali Collection",
                 ss: "Sanskrit Suttas",
                 sv: "Sanskrit Vinaya",
                 sa: "Sanskrit Abhidhamma",
@@ -80,6 +79,9 @@ class VisualView extends BaseView {
     let rightItemSelect = Object.keys(this.collectionData).find(key => this.collectionData[key] === this.rightItem);
     if (leftItemSelect == 'tk' && rightItemSelect == 'tt') {
       this.viewData = html`<iframe src="http://buddhist-db.de/buddhnet/show.html"></iframe>`;
+    }
+    if (leftItemSelect == 'pc' && rightItemSelect == 'pc') {
+      this.viewData = html`<test-view></test-view>`;
     }
   }
 

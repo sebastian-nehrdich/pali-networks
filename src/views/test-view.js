@@ -8,6 +8,12 @@ class TestView extends BaseView {
     return {
       dValue: { type: String },
       showStuff: { type: String },
+      sourceFillColors: { type: Array },
+      targetFillColors: { type: Array },
+      topCounter: { type: Number },
+      offset: { type: Number },
+      factor: { type: Number },
+      boxwidth: { type: Number }
     };
   }
 
@@ -15,87 +21,164 @@ class TestView extends BaseView {
     super();
       this.dValue = '';
       this.showStuff = '';
+      this.sourceFillColors = ['#ff0000','#003399','#009933','#9900cc','#ff9900','#663300','#6600cc'];
+      this.topCounter = 0;
+      this.offset = 200;
+      this.factor = 5;
+      this.boxwidth = 20;
   }
 
   render() {
     return html`
       <div id="visuals">
         ${visualViewCss}
-        ${this.testSVG()}
+        ${this.constructSVG()}
         ${this.showStuff}
       </div>
     `;
   }
 
-  testSVG() {
-    let topCounter = 150;
-    let offset = 100;
-    let sourceDivs = this.getCollectionDivs(pliCollection,"source",topCounter,offset);
-    let targetDivs = this.getCollectionDivs(pliCollection,"target",topCounter,offset);
-    let svgLines = this.getCollectionSvg(pliCollection,pliCollection,topCounter,offset);
+  constructSVG() {
+    this.addEventListener('mouseover', this.addHighlight);
+    this.addEventListener('mouseout', this.removeHighlight);
+    this.addEventListener('click', this.loadSubDataSet);
+    const svgMap = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svgMap.setAttribute("width", "100%");
+    svgMap.setAttribute("height", window.innerHeight-this.topCounter);
+
+    this.getCollectionDivs(pliCollection,"source",svgMap);
+    this.getCollectionDivs(pliCollection,"target",svgMap);
+    this.getCollectionSvg(pliCollection,pliCollection,svgMap);
     
-    this.showStuff = html`${sourceDivs}${targetDivs}${svgLines}`;
+    this.showStuff = html`${svgMap}`;
   }
 
-  getCollectionSvg(sourceCollection,targetCollection,topCounter,offset) {
+  getCollectionSvg(sourceCollection,targetCollection,svgMap) {
+    let topCounter = this.topCounter;
     let windowWidth = window.innerWidth;
-    const svg1 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg1.setAttribute("width", "100%");
-    svg1.setAttribute("height", window.innerHeight-topCounter);
 
     Object.values(sourceCollection).forEach(item => {
-      let sourceColor = this.getRandomColor();
+      let sourceColor = this.sourceFillColors[Object.values(sourceCollection).indexOf(item)];
       Object.keys(item.parallels).forEach(parallel => {
         const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
         line.setAttribute("stroke", sourceColor);
         line.setAttribute("fill", "transparent");
-        line.setAttribute("stroke-width", item.parallels[parallel][0]/5);
+        line.setAttribute("stroke-width", item.parallels[parallel][0]/this.factor);
         line.setAttribute("id", `${item.collection}-${parallel}`);
 
-        let posnA = topCounter-(130-item.parallels[parallel][0]/10)+item.parallels[parallel][1]/5;
-        let posnBy = 150-(130-item.parallels[parallel][0]/10)+targetCollection[parallel].parallels[item.collection][2]/5;
-        let posnBx = windowWidth-offset-50;
+        let posnA = topCounter+(item.parallels[parallel][0]/(this.factor*2))+item.parallels[parallel][1]/this.factor;
+        let posnBy = (item.parallels[parallel][0]/(this.factor*2))+targetCollection[parallel].parallels[item.collection][2]/this.factor;
+        let posnBx = windowWidth-this.offset-this.boxwidth;
 
-        const dStr = "M"+ (offset+2) + " " + posnA + " C " + (windowWidth/4) + " " + posnA + " , " + 
-                      (windowWidth*3/4) + " " + posnBy + ", " + posnBx + " " + posnBy;
+        const dStr = "M"+ (this.offset/2+this.boxwidth) + " " + posnA + " C " + (windowWidth/2) + " " + posnA + " , " + 
+                      (windowWidth/2) + " " + posnBy + ", " + posnBx + " " + posnBy;
 
         line.setAttribute("d", dStr);
-        svg1.appendChild(line);
+        svgMap.appendChild(line);
       })
-      topCounter += item.parallelstotal/5 + 5;
+      topCounter += item.parallelstotal/this.factor + this.factor;
     })
-    return svg1;
   }
 
-  getCollectionDivs(showCollection,classname,topCounter,offset) {
+  getCollectionDivs(showCollection,classname,svgMap) {
     let windowWidth = window.innerWidth;
-    let showDivs = '';
+    let topCounter = this.topCounter;
 
     Object.values(showCollection).forEach(item => {
-      let collectionDiv = document.createElement("div");
-      let collectionHeight = item.parallelstotal/5;
+      let sourceColor = this.sourceFillColors[Object.values(showCollection).indexOf(item)];
+      let collectionHeight = item.parallelstotal/this.factor;
       let collectionTop = topCounter;
-      collectionDiv.id = item.collection;
-      collectionDiv.style.height = collectionHeight+"px";
-      collectionDiv.style.backgroundColor = this.getRandomColor();
-      collectionDiv.style.top = collectionTop+"px";
-      (classname == "source") ? collectionDiv.style.left = offset+"px" : collectionDiv.style.right = offset+"px";
-      collectionDiv.innerText = item.name;
-      collectionDiv.classList.add(classname);
+      const rectangle = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+      rectangle.setAttribute("y", collectionTop);
+      rectangle.setAttribute("id", classname+'_'+item.collection);
+      rectangle.setAttribute("height", collectionHeight);
+      rectangle.setAttribute("width", this.boxwidth);
+      if (classname == "source") {
+        rectangle.setAttribute("x", this.offset/2);
+        rectangle.setAttribute("fill", sourceColor);
+        rectangle.setAttribute("cursor", 'pointer');
+      } else {
+        rectangle.setAttribute("x", windowWidth-this.offset-this.boxwidth);
+        rectangle.setAttribute("fill", this.getRandomColor());
+      };
 
-      topCounter += collectionHeight + 5;
+      topCounter += collectionHeight + this.factor;
 
-      showDivs = html`${showDivs}
-                ${collectionDiv}`;
+      const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+      label.setAttribute("y", collectionTop + collectionHeight/2);
+      label.appendChild(document.createTextNode(item.name));
+      if (classname == "source") {
+        label.setAttribute("x", this.offset/10);
+        label.setAttribute("cursor", 'pointer');
+      } else {
+        label.setAttribute("x", windowWidth+10-this.offset);
+      };
+      label.setAttribute("id", classname+'text_'+item.collection);
+      
+      svgMap.appendChild(rectangle);
+      svgMap.appendChild(label);
     });
-    return showDivs;
   }
-
     
-  testing() {
-    console.log("test");
+  addHighlight(e) {
+    let elementType = e.target.nodeName;
+    let elementId = e.target.id;
+    let sourceId = '';
+    let targetId = '';
+    if (elementType == 'path') {
+      sourceId = elementId.split('-')[0];
+      targetId = elementId.split('-')[1];
+      e.target.setAttribute("class", 'highlight');
+      this.querySelector(`#source_${sourceId}`).setAttribute("class", 'highlight');
+      this.querySelector(`#target_${targetId}`).setAttribute("class", 'highlight');
+      this.querySelector(`#sourcetext_${sourceId}`).setAttribute("class", 'highlight');
+      this.querySelector(`#targettext_${targetId}`).setAttribute("class", 'highlight');
+    }
+    if ((elementType == 'text' || elementType == 'rect')) {
+      if (elementId.startsWith('source')) {
+        sourceId = elementId.split('_')[1];
+
+        e.target.setAttribute("class", 'highlight');
+        this.querySelector(`#source_${sourceId}`).setAttribute("class", 'highlight');
+        this.querySelector(`#sourcetext_${sourceId}`).setAttribute("class", 'highlight');
+        this.querySelectorAll(`path[id^=${sourceId}]`).forEach(item => {
+          item.setAttribute("class", 'highlight');
+          targetId = item.id.split('-')[1];
+          this.querySelector(`#target_${targetId}`).setAttribute("class", 'highlight');
+          this.querySelector(`#targettext_${targetId}`).setAttribute("class", 'highlight');
+        });
+      }
+      if (elementId.startsWith('target')) {
+        targetId = elementId.split('_')[1];
+
+        e.target.setAttribute("class", 'highlight');
+        this.querySelector(`#target_${targetId}`).setAttribute("class", 'highlight');
+        this.querySelector(`#targettext_${targetId}`).setAttribute("class", 'highlight');
+        this.querySelectorAll(`path[id$=${targetId}]`).forEach(item => {
+          item.setAttribute("class", 'highlight');
+          sourceId = item.id.split('-')[1];
+          this.querySelector(`#target_${sourceId}`).setAttribute("class", 'highlight');
+          this.querySelector(`#targettext_${sourceId}`).setAttribute("class", 'highlight');
+        });
+      }
+    }
   }
 
+  removeHighlight(e) {
+    this.querySelectorAll('.highlight').forEach(item => {
+      item.removeAttribute("class");
+    })
+  }
+
+  loadSubDataSet(e) {
+    let elementType = e.target.nodeName;
+    let elementId = e.target.id;
+    let newElementId = '';
+    if (elementType == 'text' || elementType == 'rect') {
+      newElementId = elementId.split('_')[1];
+      console.log(newElementId);
+    }
+  }
 
   getRandomColor() {
     let hex = Math.floor(Math.random() * 0xFFFFFF);

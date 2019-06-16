@@ -16,25 +16,25 @@ export const visualViewCss =  html`
     	text-align: center;
     }
 
-    #visuals div {
-      position: fixed;
-      width: 20px;
+    svg text {
+      font-size: 16px;
+      opacity: 0.7;
     }
 
-    path {
+    rect {
       opacity: 0.4;
     }
 
-    path:hover {
+    path {
+      opacity: 0.2;
+    }
+
+    .highlight {
       opacity: 1;
     }
 
-    .source {
-      text-align: right;
-    }
-
-    .target {
-      text-align: left;
+    text.highlight {
+      fill: #0031ca;
     }
 
 </style>`;

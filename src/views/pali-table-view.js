@@ -92,7 +92,7 @@ class PaliTableView extends connect(store)(BaseView) {
 
   connectedCallback() {
     super.connectedCallback();
-    // this.renderPaliMenu();
+    this.renderPaliMenu();
     this.renderPaliVinayaMenu();
     this.renderPaliAbhidhammaMenu();
   }
