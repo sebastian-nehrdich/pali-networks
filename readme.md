@@ -14,5 +14,5 @@ After downloading the repro, unzip and run:
 
 This will start the development server and navigate to http://localhost:8080.
 
-The online temporary distribution is to be found on: https://dist.vimala.now.sh/
+The online temporary distribution is to be found on: http://buddhist-db.de/vimala/
 
