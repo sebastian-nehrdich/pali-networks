@@ -8,12 +8,10 @@ class TestView extends BaseView {
     return {
       dValue: { type: String },
       showStuff: { type: String },
-      sourceFillColors: { type: Array },
-      targetFillColors: { type: Array },
-      topCounter: { type: Number },
       offset: { type: Number },
       factor: { type: Number },
-      boxwidth: { type: Number }
+      boxwidth: { type: Number },
+      svgHeight: { type: Number }
     };
   }
 
@@ -21,11 +19,10 @@ class TestView extends BaseView {
     super();
       this.dValue = '';
       this.showStuff = '';
-      this.sourceFillColors = ['#ff0000','#003399','#009933','#9900cc','#ff9900','#663300','#6600cc'];
-      this.topCounter = 0;
       this.offset = 200;
-      this.factor = 5;
-      this.boxwidth = 20;
+      this.factor = 4;
+      this.boxwidth = 10;
+      this.svgHeight = 400;
   }
 
   render() {
@@ -44,7 +41,7 @@ class TestView extends BaseView {
     this.addEventListener('click', this.loadSubDataSet);
     const svgMap = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgMap.setAttribute("width", "100%");
-    svgMap.setAttribute("height", '200px');
+    svgMap.setAttribute("height", this.svgHeight+'px');
 
     this.getCollectionDivs(pliCollection,"source",svgMap);
     this.getCollectionDivs(pliCollection,"target",svgMap);
@@ -52,8 +49,8 @@ class TestView extends BaseView {
     
     const svgMap2 = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgMap2.setAttribute("width", "100%");
-    svgMap2.setAttribute("height", '200px');
-    svgMap2.setAttribute('y', '250px');
+    svgMap2.setAttribute("height", this.svgHeight+'px');
+    svgMap2.setAttribute('y', this.svgHeight+100+'px');
 
     this.getCollectionDivs(pliCollection,"source",svgMap2);
     this.getCollectionDivs(pliCollection,"target",svgMap2);
@@ -63,15 +60,14 @@ class TestView extends BaseView {
   }
 
   getCollectionSvg(sourceCollection,targetCollection,svgMap,mapType) {
-    let topCounter = this.topCounter;
-
     let windowWidth = window.innerWidth;
+    let posnBx = windowWidth-this.offset;
+    let middlePosition = (windowWidth+this.boxwidth-this.offset/2)/2
 
     Object.values(sourceCollection).forEach(item => {
-      let sourceColor = this.sourceFillColors[Object.values(sourceCollection).indexOf(item)];
       Object.keys(item.parallels).forEach(parallel => {
         const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
-        line.setAttribute("stroke", sourceColor);
+        line.setAttribute("stroke", item.color);
         line.setAttribute("fill", "transparent");
         line.setAttribute("stroke-width", item.parallels[parallel][0]/this.factor);
         line.setAttribute("id", `${item.collection}-${parallel}`);
@@ -80,47 +76,41 @@ class TestView extends BaseView {
         let posnBy = '';
 
         if (mapType == 'layered') {
-          posnA = topCounter+(item.parallels[parallel][0]/(this.factor*2))+item.parallels[parallel][1]/this.factor;
-          posnBy = (item.parallels[parallel][0]/(this.factor*2))+targetCollection[parallel].parallels[item.collection][2]/this.factor;
+          posnA = item.position/this.factor+(item.parallels[parallel][0]/(this.factor*2))+item.parallels[parallel][1]/this.factor;
+          posnBy = (item.parallels[parallel][0]/(this.factor*2))+
+                  (targetCollection[parallel].position+targetCollection[parallel].parallels[item.collection][1]) /this.factor;
         } else {
-          posnA = topCounter + (item.parallelstotal/this.factor)/2;
-          posnBy = targetCollection[parallel].parallels[item.collection][3]/(this.factor);
+          posnA = item.position/this.factor + (item.parallelstotal/this.factor)/2;
+          posnBy = (targetCollection[parallel].position+targetCollection[parallel].parallelstotal/2)/(this.factor);
         }
-        let posnBx = windowWidth-this.offset-this.boxwidth;
-
-        const dStr = "M"+ (this.offset/2+this.boxwidth) + " " + posnA + " C " + (windowWidth/2) + " " + posnA + " , " + 
-                      (windowWidth/2) + " " + posnBy + ", " + posnBx + " " + posnBy;
+        const dStr = "M"+ (this.offset/2+this.boxwidth) + " " + posnA + " C " + middlePosition + " " + posnA + " , " + 
+                      middlePosition + " " + posnBy + ", " + posnBx + " " + posnBy;
 
         line.setAttribute("d", dStr);
         svgMap.appendChild(line);
       })
-      topCounter += item.parallelstotal/this.factor + this.factor;
     })
   }
 
   getCollectionDivs(showCollection,classname,svgMap) {
     let windowWidth = window.innerWidth;
-    let topCounter = this.topCounter;
 
     Object.values(showCollection).forEach(item => {
-      let sourceColor = this.sourceFillColors[Object.values(showCollection).indexOf(item)];
+
       let collectionHeight = item.parallelstotal/this.factor;
-      let collectionTop = topCounter;
+      let collectionTop = item.position/this.factor;
       const rectangle = document.createElementNS("http://www.w3.org/2000/svg", "rect");
       rectangle.setAttribute("y", collectionTop);
       rectangle.setAttribute("id", classname+'_'+item.collection);
       rectangle.setAttribute("height", collectionHeight);
       rectangle.setAttribute("width", this.boxwidth);
+      rectangle.setAttribute("fill", item.color);
       if (classname == "source") {
         rectangle.setAttribute("x", this.offset/2);
-        rectangle.setAttribute("fill", sourceColor);
         rectangle.setAttribute("cursor", 'pointer');
       } else {
-        rectangle.setAttribute("x", windowWidth-this.offset-this.boxwidth);
-        rectangle.setAttribute("fill", this.getRandomColor());
+        rectangle.setAttribute("x", windowWidth-this.offset);
       };
-
-      topCounter += collectionHeight + this.factor;
 
       const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
       label.setAttribute("y", collectionTop + collectionHeight/2);
@@ -129,7 +119,7 @@ class TestView extends BaseView {
         label.setAttribute("x", this.offset/10);
         label.setAttribute("cursor", 'pointer');
       } else {
-        label.setAttribute("x", windowWidth+10-this.offset);
+        label.setAttribute("x", windowWidth+this.boxwidth*2-this.offset);
       };
       label.setAttribute("id", classname+'text_'+item.collection);
       
@@ -198,10 +188,6 @@ class TestView extends BaseView {
     }
   }
 
-  getRandomColor() {
-    let hex = Math.floor(Math.random() * 0xFFFFFF);
-    return "#" + ("000000" + hex.toString(16)).substr(-6);
-  }
 }
 
 customElements.define('test-view', TestView);
