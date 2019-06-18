@@ -1,6 +1,7 @@
 export const UPDATE_FILTER = 'UPDATE_FILTER';
 export const UPDATE_PROBABILITY = 'UPDATE_PROBABILITY';
 export const UPDATE_MAXRESULTS = 'UPDATE_MAXRESULTS';
+export const UPDATE_LIMITCOLLECTION = 'UPDATE_LIMITCOLLECTION';
 export const UPDATE_PAGE = 'UPDATE_PAGE';
 
 export const updateFilter = filter => {
@@ -21,6 +22,13 @@ export const updateMaxResults = maxResults => {
   return {
     type: UPDATE_MAXRESULTS,
     maxResults
+  };
+};
+
+export const updateLimitCollection = limitCollection => {
+  return {
+    type: UPDATE_LIMITCOLLECTION,
+    limitCollection
   };
 };
 

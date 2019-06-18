@@ -35,7 +35,7 @@ for name in os.listdir(suttadir):
 					segmentnr = row[1].split(':')
 					suttaDict["segmentnr"] = segmentnr[1]
 					suttaDict["segment"] = row[2].replace('߷','')
-					suttaDict["segment"] = row[2].replace('**','')
+					suttaDict["segment"] = row[2].replace('\*\*','')
 					parallelsArray = []
 					for parallel in range(3,len(row)):
 						parDict = {}

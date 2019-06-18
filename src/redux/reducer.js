@@ -2,6 +2,7 @@ import {
   UPDATE_FILTER,
   UPDATE_PROBABILITY,
   UPDATE_MAXRESULTS,
+  UPDATE_LIMITCOLLECTION,
   UPDATE_PAGE
 } from './actions.js';
 
@@ -16,6 +17,7 @@ const INITIAL_STATE = {
   filter: VisibilityFilters.SHOW_SEGMENT,
   probability: 0.065,
   maxResults: 10,
+  limitCollection: '',
   page: 0
 };
 
@@ -35,6 +37,11 @@ export const reducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         maxResults: action.maxResults
+      };
+    case UPDATE_LIMITCOLLECTION:
+      return {
+        ...state,
+        limitCollection: action.limitCollection
       };
     case UPDATE_PAGE:
       return {

@@ -17,6 +17,10 @@ export const tableViewCss =  html`
       display: inline-flex;
     }
 
+    vaadin-number-field {
+      margin-right: 10px;
+    }
+
     .filter-group {
       margin-left: 10px;
     }
@@ -41,6 +45,12 @@ export const tableViewCss =  html`
 
     .selected-segment {
       background-color: #db960a;
+    }
+
+    vaadin-button {
+      background-color: #0031ca;
+      color: white;
+      font-weight: bold;
     }
 
     .no-parallels {

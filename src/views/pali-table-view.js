@@ -1,7 +1,10 @@
 import { html } from 'lit-element';
 import { BaseView } from './base-view.js';
 import '@vaadin/vaadin-text-field/theme/material/vaadin-number-field';
+import '@vaadin/vaadin-text-field/theme/material/vaadin-text-field';
+import '@vaadin/vaadin-button/theme/material/vaadin-button';
 import '@polymer/iron-ajax/iron-ajax.js';
+import '@vaadin/vaadin-lumo-styles/icons.js';
 import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-button';
 import '@vaadin/vaadin-radio-button/theme/material/vaadin-radio-group';
 import '@vaadin/vaadin-select/theme/material/vaadin-select';
@@ -17,6 +20,7 @@ import { store } from '../redux/store.js';
 import { updateFilter,
          updateProbability,
          updateMaxResults,
+         updateLimitCollection,
          updatePage
        } from '../redux/actions.js';
 
@@ -30,6 +34,7 @@ class PaliTableView extends connect(store)(BaseView) {
       inputData: { type: Object },
       probability: { type: Number },
       maxResults: { type: Number },
+      limitCollection: { type: String },
       suttaData: { type: String },
       filter: { type: String },
       page: { type: Number },
@@ -46,6 +51,7 @@ class PaliTableView extends connect(store)(BaseView) {
     this.filter = state.filter;
     this.probability = state.probability;
     this.maxResults = state.maxResults;
+    this.limitCollection = state.limitCollection;
     this.page = state.page;
   }
 
@@ -58,7 +64,9 @@ class PaliTableView extends connect(store)(BaseView) {
     this.abhidhammaMenuItems = '';
     this.suttaData = '';
     this.panelOpened = '10';
-    this.parallelTextWindow = 'Click on a segment in the text to display the parallels. Grey text has no parallels.';
+    this.parallelTextWindow = `Click on a segment in the text to display the parallels. 
+                               Grey text has no parallels. 
+                               If you have applied a filter, not all possible parallels will show up`;
     this.parallelText = 'Click on a parallel to display the full text of the relevant sutta.';
     this.vnCollection = {"plitvpvr": "Parivāra"};
     this.knCollection = {"kp": "Khuddakanikāya",
@@ -149,6 +157,15 @@ class PaliTableView extends connect(store)(BaseView) {
               value="${this.maxResults}" 
               @change="${this.updateMaxResults}"> 
             </vaadin-number-field>
+
+            <vaadin-text-field
+              label="Filter collection:"
+              id="limit-collection"
+              placeholder="Type acronym"
+              clear-button-visible
+              value="${this.limitCollection}" 
+              @change="${this.updateLimitCollection}"> 
+            </vaadin-text-field>
         </div>
 
   		</div>
@@ -282,12 +299,6 @@ class PaliTableView extends connect(store)(BaseView) {
     this.task = e.target.value;
     const accordionMenu = this.querySelectorAll('.menu-accordion');
     Array.from(accordionMenu, item => item.opened = '10');
-    if (this.querySelector('#selected-parallels-window')) {
-        this.querySelector('#selected-parallels-window').innerHTML = this.parallelTextWindow;
-    };
-    if (this.querySelector('#selected-parallel-text-window')) {
-        this.querySelector('#selected-parallel-text-window').innerHTML = this.parallelText;
-    };
     this.reloadSutta();
   }
 
@@ -301,28 +312,38 @@ class PaliTableView extends connect(store)(BaseView) {
     this.task ? this.applyFilter() : '';
   }
 
+  updateLimitCollection(e) {
+    store.dispatch(updateLimitCollection(e.target.value));
+    this.task ? this.applyFilter() : '';
+  }
+
   filterChanged(e) {
     store.dispatch(updateFilter(e.target.value));
     switch(this.filter) {
           case (VisibilityFilters.SHOW_SEGMENT):
             this.querySelector('#max-results').disabled = false;
             this.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#limit-collection').disabled = false;
             break;
           case (VisibilityFilters.SHOW_NUMBERS):
             this.querySelector('#max-results').disabled = true;
             this.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#limit-collection').disabled = false;
             break;
           case (VisibilityFilters.SHOW_TEXT):
             this.querySelector('#max-results').disabled = true;
             this.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#limit-collection').disabled = false;
             break;
           case (VisibilityFilters.SHOW_GRAPH):
             this.querySelector('#max-results').disabled = true;
             this.querySelector('#probability-cutoff').disabled = true;
+            this.querySelector('#limit-collection').disabled = true;
             break;
           default:
             this.querySelector('#max-results').disabled = false;
             this.querySelector('#probability-cutoff').disabled = false;
+            this.querySelector('#limit-collection').disabled = false;
         }
     this.task ? this.applyFilter() : '';
   }
@@ -331,6 +352,14 @@ class PaliTableView extends connect(store)(BaseView) {
     if (!this.task) {
       return;
     }
+    if (this.querySelector('#selected-parallels-window')) {
+        this.querySelector('#selected-parallels-window').innerHTML = this.parallelTextWindow;
+    };
+    if (this.querySelector('#selected-parallel-text-window')) {
+        this.querySelector('#selected-parallel-text-window').innerHTML = this.parallelText;
+        this.querySelector('vaadin-button').classList.add("element-hidden");
+    };
+
     let url = `./suttas/${this.task}.json`;
     this.suttaData = `Loading text for ${this.task}...`;
     fetch(url).then(r => r.json()).then(data => {
@@ -386,7 +415,18 @@ class PaliTableView extends connect(store)(BaseView) {
           <div style="width: 50%; height: ${windowHeight}px"><p>${suttaItem}</p></div>
           <vaadin-split-layout>
             <div id="selected-parallels-window" style="padding: 0 12px; width: 40%; height: ${windowHeight}px">${this.parallelTextWindow}</div>
-            <div id="selected-parallel-text-window" style="padding-left: 12px; width: 20%; height: ${windowHeight}px">${this.parallelText}</div>
+            <div id="selected-parallel-text" style="padding-left: 12px; width: 20%; height: ${windowHeight}px">
+              <vaadin-button
+                theme="contrast primary small"
+                class="swap-button element-hidden"
+                @click=${this.swapSutta}">
+                  <iron-icon icon="lumo:arrow-left" slot="prefix"></iron-icon>
+                  This text to left column
+              </vaadin-button>
+              <div id="selected-parallel-text-window">
+                ${this.parallelText}
+              </div>
+            </div>
           </vaadin-split-layout>
         </vaadin-split-layout>`;
   }
@@ -421,15 +461,16 @@ class PaliTableView extends connect(store)(BaseView) {
     let selectedParallelsText = '';
 
     for (let i = 0; i < selectedParallels.length; i++) { 
-      if (selectedParallels[i].probability <= this.probability) {
-        let segmentNrText = '';
-        segmentNrText = this.cleanSegments(selectedParallels[i].parsegment,2);
+      if (selectedParallels[i].probability <= this.probability
+        && (!this.limitCollection || selectedParallels[i].parsegnr.startsWith(this.limitCollection))) {
+          let segmentNrText = '';
+          segmentNrText = this.cleanSegments(selectedParallels[i].parsegment,2);
 
-        selectedParallelsText = selectedParallelsText + 
-              `<p class="selected-parallel"><span class="selected-parallel-nr">
-              ${selectedParallels[i].parsegnr}</span><br>
-              <span class="probability">${selectedParallels[i].probability}</span><br>
-              ${segmentNrText}</p>`;
+          selectedParallelsText = selectedParallelsText + 
+                `<p class="selected-parallel"><span class="selected-parallel-nr">
+                ${selectedParallels[i].parsegnr}</span><br>
+                <span class="probability">${selectedParallels[i].probability}</span><br>
+                ${segmentNrText}</p>`;
       }
     }
     if (!selectedParallelsText) {
@@ -445,6 +486,8 @@ class PaliTableView extends connect(store)(BaseView) {
   displayParallelsText(e) {
     let selectedParallelTextWindow = this.querySelector('#selected-parallel-text-window');
     let parallelUrl = e.target.innerText.split(':')[0];
+    this.querySelector('vaadin-button').classList.remove("element-hidden");
+    this.querySelector('vaadin-button').setAttribute("id", parallelUrl);
     let selectedSegmentId = e.target.innerText.split(':')[1];
     let url = `./suttas/${parallelUrl}.json`;
 
@@ -469,10 +512,14 @@ class PaliTableView extends connect(store)(BaseView) {
         suttaItem = suttaItem + 
               ` <span class="parallel-sutta-segment ${selectedId}" id="${data[i].segmentnr}">${dataSegment}</span>`
       }
-
       selectedParallelTextWindow.innerHTML = suttaItem;
       selectedParallelTextWindow.querySelector('.selected-segment').scrollIntoView();
     });
+  }
+
+  swapSutta() {
+    this.task = this.querySelector('vaadin-button').id;
+    this.reloadSutta();
   }
 
   buildTable(data) {
@@ -500,14 +547,17 @@ class PaliTableView extends connect(store)(BaseView) {
       let showCounter = 0;
 
       for (let p = 0; p < data[i].parallels.length; p++) {
-        if (data[i].parallels[p].probability <= this.probability) {
-          rowSpan += 1;
+        if (data[i].parallels[p].probability <= this.probability
+            && (!this.limitCollection || data[i].parallels[p].parsegnr.startsWith(this.limitCollection))) {
+            rowSpan += 1;
         }
         (rowSpan > this.maxResults) ? rowSpan = this.maxResults+1 : rowSpan = rowSpan;
       }
 
       for (let p = 0; p < data[i].parallels.length; p++) {
-        if (data[i].parallels[p].probability <= this.probability && showCounter < this.maxResults) {      
+        if (data[i].parallels[p].probability <= this.probability
+          && (!this.limitCollection || data[i].parallels[p].parsegnr.startsWith(this.limitCollection))
+          && showCounter < this.maxResults) {
           let parSegmentRef = data[i].parallels[p].parsegnr;
           let parSegmentName = data[i].parallels[p].parsegmenttext;
           let parSutta = (parSegmentRef ? parSegmentRef.split(':') : []);
@@ -568,12 +618,13 @@ class PaliTableView extends connect(store)(BaseView) {
         let parSutta = (parSegmentRef ? parSegmentRef.split(':') : []);
         let parCollection = parSutta[0].match(/[a-z\-]*/g)[0].replace(/-/g,'');
 
-        if (data[i].parallels[p].probability <= this.probability) {
-            if (collections[`${parCollection}`]) {
-              collections[`${parCollection}`].push(parSutta);
-            } else {
-              collections["other"].push(parSutta);
-            }
+        if (data[i].parallels[p].probability <= this.probability
+            && (!this.limitCollection || data[i].parallels[p].parsegnr.startsWith(this.limitCollection))) {
+              if (collections[`${parCollection}`]) {
+                collections[`${parCollection}`].push(parSutta);
+              } else {
+                collections["other"].push(parSutta);
+              }
         }
       }
 

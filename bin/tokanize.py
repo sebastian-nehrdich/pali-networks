@@ -1,5 +1,6 @@
 """ 
 Tokanizer for changing Bilara json files to be used in a neuronal network.
+Based on hypenation code and pali lookup tool.
 
 """
 

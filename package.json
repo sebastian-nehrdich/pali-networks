@@ -42,6 +42,7 @@
     "@polymer/iron-ajax": "^3.0.1",
     "@polymer/iron-pages": "^3.0.1",
     "@vaadin/vaadin-accordion": "^1.0.0",
+    "@vaadin/vaadin-button": "^2.2.0",
     "@vaadin/vaadin-radio-button": "^1.2.0",
     "@vaadin/vaadin-select": "^2.1.0",
     "@vaadin/vaadin-split-layout": "^4.1.0",
