@@ -360,7 +360,8 @@ class PaliTableView extends connect(store)(BaseView) {
         this.querySelector('vaadin-button').classList.add("element-hidden");
     };
 
-    let url = `./suttas/${this.task}.json`;
+    let directory = this.task.match(/[a-z]*/);
+    let url = `./suttas/${directory}/${this.task}.json`;
     this.suttaData = `Loading text for ${this.task}...`;
     fetch(url).then(r => r.json()).then(data => {
       this.inputData = data;
@@ -415,7 +416,7 @@ class PaliTableView extends connect(store)(BaseView) {
           <div style="width: 50%; height: ${windowHeight}px"><p>${suttaItem}</p></div>
           <vaadin-split-layout>
             <div id="selected-parallels-window" style="padding: 0 12px; width: 40%; height: ${windowHeight}px">${this.parallelTextWindow}</div>
-            <div id="selected-parallel-text" style="padding-left: 12px; width: 20%; height: ${windowHeight}px">
+            <div id="selected-parallel-text" style="padding-left: 12px; width: 20%">
               <vaadin-button
                 theme="contrast primary small"
                 class="swap-button element-hidden"
@@ -423,7 +424,7 @@ class PaliTableView extends connect(store)(BaseView) {
                   <iron-icon icon="lumo:arrow-left" slot="prefix"></iron-icon>
                   This text to left column
               </vaadin-button>
-              <div id="selected-parallel-text-window">
+              <div id="selected-parallel-text-window" style="height: ${windowHeight}px">
                 ${this.parallelText}
               </div>
             </div>
@@ -489,7 +490,9 @@ class PaliTableView extends connect(store)(BaseView) {
     this.querySelector('vaadin-button').classList.remove("element-hidden");
     this.querySelector('vaadin-button').setAttribute("id", parallelUrl);
     let selectedSegmentId = e.target.innerText.split(':')[1];
-    let url = `./suttas/${parallelUrl}.json`;
+
+    let directory = parallelUrl.match(/[a-z]*/);
+    let url = `./suttas/${directory}/${parallelUrl}.json`;
 
     fetch(url).then(r => r.json()).then(data => {
       let suttaItem = '';
@@ -517,8 +520,8 @@ class PaliTableView extends connect(store)(BaseView) {
     });
   }
 
-  swapSutta() {
-    this.task = this.querySelector('vaadin-button').id;
+  swapSutta(e) {
+    this.task = e.target.id;
     this.reloadSutta();
   }
 
